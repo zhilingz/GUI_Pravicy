@@ -1,5 +1,2 @@
-data/*/*/*.png
-data/*/*/*/*.png
-data/*/step_*
-data/*/*.json
+data
 api.txt
