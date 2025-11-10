@@ -1,0 +1,279 @@
+{
+  "summary": {
+    "total_images": 10,
+    "processed_images": 10,
+    "date": "2025-11-09T23:24:06.284462",
+    "average_processing_time": 12.45,
+    "model": "google/gemini-2.5-pro"
+  },
+  "images": [
+    {
+      "step": 1,
+      "image_file": "screenshot_2025-11-01-36805-1423bedb.png",
+      "ai_response": "2:13 | Time | 3(Technical & Device Identifiers)\nSat, Nov 1 | Date | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:13",
+          "description": "Time",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 372,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Sat, Nov 1",
+          "description": "Date",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 335,
+            "x2": 321,
+            "y2": 395
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 15.19
+    },
+    {
+      "step": 2,
+      "image_file": "screenshot_2025-11-01-36830-b36683f0.png",
+      "ai_response": "2:13 | Timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:13",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 323,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 11.78
+    },
+    {
+      "step": 3,
+      "image_file": "screenshot_2025-11-01-36847-85cc8f87.png",
+      "ai_response": "2:14 | Timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:14",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 49,
+            "x2": 207,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 10.88
+    },
+    {
+      "step": 4,
+      "image_file": "screenshot_2025-11-01-36861-4bf0d73d.png",
+      "ai_response": "2:14 | Timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:14",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 49,
+            "x2": 207,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 13.39
+    },
+    {
+      "step": 5,
+      "image_file": "screenshot_2025-11-01-36894-91ebecee.png",
+      "ai_response": "2:15 | Timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:15",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 49,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 13.24
+    },
+    {
+      "step": 6,
+      "image_file": "screenshot_2025-11-01-36909-6dd2bbdb.png",
+      "ai_response": "2:15 | Timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:15",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 11.44
+    },
+    {
+      "step": 7,
+      "image_file": "screenshot_2025-11-01-36921-406ba312.png",
+      "ai_response": "2:15 | Timestamp | 3(Technical & Device Identifiers)\nLocation | Location permission request | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:15",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 49,
+            "x2": 207,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Location",
+          "description": "Location permission request",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 43,
+            "y1": 595,
+            "x2": 991,
+            "y2": 659
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 14.88
+    },
+    {
+      "step": 8,
+      "image_file": "screenshot_2025-11-01-36934-f7875098.png",
+      "ai_response": "Allow Claude to access this device's location? | Permission request to access the device's location | 3(Technical & Device Identifiers)\n2:15 | Time displayed on the device | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "Allow Claude to access this device's location?",
+          "description": "Permission request to access the device's location",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 215,
+            "y1": 727,
+            "x2": 873,
+            "y2": 853
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "2:15",
+          "description": "Time displayed on the device",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 43,
+            "x2": 372,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 10.98
+    },
+    {
+      "step": 9,
+      "image_file": "screenshot_2025-11-01-36948-6f973f0f.png",
+      "ai_response": "2:15 | Timestamp | 3(Technical & Device Identifiers)\nChecking location... | Status indicating the app is accessing the user's location | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:15",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Checking location...",
+          "description": "Status indicating the app is accessing the user's location",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 160,
+            "y1": 784,
+            "x2": 543,
+            "y2": 836
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 11.37
+    },
+    {
+      "step": 10,
+      "image_file": "screenshot_2025-11-01-36961-d4379f96.png",
+      "ai_response": "2:16 | Timestamp | 3(Technical & Device Identifiers)\nNear 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA | Location information | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "2:16",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA",
+          "description": "Location information",
+          "category": 3,
+          "found_in_image": false
+        }
+      ],
+      "processing_time": 11.3
+    }
+  ]
+}

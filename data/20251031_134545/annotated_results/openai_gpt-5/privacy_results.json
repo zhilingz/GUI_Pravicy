@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "total_images": 17,
+    "processed_images": 4,
+    "date": "2025-11-09T21:49:36.571004",
+    "average_processing_time": 21.89,
+    "model": "openai/gpt-5"
+  },
+  "images": [
+    {
+      "step": 2,
+      "image_file": "screenshot_2025-10-31-49569-6d7a1e45.png",
+      "ai_response": "5:46 | Timestamp on device status bar | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:46",
+          "description": "Timestamp on device status bar",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 370,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 24.78
+    },
+    {
+      "step": 3,
+      "image_file": "screenshot_2025-10-31-49586-bb92fcff.png",
+      "ai_response": "5:46 | Current device time (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:46",
+          "description": "Current device time (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 24.51
+    },
+    {
+      "step": 4,
+      "image_file": "screenshot_2025-10-31-49600-9ff6828e.png",
+      "ai_response": "5:46 | Timestamp (device time) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:46",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 326,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 19.51
+    },
+    {
+      "step": 5,
+      "image_file": "screenshot_2025-10-31-49615-69a4b6d9.png",
+      "ai_response": "5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:47",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 328,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 18.78
+    }
+  ]
+}

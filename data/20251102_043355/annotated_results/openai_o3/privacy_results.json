@@ -1,0 +1,331 @@
+{
+  "summary": {
+    "total_images": 12,
+    "processed_images": 12,
+    "date": "2025-11-10T00:46:16.144125",
+    "average_processing_time": 14.73,
+    "model": "openai/o3"
+  },
+  "images": [
+    {
+      "step": 1,
+      "image_file": "screenshot_2025-11-02-16435-aac59600.png",
+      "ai_response": "8:33 | Timestamp (device time) | 3(Technical & Device Identifiers)  \nSat, Nov 1 | Date (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:33",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 47,
+            "x2": 155,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Sat, Nov 1",
+          "description": "Date (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 335,
+            "x2": 321,
+            "y2": 395
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 15.41
+    },
+    {
+      "step": 2,
+      "image_file": "screenshot_2025-11-02-16459-bd862897.png",
+      "ai_response": "No privacy information found",
+      "privacy_items": [],
+      "processing_time": 6.58
+    },
+    {
+      "step": 3,
+      "image_file": "screenshot_2025-11-02-16476-503a25fd.png",
+      "ai_response": "Mountain View | User’s current city location | 3(Technical & Device Identifiers)\nGoogleplex | Landmark near user’s current location | 3(Technical & Device Identifiers)\nCharleston Rd | Street near user’s current location | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "Mountain View",
+          "description": "User’s current city location",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 51,
+            "y1": 1655,
+            "x2": 445,
+            "y2": 1715
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Googleplex",
+          "description": "Landmark near user’s current location",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 233,
+            "y1": 1135,
+            "x2": 426,
+            "y2": 1187
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Charleston Rd",
+          "description": "Street near user’s current location",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 364,
+            "y1": 1232,
+            "x2": 588,
+            "y2": 1287
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 19.23
+    },
+    {
+      "step": 4,
+      "image_file": "screenshot_2025-11-02-16494-5706e529.png",
+      "ai_response": "8:34 | Device timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:34",
+          "description": "Device timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 45,
+            "x2": 155,
+            "y2": 85
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 8.69
+    },
+    {
+      "step": 5,
+      "image_file": "screenshot_2025-11-02-16509-506ea726.png",
+      "ai_response": "No privacy information found",
+      "privacy_items": [],
+      "processing_time": 8.21
+    },
+    {
+      "step": 6,
+      "image_file": "screenshot_2025-11-02-16523-0c527d58.png",
+      "ai_response": "nearby coffee shops | User search query | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "nearby coffee shops",
+          "description": "User search query",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 179,
+            "x2": 586,
+            "y2": 259
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 19.86
+    },
+    {
+      "step": 7,
+      "image_file": "screenshot_2025-11-02-16543-80f3da96.png",
+      "ai_response": "No privacy information found",
+      "privacy_items": [],
+      "processing_time": 17.93
+    },
+    {
+      "step": 8,
+      "image_file": "screenshot_2025-11-02-16571-25db00e8.png",
+      "ai_response": "Private · 1 place | Indication of user's saved places count | 4(Behavior & Context Traces)\nPrivate · 0 places | Indication of user's saved places count | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "Private · 1 place",
+          "description": "Indication of user's saved places count",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 584,
+            "x2": 381,
+            "y2": 625
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Indication of user's saved places count",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 9.21
+    },
+    {
+      "step": 9,
+      "image_file": "screenshot_2025-11-02-16590-038a26c3.png",
+      "ai_response": "Private · 1 place | Indicates user's saved places history (Favorites list) | 4(Behavior & Context Traces)\nPrivate · 0 places | Indicates user's saved places history (Want to go list) | 4(Behavior & Context Traces)\nPrivate · 0 places | Indicates user's saved places history (Travel plans list) | 4(Behavior & Context Traces)\nPrivate · 0 places | Indicates user's saved places history (Starred places list) | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "Private · 1 place",
+          "description": "Indicates user's saved places history (Favorites list)",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 584,
+            "x2": 381,
+            "y2": 625
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Indicates user's saved places history (Want to go list)",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Indicates user's saved places history (Travel plans list)",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Indicates user's saved places history (Starred places list)",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 20.64
+    },
+    {
+      "step": 10,
+      "image_file": "screenshot_2025-11-02-16603-66a6e255.png",
+      "ai_response": "8:36 | Current device time (timestamp) | 3(Technical & Device Identifiers)\nWEST SAN JOSE | Approximate user location displayed on map | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:36",
+          "description": "Current device time (timestamp)",
+          "category": 3,
+          "found_in_image": false
+        },
+        {
+          "text": "WEST SAN JOSE",
+          "description": "Approximate user location displayed on map",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 744,
+            "y1": 756,
+            "x2": 934,
+            "y2": 782
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 19.7
+    },
+    {
+      "step": 11,
+      "image_file": "screenshot_2025-11-02-16623-be78b900.png",
+      "ai_response": "Saved in Want to go & 1 more list | User’s saved places list, indicating personal preference/behavior | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "Saved in Want to go & 1 more list",
+          "description": "User’s saved places list, indicating personal preference/behavior",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 182,
+            "y1": 1652,
+            "x2": 736,
+            "y2": 1704
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 11.7
+    },
+    {
+      "step": 12,
+      "image_file": "screenshot_2025-11-02-16642-090ceedb.png",
+      "ai_response": "Ardenwood | Approximate location displayed on map | 3(Technical & Device Identifiers)\nNewark | Approximate location displayed on map | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "Ardenwood",
+          "description": "Approximate location displayed on map",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 580,
+            "y1": 24,
+            "x2": 710,
+            "y2": 48
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Newark",
+          "description": "Approximate location displayed on map",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 646,
+            "y1": 116,
+            "x2": 734,
+            "y2": 142
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 19.57
+    }
+  ]
+}

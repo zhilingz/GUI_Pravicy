@@ -1,0 +1,410 @@
+{
+  "summary": {
+    "total_images": 12,
+    "processed_images": 12,
+    "date": "2025-11-10T00:42:46.766152",
+    "average_processing_time": 199.96,
+    "model": "openai/gpt-5-pro"
+  },
+  "images": [
+    {
+      "step": 1,
+      "image_file": "screenshot_2025-11-02-16435-aac59600.png",
+      "ai_response": "8:33 | Time displayed (timestamp) | 3(Technical & Device Identifiers)\nSat, Nov 1 | Date displayed (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:33",
+          "description": "Time displayed (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 47,
+            "x2": 155,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Sat, Nov 1",
+          "description": "Date displayed (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 335,
+            "x2": 321,
+            "y2": 395
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 129.71
+    },
+    {
+      "step": 2,
+      "image_file": "screenshot_2025-11-02-16459-bd862897.png",
+      "ai_response": "8:34 | Device time (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:34",
+          "description": "Device time (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 49,
+            "x2": 155,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 125.09
+    },
+    {
+      "step": 3,
+      "image_file": "screenshot_2025-11-02-16476-503a25fd.png",
+      "ai_response": "Mountain View | Location (city) displayed on the map indicating user's current area | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "Mountain View",
+          "description": "Location (city) displayed on the map indicating user's current area",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 51,
+            "y1": 1655,
+            "x2": 445,
+            "y2": 1715
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 148.37
+    },
+    {
+      "step": 4,
+      "image_file": "screenshot_2025-11-02-16494-5706e529.png",
+      "ai_response": "8:34 | Timestamp (device time) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:34",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 45,
+            "x2": 155,
+            "y2": 85
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 103.13
+    },
+    {
+      "step": 5,
+      "image_file": "screenshot_2025-11-02-16509-506ea726.png",
+      "ai_response": "8:35 | Device timestamp shown in status bar | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:35",
+          "description": "Device timestamp shown in status bar",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 47,
+            "x2": 157,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 107.43
+    },
+    {
+      "step": 6,
+      "image_file": "screenshot_2025-11-02-16523-0c527d58.png",
+      "ai_response": "8:35 | Device time (timestamp) | 3(Technical & Device Identifiers)\n22.5 km | Approximate distance from user's current location to a place | 3(Technical & Device Identifiers)\n300.0 m | Approximate distance from user's current location to a place | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:35",
+          "description": "Device time (timestamp)",
+          "category": 3,
+          "found_in_image": false
+        },
+        {
+          "text": "22.5 km",
+          "description": "Approximate distance from user's current location to a place",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 481,
+            "y1": 1089,
+            "x2": 623,
+            "y2": 1131
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "300.0 m",
+          "description": "Approximate distance from user's current location to a place",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 399,
+            "y1": 2219,
+            "x2": 543,
+            "y2": 2261
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 187.47
+    },
+    {
+      "step": 7,
+      "image_file": "screenshot_2025-11-02-16543-80f3da96.png",
+      "ai_response": "8:35 | Timestamp (device time) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "8:35",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": false
+        }
+      ],
+      "processing_time": 171.92
+    },
+    {
+      "step": 8,
+      "image_file": "screenshot_2025-11-02-16571-25db00e8.png",
+      "ai_response": "8:36 | Current device time (timestamp) | 3(Technical & Device Identifiers)\nPrivate · 1 place | Saved places count in 'Favorites' list | 4(Behavior & Context Traces)\nPrivate · 0 places | Saved places count in 'Want to go' list | 4(Behavior & Context Traces)\nPrivate · 0 places | Saved places count in 'Travel plans' list | 4(Behavior & Context Traces)\nPrivate · 0 places | Saved places count in 'Starred places' list | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "8:36",
+          "description": "Current device time (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 45,
+            "x2": 155,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Private · 1 place",
+          "description": "Saved places count in 'Favorites' list",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 584,
+            "x2": 381,
+            "y2": 625
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Saved places count in 'Want to go' list",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Saved places count in 'Travel plans' list",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Saved places count in 'Starred places' list",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 280.62
+    },
+    {
+      "step": 9,
+      "image_file": "screenshot_2025-11-02-16590-038a26c3.png",
+      "ai_response": "8:36 | Device timestamp shown in status bar | 3(Technical & Device Identifiers)\nPrivate · 1 place | Count of saved places in the user's Favorites list | 4(Behavior & Context Traces)\nPrivate · 0 places | Count of saved places in the user's Want to go list | 4(Behavior & Context Traces)\nPrivate · 0 places | Count of saved places in the user's Travel plans list | 4(Behavior & Context Traces)\nPrivate · 0 places | Count of saved places in the user's Starred places list | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "8:36",
+          "description": "Device timestamp shown in status bar",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 75,
+            "y1": 45,
+            "x2": 155,
+            "y2": 87
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Private · 1 place",
+          "description": "Count of saved places in the user's Favorites list",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 584,
+            "x2": 381,
+            "y2": 625
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Count of saved places in the user's Want to go list",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Count of saved places in the user's Travel plans list",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "Private · 0 places",
+          "description": "Count of saved places in the user's Starred places list",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 144,
+            "y1": 1034,
+            "x2": 407,
+            "y2": 1075
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 229.81
+    },
+    {
+      "step": 10,
+      "image_file": "screenshot_2025-11-02-16603-66a6e255.png",
+      "ai_response": "8:36 | Device timestamp | 3(Technical & Device Identifiers)\nSaved | Indicates the place is saved on the user's account | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "8:36",
+          "description": "Device timestamp",
+          "category": 3,
+          "found_in_image": false
+        },
+        {
+          "text": "Saved",
+          "description": "Indicates the place is saved on the user's account",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 955,
+            "y1": 1553,
+            "x2": 1071,
+            "y2": 1595
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 410.86
+    },
+    {
+      "step": 11,
+      "image_file": "screenshot_2025-11-02-16623-be78b900.png",
+      "ai_response": "8:37 | Device timestamp | 3(Technical & Device Identifiers)\nSaved in Want to go & 1 more list | User’s saved places activity | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "8:37",
+          "description": "Device timestamp",
+          "category": 3,
+          "found_in_image": false
+        },
+        {
+          "text": "Saved in Want to go & 1 more list",
+          "description": "User’s saved places activity",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 182,
+            "y1": 1652,
+            "x2": 736,
+            "y2": 1704
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 250.2
+    },
+    {
+      "step": 12,
+      "image_file": "screenshot_2025-11-02-16642-090ceedb.png",
+      "ai_response": "8:37 | Device timestamp displayed in the status bar | 3(Technical & Device Identifiers)\nSaved (2) | Indicates the place is saved in 2 of the user's lists (user action history) | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "8:37",
+          "description": "Device timestamp displayed in the status bar",
+          "category": 3,
+          "found_in_image": false
+        },
+        {
+          "text": "Saved (2)",
+          "description": "Indicates the place is saved in 2 of the user's lists (user action history)",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 628,
+            "y1": 2302,
+            "x2": 802,
+            "y2": 2350
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 254.9
+    }
+  ]
+}

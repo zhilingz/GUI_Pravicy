@@ -1,0 +1,472 @@
+{
+  "summary": {
+    "total_images": 17,
+    "processed_images": 17,
+    "date": "2025-11-09T22:54:36.650143",
+    "average_processing_time": 157.7,
+    "model": "openai/gpt-5-pro"
+  },
+  "images": [
+    {
+      "step": 1,
+      "image_file": "screenshot_2025-10-31-49546-8e10c764.png",
+      "ai_response": "5:45 | Time (timestamp) | 3(Technical & Device Identifiers)\nFri, Oct 31 | Date (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:45",
+          "description": "Time (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 372,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "Fri, Oct 31",
+          "description": "Date (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 80,
+            "y1": 338,
+            "x2": 320,
+            "y2": 394
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 248.05
+    },
+    {
+      "step": 2,
+      "image_file": "screenshot_2025-10-31-49569-6d7a1e45.png",
+      "ai_response": "5:46 | Device timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:46",
+          "description": "Device timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 370,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 237.9
+    },
+    {
+      "step": 3,
+      "image_file": "screenshot_2025-10-31-49586-bb92fcff.png",
+      "ai_response": "5:46 | Device time (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:46",
+          "description": "Device time (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 149.44
+    },
+    {
+      "step": 4,
+      "image_file": "screenshot_2025-10-31-49600-9ff6828e.png",
+      "ai_response": "5:46 | Device time (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:46",
+          "description": "Device time (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 326,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 224.73
+    },
+    {
+      "step": 5,
+      "image_file": "screenshot_2025-10-31-49615-69a4b6d9.png",
+      "ai_response": "5:47 | Timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:47",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 328,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 131.5
+    },
+    {
+      "step": 6,
+      "image_file": "screenshot_2025-10-31-49629-f1d1dcaa.png",
+      "ai_response": "5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)\ndiscord | Search history item | 4(Behavior & Context Traces)\nclaude | Search history item | 4(Behavior & Context Traces)\ntinder | Search history item | 4(Behavior & Context Traces)\ngpt | Search history item | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "5:47",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        },
+        {
+          "text": "discord",
+          "description": "Search history item",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 185,
+            "y1": 1289,
+            "x2": 319,
+            "y2": 1333
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "claude",
+          "description": "Search history item",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 183,
+            "y1": 1437,
+            "x2": 305,
+            "y2": 1479
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "tinder",
+          "description": "Search history item",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 183,
+            "y1": 1585,
+            "x2": 293,
+            "y2": 1629
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "gpt",
+          "description": "Search history item",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 181,
+            "y1": 1735,
+            "x2": 251,
+            "y2": 1784
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 222.13
+    },
+    {
+      "step": 7,
+      "image_file": "screenshot_2025-10-31-49643-fabb0209.png",
+      "ai_response": "5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:47",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 328,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 121.22
+    },
+    {
+      "step": 8,
+      "image_file": "screenshot_2025-10-31-49655-d7655914.png",
+      "ai_response": "5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:47",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 370,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 135.83
+    },
+    {
+      "step": 9,
+      "image_file": "screenshot_2025-10-31-49667-532c5a07.png",
+      "ai_response": "5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:47",
+          "description": "Timestamp (device time)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 330,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 117.33
+    },
+    {
+      "step": 10,
+      "image_file": "screenshot_2025-10-31-49683-f3596788.png",
+      "ai_response": "5:48 | Device time (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:48",
+          "description": "Device time (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 143.4
+    },
+    {
+      "step": 11,
+      "image_file": "screenshot_2025-10-31-49702-d59d81cc.png",
+      "ai_response": "5:48 | Timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:48",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 185.56
+    },
+    {
+      "step": 12,
+      "image_file": "screenshot_2025-10-31-49719-12258a5a.png",
+      "ai_response": "ai | Search history query | 4(Behavior & Context Traces)\ndiscord | Search history query | 4(Behavior & Context Traces)\nclaude | Search history query | 4(Behavior & Context Traces)\ntinder | Search history query | 4(Behavior & Context Traces)",
+      "privacy_items": [
+        {
+          "text": "ai",
+          "description": "Search history query",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 187,
+            "y1": 337,
+            "x2": 223,
+            "y2": 377
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "discord",
+          "description": "Search history query",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 183,
+            "y1": 481,
+            "x2": 319,
+            "y2": 525
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "claude",
+          "description": "Search history query",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 183,
+            "y1": 629,
+            "x2": 305,
+            "y2": 673
+          },
+          "color": "#00FF00"
+        },
+        {
+          "text": "tinder",
+          "description": "Search history query",
+          "category": 4,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 183,
+            "y1": 779,
+            "x2": 293,
+            "y2": 821
+          },
+          "color": "#00FF00"
+        }
+      ],
+      "processing_time": 183.38
+    },
+    {
+      "step": 13,
+      "image_file": "screenshot_2025-10-31-49734-74243d25.png",
+      "ai_response": "5:48 | Timestamp (current time shown on status bar) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:48",
+          "description": "Timestamp (current time shown on status bar)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 328,
+            "y2": 92
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 143.37
+    },
+    {
+      "step": 14,
+      "image_file": "screenshot_2025-10-31-49746-f62a3527.png",
+      "ai_response": "5:49 | Device time (timestamp) | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:49",
+          "description": "Device time (timestamp)",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 369,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 131.07
+    },
+    {
+      "step": 15,
+      "image_file": "screenshot_2025-10-31-49759-b98a6b77.png",
+      "ai_response": "5:49 | Timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:49",
+          "description": "Timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 77,
+            "y1": 47,
+            "x2": 325,
+            "y2": 91
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 102.75
+    },
+    {
+      "step": 16,
+      "image_file": "screenshot_2025-10-31-49773-df467c63.png",
+      "ai_response": "5:49 | Device timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:49",
+          "description": "Device timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 372,
+            "y2": 94
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 96.34
+    },
+    {
+      "step": 17,
+      "image_file": "screenshot_2025-10-31-49787-064eee75.png",
+      "ai_response": "5:49 | Device timestamp | 3(Technical & Device Identifiers)",
+      "privacy_items": [
+        {
+          "text": "5:49",
+          "description": "Device timestamp",
+          "category": 3,
+          "found_in_image": true,
+          "coordinates": {
+            "x1": 76,
+            "y1": 44,
+            "x2": 372,
+            "y2": 94
+          },
+          "color": "#FFFF00"
+        }
+      ],
+      "processing_time": 106.87
+    }
+  ]
+}

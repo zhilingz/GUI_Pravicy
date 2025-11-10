@@ -1,0 +1,1363 @@
+nohup: ignoring input
+==================================
+处理目录: data/20251031_134545
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+处理目录: data/20251031_134545
+找到 17 张图片
+OCR: 启用
+
+第 1/17 张: screenshot_2025-10-31-49546-8e10c764.png
+AI结果: 
+5:45 | Timestamp | 3(Technical & Device Identifiers)
+Fri, Oct 31 | Date | 3(Technical & Device Identifiers)
+处理时间: 13.22秒
+找到: 5:45
+找到: Fri, Oct 31
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49546-8e10c764_annotated.png
+
+第 2/17 张: screenshot_2025-10-31-49569-6d7a1e45.png
+AI结果: 
+T | User profile initial | 1(Core Identity Identifiers)
+5:46 | Timestamp | 3(Technical & Device Identifiers)
+Suggested for you | Indication of user profiling through personalized app suggestions | 6(Inferences & Profiling)
+Recommended for you | Indication of user profiling through personalized app suggestions | 6(Inferences & Profiling)
+处理时间: 28.93秒
+找到: T
+找到: 5:46
+找到: Suggested for you
+找到: Recommended for you
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49569-6d7a1e45_annotated.png
+
+第 3/17 张: screenshot_2025-10-31-49586-bb92fcff.png
+AI结果: 
+T | User's profile initial | 1(Core Identity Identifiers)
+5:46 | Time of day | 3(Technical & Device Identifiers)
+Suggested for you | Label for personalized content, indicating user profiling | 6(Inferences & Profiling)
+You might like | Label for personalized content, indicating user profiling | 6(Inferences & Profiling)
+处理时间: 14.58秒
+找到: T
+找到: 5:46
+找到: Suggested for you
+找到: You might like
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49586-bb92fcff_annotated.png
+
+第 4/17 张: screenshot_2025-10-31-49600-9ff6828e.png
+AI结果: 
+T | User profile initial | 1(Core Identity Identifiers)
+5:46 | Timestamp of when the screenshot was taken | 3(Technical & Device Identifiers)
+Suggested for you | Label for personalized content recommendations | 6(Inferences & Profiling)
+You might like | Label for personalized content recommendations | 6(Inferences & Profiling)
+处理时间: 17.52秒
+找到: T
+找到: 5:46
+找到: Suggested for you
+找到: You might like
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49600-9ff6828e_annotated.png
+
+第 5/17 张: screenshot_2025-10-31-49615-69a4b6d9.png
+AI结果: 
+T | User profile initial | 1(Core Identity Identifiers)
+5:47 | Timestamp | 3(Technical & Device Identifiers)
+Suggested for you | Personalized recommendation header | 6(Inferences & Profiling)
+You might like | Personalized recommendation header | 6(Inferences & Profiling)
+处理时间: 13.75秒
+找到: T
+找到: 5:47
+找到: Suggested for you
+找到: You might like
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49615-69a4b6d9_annotated.png
+
+第 6/17 张: screenshot_2025-10-31-49629-f1d1dcaa.png
+AI结果: 
+5:47 | Timestamp | 3(Technical & Device Identifiers)
+discord | Search history | 4(Behavior & Context Traces)
+claude | Search history | 4(Behavior & Context Traces)
+tinder | Search history | 4(Behavior & Context Traces)
+gpt | Search history | 4(Behavior & Context Traces)
+处理时间: 13.04秒
+找到: 5:47
+找到: discord
+找到: claude
+找到: tinder
+找到: gpt
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49629-f1d1dcaa_annotated.png
+
+第 7/17 张: screenshot_2025-10-31-49643-fabb0209.png
+AI结果: 
+5:47 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 11.72秒
+找到: 5:47
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49643-fabb0209_annotated.png
+
+第 8/17 张: screenshot_2025-10-31-49655-d7655914.png
+AI结果: 
+No privacy information found
+处理时间: 8.51秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49655-d7655914_annotated.png
+
+第 9/17 张: screenshot_2025-10-31-49667-532c5a07.png
+AI结果: 
+5:47 | Timestamp of the user's activity | 3(Technical & Device Identifiers)
+处理时间: 18.23秒
+找到: 5:47
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49667-532c5a07_annotated.png
+
+第 10/17 张: screenshot_2025-10-31-49683-f3596788.png
+AI结果: 
+T | Google account profile picture initial | 1(Core Identity Identifiers)
+5:48 | Timestamp | 3(Technical & Device Identifiers)
+Ebooks for you | Header for personalized book recommendations, indicating user profiling | 6(Inferences & Profiling)
+处理时间: 13.80秒
+找到: T
+找到: 5:48
+找到: Ebooks for you
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49683-f3596788_annotated.png
+
+第 11/17 张: screenshot_2025-10-31-49702-d59d81cc.png
+AI结果: 
+T | User's profile initial | 1(Core Identity Identifiers)
+5:48 | Timestamp of device | 3(Technical & Device Identifiers)
+处理时间: 12.61秒
+找到: T
+找到: 5:48
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49702-d59d81cc_annotated.png
+
+第 12/17 张: screenshot_2025-10-31-49719-12258a5a.png
+AI结果: 
+5:48 | Timestamp | 3(Technical & Device Identifiers)
+ai | Search history | 4(Behavior & Context Traces)
+discord | Search history | 4(Behavior & Context Traces)
+claude | Search history | 4(Behavior & Context Traces)
+tinder | Search history | 4(Behavior & Context Traces)
+处理时间: 14.25秒
+找到: 5:48
+找到: ai
+找到: discord
+找到: claude
+找到: tinder
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49719-12258a5a_annotated.png
+
+第 13/17 张: screenshot_2025-10-31-49734-74243d25.png
+AI结果: 
+5:48 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 15.72秒
+找到: 5:48
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49734-74243d25_annotated.png
+
+第 14/17 张: screenshot_2025-10-31-49746-f62a3527.png
+AI结果: 
+No privacy information found
+处理时间: 10.37秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49746-f62a3527_annotated.png
+
+第 15/17 张: screenshot_2025-10-31-49759-b98a6b77.png
+AI结果: 
+5:49 | Time | 3(Technical & Device Identifiers)
+处理时间: 15.44秒
+找到: 5:49
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49759-b98a6b77_annotated.png
+
+第 16/17 张: screenshot_2025-10-31-49773-df467c63.png
+AI结果: 
+5:49 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 9.89秒
+找到: 5:49
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49773-df467c63_annotated.png
+
+第 17/17 张: screenshot_2025-10-31-49787-064eee75.png
+AI结果: 
+5:49 | Timestamp | 3(Technical & Device Identifiers)
+RAG in Action: Building the Future of Al-Driven Applications | The name of a book added to the user's wishlist, which indicates a user's interest or preference | 6(Inferences & Profiling)
+处理时间: 26.69秒
+找到: 5:49
+未找到: RAG in Action: Building the Future of Al-Driven Applications
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-49787-064eee75_annotated.png
+
+保存到: data/20251031_134545/annotated_results/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 17 张图片
+平均处理时间: 15.19秒/张
+✓ 完成: data/20251031_134545 - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+处理目录: data/20251031_134545
+找到 17 张图片
+OCR: 启用
+
+第 1/17 张: screenshot_2025-10-31-49546-8e10c764.png
+AI结果: 
+5:45 | Time (timestamp) | 3(Technical & Device Identifiers)
+Fri, Oct 31 | Date (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 248.05秒
+找到: 5:45
+找到: Fri, Oct 31
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49546-8e10c764_annotated.png
+
+第 2/17 张: screenshot_2025-10-31-49569-6d7a1e45.png
+AI结果: 
+5:46 | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 237.90秒
+找到: 5:46
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49569-6d7a1e45_annotated.png
+
+第 3/17 张: screenshot_2025-10-31-49586-bb92fcff.png
+AI结果: 
+5:46 | Device time (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 149.44秒
+找到: 5:46
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49586-bb92fcff_annotated.png
+
+第 4/17 张: screenshot_2025-10-31-49600-9ff6828e.png
+AI结果: 
+5:46 | Device time (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 224.73秒
+找到: 5:46
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49600-9ff6828e_annotated.png
+
+第 5/17 张: screenshot_2025-10-31-49615-69a4b6d9.png
+AI结果: 
+5:47 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 131.50秒
+找到: 5:47
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49615-69a4b6d9_annotated.png
+
+第 6/17 张: screenshot_2025-10-31-49629-f1d1dcaa.png
+AI结果: 
+5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)
+discord | Search history item | 4(Behavior & Context Traces)
+claude | Search history item | 4(Behavior & Context Traces)
+tinder | Search history item | 4(Behavior & Context Traces)
+gpt | Search history item | 4(Behavior & Context Traces)
+处理时间: 222.13秒
+找到: 5:47
+找到: discord
+找到: claude
+找到: tinder
+找到: gpt
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49629-f1d1dcaa_annotated.png
+
+第 7/17 张: screenshot_2025-10-31-49643-fabb0209.png
+AI结果: 
+5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 121.22秒
+找到: 5:47
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49643-fabb0209_annotated.png
+
+第 8/17 张: screenshot_2025-10-31-49655-d7655914.png
+AI结果: 
+5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 135.83秒
+找到: 5:47
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49655-d7655914_annotated.png
+
+第 9/17 张: screenshot_2025-10-31-49667-532c5a07.png
+AI结果: 
+5:47 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 117.33秒
+找到: 5:47
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49667-532c5a07_annotated.png
+
+第 10/17 张: screenshot_2025-10-31-49683-f3596788.png
+AI结果: 
+5:48 | Device time (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 143.40秒
+找到: 5:48
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49683-f3596788_annotated.png
+
+第 11/17 张: screenshot_2025-10-31-49702-d59d81cc.png
+AI结果: 
+5:48 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 185.56秒
+找到: 5:48
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49702-d59d81cc_annotated.png
+
+第 12/17 张: screenshot_2025-10-31-49719-12258a5a.png
+AI结果: 
+ai | Search history query | 4(Behavior & Context Traces)
+discord | Search history query | 4(Behavior & Context Traces)
+claude | Search history query | 4(Behavior & Context Traces)
+tinder | Search history query | 4(Behavior & Context Traces)
+处理时间: 183.38秒
+找到: ai
+找到: discord
+找到: claude
+找到: tinder
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49719-12258a5a_annotated.png
+
+第 13/17 张: screenshot_2025-10-31-49734-74243d25.png
+AI结果: 
+5:48 | Timestamp (current time shown on status bar) | 3(Technical & Device Identifiers)
+处理时间: 143.37秒
+找到: 5:48
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49734-74243d25_annotated.png
+
+第 14/17 张: screenshot_2025-10-31-49746-f62a3527.png
+AI结果: 
+5:49 | Device time (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 131.07秒
+找到: 5:49
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49746-f62a3527_annotated.png
+
+第 15/17 张: screenshot_2025-10-31-49759-b98a6b77.png
+AI结果: 
+5:49 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 102.75秒
+找到: 5:49
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49759-b98a6b77_annotated.png
+
+第 16/17 张: screenshot_2025-10-31-49773-df467c63.png
+AI结果: 
+5:49 | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 96.34秒
+找到: 5:49
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49773-df467c63_annotated.png
+
+第 17/17 张: screenshot_2025-10-31-49787-064eee75.png
+AI结果: 
+5:49 | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 106.87秒
+找到: 5:49
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-49787-064eee75_annotated.png
+
+保存到: data/20251031_134545/annotated_results/openai_gpt-5-pro/privacy_results.json
+
+完成！处理了 17 张图片
+平均处理时间: 157.70秒/张
+✓ 完成: data/20251031_134545 - openai/gpt-5-pro
+
+
+----------------------------------
+使用模型: openai/o3
+----------------------------------
+处理目录: data/20251031_134545
+找到 17 张图片
+OCR: 启用
+
+第 1/17 张: screenshot_2025-10-31-49546-8e10c764.png
+AI结果: 
+5:45 | Device time (timestamp) | 3(Technical & Device Identifiers)
+Fri, Oct 31 | Date (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 17.47秒
+找到: 5:45
+找到: Fri, Oct 31
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49546-8e10c764_annotated.png
+
+第 2/17 张: screenshot_2025-10-31-49569-6d7a1e45.png
+AI结果: 
+5:46 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 15.47秒
+找到: 5:46
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49569-6d7a1e45_annotated.png
+
+第 3/17 张: screenshot_2025-10-31-49586-bb92fcff.png
+AI结果: 
+5:46 | Device time (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 12.61秒
+找到: 5:46
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49586-bb92fcff_annotated.png
+
+第 4/17 张: screenshot_2025-10-31-49600-9ff6828e.png
+AI结果: 
+No privacy information found
+处理时间: 7.19秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49600-9ff6828e_annotated.png
+
+第 5/17 张: screenshot_2025-10-31-49615-69a4b6d9.png
+AI结果: 
+No privacy information found
+处理时间: 11.57秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49615-69a4b6d9_annotated.png
+
+第 6/17 张: screenshot_2025-10-31-49629-f1d1dcaa.png
+AI结果: 
+discord | Previous search query | 4(Behavior & Context Traces)
+claude | Previous search query | 4(Behavior & Context Traces)
+tinder | Previous search query | 4(Behavior & Context Traces)
+gpt | Previous search query | 4(Behavior & Context Traces)
+处理时间: 9.10秒
+找到: discord
+找到: claude
+找到: tinder
+找到: gpt
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49629-f1d1dcaa_annotated.png
+
+第 7/17 张: screenshot_2025-10-31-49643-fabb0209.png
+AI结果: 
+AI | Current search query | 4(Behavior & Context Traces)
+airbnb | Previous search query (search history) | 4(Behavior & Context Traces)
+ai | Previous search query (search history) | 4(Behavior & Context Traces)
+ai apps | Previous search query (search history) | 4(Behavior & Context Traces)
+airbuds | Previous search query (search history) | 4(Behavior & Context Traces)
+ai chat | Previous search query (search history) | 4(Behavior & Context Traces)
+5:47 | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 19.03秒
+找到: AI
+找到: airbnb
+找到: ai
+找到: ai apps
+找到: airbuds
+找到: ai chat
+找到: 5:47
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49643-fabb0209_annotated.png
+
+第 8/17 张: screenshot_2025-10-31-49655-d7655914.png
+AI结果: 
+No privacy information found
+处理时间: 8.88秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49655-d7655914_annotated.png
+
+第 9/17 张: screenshot_2025-10-31-49667-532c5a07.png
+AI结果: 
+No privacy information found
+处理时间: 8.06秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49667-532c5a07_annotated.png
+
+第 10/17 张: screenshot_2025-10-31-49683-f3596788.png
+AI结果: 
+5:48 | Timestamp (current device time) | 3(Technical & Device Identifiers)
+处理时间: 13.83秒
+找到: 5:48
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49683-f3596788_annotated.png
+
+第 11/17 张: screenshot_2025-10-31-49702-d59d81cc.png
+AI结果: 
+No privacy information found
+处理时间: 10.22秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49702-d59d81cc_annotated.png
+
+第 12/17 张: screenshot_2025-10-31-49719-12258a5a.png
+AI结果: 
+ai | Previous search query | 4(Behavior & Context Traces)
+discord | Previous search query | 4(Behavior & Context Traces)
+claude | Previous search query | 4(Behavior & Context Traces)
+tinder | Previous search query | 4(Behavior & Context Traces)
+5:48 | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 14.20秒
+找到: ai
+找到: discord
+找到: claude
+找到: tinder
+找到: 5:48
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49719-12258a5a_annotated.png
+
+第 13/17 张: screenshot_2025-10-31-49734-74243d25.png
+AI结果: 
+5:48 | Device timestamp | 3(Technical & Device Identifiers)  
+LTE | Network connection type | 3(Technical & Device Identifiers)
+处理时间: 12.98秒
+找到: 5:48
+找到: LTE
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49734-74243d25_annotated.png
+
+第 14/17 张: screenshot_2025-10-31-49746-f62a3527.png
+AI结果: 
+No privacy information found
+处理时间: 6.00秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49746-f62a3527_annotated.png
+
+第 15/17 张: screenshot_2025-10-31-49759-b98a6b77.png
+AI结果: 
+5:49 | Current timestamp displayed on device | 3(Technical & Device Identifiers)
+处理时间: 13.05秒
+找到: 5:49
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49759-b98a6b77_annotated.png
+
+第 16/17 张: screenshot_2025-10-31-49773-df467c63.png
+AI结果: 
+No privacy information found
+处理时间: 6.44秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49773-df467c63_annotated.png
+
+第 17/17 张: screenshot_2025-10-31-49787-064eee75.png
+AI结果: 
+No privacy information found
+处理时间: 7.70秒
+未发现隐私信息
+保存到: data/20251031_134545/annotated_results/openai_o3/screenshot_2025-10-31-49787-064eee75_annotated.png
+
+保存到: data/20251031_134545/annotated_results/openai_o3/privacy_results.json
+
+完成！处理了 17 张图片
+平均处理时间: 11.40秒/张
+✓ 完成: data/20251031_134545 - openai/o3
+
+==================================
+处理目录: data/20251031_140418
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+处理目录: data/20251031_140418
+找到 6 张图片
+OCR: 启用
+
+第 1/6 张: screenshot_2025-10-31-50659-7007fa8b.png
+AI结果: 
+6:04 | Timestamp | 3(Technical & Device Identifiers)
+Fri, Oct 31 | Date and timestamp | 3(Technical & Device Identifiers)
+处理时间: 14.88秒
+找到: 6:04
+找到: Fri, Oct 31
+保存到: data/20251031_140418/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-50659-7007fa8b_annotated.png
+
+第 2/6 张: screenshot_2025-10-31-50684-83b02f61.png
+AI结果: 
+6:04 | Time | 3(Technical & Device Identifiers)
+Because you've shown interest in a similar community | Inferred user interest | 6(Inferences & Profiling)
+处理时间: 12.04秒
+找到: 6:04
+找到: Because you've shown interest in a similar community
+保存到: data/20251031_140418/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-50684-83b02f61_annotated.png
+
+第 3/6 张: screenshot_2025-10-31-50703-947c3eb8.png
+AI结果: 
+6:05 | Device timestamp | 3(Technical & Device Identifiers)
+r/technology | User's search history | 4(Behavior & Context Traces)
+处理时间: 10.97秒
+找到: 6:05
+未找到: r/technology
+保存到: data/20251031_140418/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-50703-947c3eb8_annotated.png
+
+第 4/6 张: screenshot_2025-10-31-50720-a8585ac0.png
+AI结果: 
+6:05 | Device timestamp | 3(Technical & Device Identifiers)
+r twohottakes s xcmedha0pj | Search history | 4(Behavior & Context Traces)
+处理时间: 13.44秒
+找到: 6:05
+未找到: r twohottakes s xcmedha0pj
+保存到: data/20251031_140418/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-50720-a8585ac0_annotated.png
+
+第 5/6 张: screenshot_2025-10-31-50739-6add94e7.png
+AI结果: 
+6:05 | Timestamp | 3(Technical & Device Identifiers)
+Joined | User's subreddit subscription status, indicating an interest. | 6(Inferences & Profiling)
+处理时间: 14.54秒
+找到: 6:05
+找到: Joined
+保存到: data/20251031_140418/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-50739-6add94e7_annotated.png
+
+第 6/6 张: screenshot_2025-10-31-50755-28e9145b.png
+AI结果: 
+6:06 | Timestamp | 3(Technical & Device Identifiers)
+LTE | Network type | 3(Technical & Device Identifiers)
+u/Alternative-Skin-493 | Reddit username | 1(Core Identity Identifiers)
+处理时间: 17.18秒
+找到: 6:06
+找到: LTE
+  拼接匹配成功: 连续 1 个OCR结果
+找到: u/Alternative-Skin-493
+保存到: data/20251031_140418/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-50755-28e9145b_annotated.png
+
+保存到: data/20251031_140418/annotated_results/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 6 张图片
+平均处理时间: 13.84秒/张
+✓ 完成: data/20251031_140418 - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+处理目录: data/20251031_140418
+找到 6 张图片
+OCR: 启用
+
+第 1/6 张: screenshot_2025-10-31-50659-7007fa8b.png
+AI结果: 
+6:04 | Current device time (timestamp) | 3(Technical & Device Identifiers)
+Fri, Oct 31 | Current device date (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 139.75秒
+找到: 6:04
+找到: Fri, Oct 31
+保存到: data/20251031_140418/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-50659-7007fa8b_annotated.png
+
+第 2/6 张: screenshot_2025-10-31-50684-83b02f61.png
+AI结果: 
+6:04 | Device time (timestamp) | 3(Technical & Device Identifiers)
+Because you've shown interest in a similar community | Personalized activity/interest trace | 4(Behavior & Context Traces)
+处理时间: 232.51秒
+找到: 6:04
+找到: Because you've shown interest in a similar community
+保存到: data/20251031_140418/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-50684-83b02f61_annotated.png
+
+第 3/6 张: screenshot_2025-10-31-50703-947c3eb8.png
+AI结果: 
+6:05 | Device time (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 174.42秒
+找到: 6:05
+保存到: data/20251031_140418/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-50703-947c3eb8_annotated.png
+
+第 4/6 张: screenshot_2025-10-31-50720-a8585ac0.png
+AI结果: 
+6:05 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 171.49秒
+找到: 6:05
+保存到: data/20251031_140418/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-50720-a8585ac0_annotated.png
+
+第 5/6 张: screenshot_2025-10-31-50739-6add94e7.png
+AI结果: 
+6:05 | Current device time (timestamp) | 3(Technical & Device Identifiers)
+Joined | Indicates the user is a member of this subreddit (membership/activity) | 4(Behavior & Context Traces)
+处理时间: 219.46秒
+找到: 6:05
+找到: Joined
+保存到: data/20251031_140418/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-50739-6add94e7_annotated.png
+
+第 6/6 张: screenshot_2025-10-31-50755-28e9145b.png
+AI结果: 
+6:06 | Device time shown in status bar | 3(Technical & Device Identifiers)
+处理时间: 182.90秒
+找到: 6:06
+保存到: data/20251031_140418/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-50755-28e9145b_annotated.png
+
+保存到: data/20251031_140418/annotated_results/openai_gpt-5-pro/privacy_results.json
+
+完成！处理了 6 张图片
+平均处理时间: 186.76秒/张
+✓ 完成: data/20251031_140418 - openai/gpt-5-pro
+
+
+----------------------------------
+使用模型: openai/o3
+----------------------------------
+处理目录: data/20251031_140418
+找到 6 张图片
+OCR: 启用
+
+第 1/6 张: screenshot_2025-10-31-50659-7007fa8b.png
+AI结果: 
+6:04 | Timestamp (time) | 3(Technical & Device Identifiers)
+Fri, Oct 31 | Timestamp (date) | 3(Technical & Device Identifiers)
+处理时间: 20.20秒
+找到: 6:04
+找到: Fri, Oct 31
+保存到: data/20251031_140418/annotated_results/openai_o3/screenshot_2025-10-31-50659-7007fa8b_annotated.png
+
+第 2/6 张: screenshot_2025-10-31-50684-83b02f61.png
+AI结果: 
+6:04 | Timestamp visible on device status bar | 3(Technical & Device Identifiers)
+处理时间: 15.22秒
+找到: 6:04
+保存到: data/20251031_140418/annotated_results/openai_o3/screenshot_2025-10-31-50684-83b02f61_annotated.png
+
+第 3/6 张: screenshot_2025-10-31-50703-947c3eb8.png
+AI结果: 
+No privacy information found
+处理时间: 5.97秒
+未发现隐私信息
+保存到: data/20251031_140418/annotated_results/openai_o3/screenshot_2025-10-31-50703-947c3eb8_annotated.png
+
+第 4/6 张: screenshot_2025-10-31-50720-a8585ac0.png
+AI结果: 
+r/TwoHotTakes | User search query | 4(Behavior & Context Traces)
+r twohottakes s xcmedha0pj | User search history entry | 4(Behavior & Context Traces)
+处理时间: 11.07秒
+找到: r/TwoHotTakes
+未找到: r twohottakes s xcmedha0pj
+保存到: data/20251031_140418/annotated_results/openai_o3/screenshot_2025-10-31-50720-a8585ac0_annotated.png
+
+第 5/6 张: screenshot_2025-10-31-50739-6add94e7.png
+AI结果: 
+No privacy information found
+处理时间: 13.31秒
+未发现隐私信息
+保存到: data/20251031_140418/annotated_results/openai_o3/screenshot_2025-10-31-50739-6add94e7_annotated.png
+
+第 6/6 张: screenshot_2025-10-31-50755-28e9145b.png
+AI结果: 
+No privacy information found
+处理时间: 11.69秒
+未发现隐私信息
+保存到: data/20251031_140418/annotated_results/openai_o3/screenshot_2025-10-31-50755-28e9145b_annotated.png
+
+保存到: data/20251031_140418/annotated_results/openai_o3/privacy_results.json
+
+完成！处理了 6 张图片
+平均处理时间: 12.91秒/张
+✓ 完成: data/20251031_140418 - openai/o3
+
+==================================
+处理目录: data/20251101_101324
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+处理目录: data/20251101_101324
+找到 10 张图片
+OCR: 启用
+
+第 1/10 张: screenshot_2025-11-01-36805-1423bedb.png
+AI结果: 
+2:13 | Time | 3(Technical & Device Identifiers)
+Sat, Nov 1 | Date | 3(Technical & Device Identifiers)
+处理时间: 15.19秒
+找到: 2:13
+找到: Sat, Nov 1
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36805-1423bedb_annotated.png
+
+第 2/10 张: screenshot_2025-11-01-36830-b36683f0.png
+AI结果: 
+2:13 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 11.78秒
+找到: 2:13
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36830-b36683f0_annotated.png
+
+第 3/10 张: screenshot_2025-11-01-36847-85cc8f87.png
+AI结果: 
+2:14 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 10.88秒
+找到: 2:14
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36847-85cc8f87_annotated.png
+
+第 4/10 张: screenshot_2025-11-01-36861-4bf0d73d.png
+AI结果: 
+2:14 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 13.39秒
+找到: 2:14
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36861-4bf0d73d_annotated.png
+
+第 5/10 张: screenshot_2025-11-01-36894-91ebecee.png
+AI结果: 
+2:15 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 13.24秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36894-91ebecee_annotated.png
+
+第 6/10 张: screenshot_2025-11-01-36909-6dd2bbdb.png
+AI结果: 
+2:15 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 11.44秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36909-6dd2bbdb_annotated.png
+
+第 7/10 张: screenshot_2025-11-01-36921-406ba312.png
+AI结果: 
+2:15 | Timestamp | 3(Technical & Device Identifiers)
+Location | Location permission request | 3(Technical & Device Identifiers)
+处理时间: 14.88秒
+找到: 2:15
+找到: Location
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36921-406ba312_annotated.png
+
+第 8/10 张: screenshot_2025-11-01-36934-f7875098.png
+AI结果: 
+Allow Claude to access this device's location? | Permission request to access the device's location | 3(Technical & Device Identifiers)
+2:15 | Time displayed on the device | 3(Technical & Device Identifiers)
+处理时间: 10.98秒
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Allow Claude to access this device's location?
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36934-f7875098_annotated.png
+
+第 9/10 张: screenshot_2025-11-01-36948-6f973f0f.png
+AI结果: 
+2:15 | Timestamp | 3(Technical & Device Identifiers)
+Checking location... | Status indicating the app is accessing the user's location | 3(Technical & Device Identifiers)
+处理时间: 11.37秒
+找到: 2:15
+找到: Checking location...
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36948-6f973f0f_annotated.png
+
+第 10/10 张: screenshot_2025-11-01-36961-d4379f96.png
+AI结果: 
+2:16 | Timestamp | 3(Technical & Device Identifiers)
+Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA | Location information | 3(Technical & Device Identifiers)
+处理时间: 11.30秒
+找到: 2:16
+未找到: Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-01-36961-d4379f96_annotated.png
+
+保存到: data/20251101_101324/annotated_results/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 10 张图片
+平均处理时间: 12.45秒/张
+✓ 完成: data/20251101_101324 - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+处理目录: data/20251101_101324
+找到 10 张图片
+OCR: 启用
+
+第 1/10 张: screenshot_2025-11-01-36805-1423bedb.png
+AI结果: 
+2:13 | Current time (timestamp) | 3(Technical & Device Identifiers)
+Sat, Nov 1 | Date (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 177.98秒
+找到: 2:13
+找到: Sat, Nov 1
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36805-1423bedb_annotated.png
+
+第 2/10 张: screenshot_2025-11-01-36830-b36683f0.png
+AI结果: 
+2:13 | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 224.83秒
+找到: 2:13
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36830-b36683f0_annotated.png
+
+第 3/10 张: screenshot_2025-11-01-36847-85cc8f87.png
+AI结果: 
+2:14 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 208.94秒
+找到: 2:14
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36847-85cc8f87_annotated.png
+
+第 4/10 张: screenshot_2025-11-01-36861-4bf0d73d.png
+AI结果: 
+2:14 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 146.40秒
+找到: 2:14
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36861-4bf0d73d_annotated.png
+
+第 5/10 张: screenshot_2025-11-01-36894-91ebecee.png
+AI结果: 
+2:15 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 208.47秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36894-91ebecee_annotated.png
+
+第 6/10 张: screenshot_2025-11-01-36909-6dd2bbdb.png
+AI结果: 
+
+处理时间: 26.33秒
+未发现隐私信息
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36909-6dd2bbdb_annotated.png
+
+第 7/10 张: screenshot_2025-11-01-36921-406ba312.png
+AI结果: 
+2:15 | Timestamp displayed on device status bar | 3(Technical & Device Identifiers)
+处理时间: 195.20秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36921-406ba312_annotated.png
+
+第 8/10 张: screenshot_2025-11-01-36934-f7875098.png
+AI结果: 
+2:15 | Device timestamp (current time) | 3(Technical & Device Identifiers)
+处理时间: 208.24秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36934-f7875098_annotated.png
+
+第 9/10 张: screenshot_2025-11-01-36948-6f973f0f.png
+AI结果: 
+2:15 | Device timestamp shown in status bar | 3(Technical & Device Identifiers)
+处理时间: 209.51秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36948-6f973f0f_annotated.png
+
+第 10/10 张: screenshot_2025-11-01-36961-d4379f96.png
+AI结果: 
+Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA | Approximate user location | 3(Technical & Device Identifiers)
+2:16 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 192.77秒
+未找到: Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA
+找到: 2:16
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/screenshot_2025-11-01-36961-d4379f96_annotated.png
+
+保存到: data/20251101_101324/annotated_results/openai_gpt-5-pro/privacy_results.json
+
+完成！处理了 10 张图片
+平均处理时间: 179.87秒/张
+✓ 完成: data/20251101_101324 - openai/gpt-5-pro
+
+
+----------------------------------
+使用模型: openai/o3
+----------------------------------
+处理目录: data/20251101_101324
+找到 10 张图片
+OCR: 启用
+
+第 1/10 张: screenshot_2025-11-01-36805-1423bedb.png
+AI结果: 
+2:13 | Current time (timestamp) | 3(Technical & Device Identifiers)
+Sat, Nov 1 | Date (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 19.75秒
+找到: 2:13
+找到: Sat, Nov 1
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36805-1423bedb_annotated.png
+
+第 2/10 张: screenshot_2025-11-01-36830-b36683f0.png
+AI结果: 
+No privacy information found
+处理时间: 8.11秒
+未发现隐私信息
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36830-b36683f0_annotated.png
+
+第 3/10 张: screenshot_2025-11-01-36847-85cc8f87.png
+AI结果: 
+2:14 | Timestamp shown on status bar | 3(Technical & Device Identifiers)
+处理时间: 16.39秒
+找到: 2:14
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36847-85cc8f87_annotated.png
+
+第 4/10 张: screenshot_2025-11-01-36861-4bf0d73d.png
+AI结果: 
+2:14 M | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 18.12秒
+未找到: 2:14 M
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36861-4bf0d73d_annotated.png
+
+第 5/10 张: screenshot_2025-11-01-36894-91ebecee.png
+AI结果: 
+2:15 M | Device timestamp displayed in status bar | 3(Technical & Device Identifiers)
+处理时间: 24.74秒
+未找到: 2:15 M
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36894-91ebecee_annotated.png
+
+第 6/10 张: screenshot_2025-11-01-36909-6dd2bbdb.png
+AI结果: 
+2:15 | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 13.83秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36909-6dd2bbdb_annotated.png
+
+第 7/10 张: screenshot_2025-11-01-36921-406ba312.png
+AI结果: 
+No privacy information found
+处理时间: 21.89秒
+未发现隐私信息
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36921-406ba312_annotated.png
+
+第 8/10 张: screenshot_2025-11-01-36934-f7875098.png
+AI结果: 
+2:15 | Timestamp displayed in status bar | 3(Technical & Device Identifiers)
+处理时间: 20.76秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36934-f7875098_annotated.png
+
+第 9/10 张: screenshot_2025-11-01-36948-6f973f0f.png
+AI结果: 
+2:15 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 23.21秒
+找到: 2:15
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36948-6f973f0f_annotated.png
+
+第 10/10 张: screenshot_2025-11-01-36961-d4379f96.png
+AI结果: 
+Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA | Approximate user location | 3(Technical & Device Identifiers)
+处理时间: 21.46秒
+未找到: Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA
+保存到: data/20251101_101324/annotated_results/openai_o3/screenshot_2025-11-01-36961-d4379f96_annotated.png
+
+保存到: data/20251101_101324/annotated_results/openai_o3/privacy_results.json
+
+完成！处理了 10 张图片
+平均处理时间: 18.83秒/张
+✓ 完成: data/20251101_101324 - openai/o3
+
+==================================
+处理目录: data/20251102_043355
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+处理目录: data/20251102_043355
+找到 12 张图片
+OCR: 启用
+
+第 1/12 张: screenshot_2025-11-02-16435-aac59600.png
+AI结果: 
+8:33 | Time | 3(Technical & Device Identifiers)
+Sat, Nov 1 | Date | 3(Technical & Device Identifiers)
+处理时间: 13.65秒
+找到: 8:33
+找到: Sat, Nov 1
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16435-aac59600_annotated.png
+
+第 2/12 张: screenshot_2025-11-02-16459-bd862897.png
+AI结果: 
+8:34 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 23.92秒
+找到: 8:34
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16459-bd862897_annotated.png
+
+第 3/12 张: screenshot_2025-11-02-16476-503a25fd.png
+AI结果: 
+T | Profile initial | 1(Core Identity Identifiers)
+8:34 | Timestamp | 3(Technical & Device Identifiers)
+Googleplex | User's current location shown on map | 3(Technical & Device Identifiers)
+处理时间: 27.96秒
+找到: T
+未找到: 8:34
+找到: Googleplex
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16476-503a25fd_annotated.png
+
+第 4/12 张: screenshot_2025-11-02-16494-5706e529.png
+AI结果: 
+M | Profile initial | 1(Core Identity Identifiers)
+8:34 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 8.26秒
+未找到: M
+找到: 8:34
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16494-5706e529_annotated.png
+
+第 5/12 张: screenshot_2025-11-02-16509-506ea726.png
+AI结果: 
+8:35 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 10.80秒
+找到: 8:35
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16509-506ea726_annotated.png
+
+第 6/12 张: screenshot_2025-11-02-16523-0c527d58.png
+AI结果: 
+M | Google Account Initial | 1(Core Identity Identifiers)
+8:35 | Time | 3(Technical & Device Identifiers)
+22.5 km | Distance from user's location | 3(Technical & Device Identifiers)
+300.0 m | Distance from user's location | 3(Technical & Device Identifiers)
+处理时间: 16.88秒
+找到: M
+未找到: 8:35
+找到: 22.5 km
+找到: 300.0 m
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16523-0c527d58_annotated.png
+
+第 7/12 张: screenshot_2025-11-02-16543-80f3da96.png
+AI结果: 
+8:35 | Time of device usage | 3(Technical & Device Identifiers)
+WEST SAN JOSE | User's current location shown on the map | 3(Technical & Device Identifiers)
+处理时间: 14.39秒
+未找到: 8:35
+找到: WEST SAN JOSE
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16543-80f3da96_annotated.png
+
+第 8/12 张: screenshot_2025-11-02-16571-25db00e8.png
+AI结果: 
+8:36 | Timestamp | 3(Technical & Device Identifiers)
+Private · 1 place | The number of places saved in a user's private list, indicating a user preference. | 6(Inferences & Profiling)
+处理时间: 14.60秒
+找到: 8:36
+  拼接匹配成功: 连续 3 个OCR结果
+找到: Private · 1 place
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16571-25db00e8_annotated.png
+
+第 9/12 张: screenshot_2025-11-02-16590-038a26c3.png
+AI结果: 
+8:36 | Time of activity | 3(Technical & Device Identifiers)
+Private • 1 place | The count of places saved in the user's private "Favorites" list | 4(Behavior & Context Traces)
+处理时间: 23.18秒
+找到: 8:36
+  拼接匹配成功: 连续 3 个OCR结果
+找到: Private • 1 place
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16590-038a26c3_annotated.png
+
+第 10/12 张: screenshot_2025-11-02-16603-66a6e255.png
+AI结果: 
+8:36 | Timestamp of the event | 3(Technical & Device Identifiers)
+16 min | Estimated travel time, which is derived from the user's current location, narrowing down their position | 6(Inferences & Profiling)
+Saved | Indicates the user saved this location to a list, revealing a preference or interest. | 6(Inferences & Profiling)
+处理时间: 33.72秒
+未找到: 8:36
+找到: 16 min
+找到: Saved
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16603-66a6e255_annotated.png
+
+第 11/12 张: screenshot_2025-11-02-16623-be78b900.png
+AI结果: 
+Red dot on the map | User's current location indicated on the map | 3(Technical & Device Identifiers)
+8:37 | Time on the device | 3(Technical & Device Identifiers)
+Saved in Want to go & 1 more list | User's saved list of places of interest | 6(Inferences & Profiling)
+处理时间: 12.89秒
+未找到: Red dot on the map
+未找到: 8:37
+找到: Saved in Want to go & 1 more list
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16623-be78b900_annotated.png
+
+第 12/12 张: screenshot_2025-11-02-16642-090ceedb.png
+AI结果: 
+8:37 | Timestamp | 3(Technical & Device Identifiers)
+ARDENWOOD | Location shown on the map | 3(Technical & Device Identifiers)
+Newark | Location shown on the map | 3(Technical & Device Identifiers)
+Saved (2) | Count of user's saved items | 4(Behavior & Context Traces)
+处理时间: 17.74秒
+未找到: 8:37
+找到: ARDENWOOD
+找到: Newark
+找到: Saved (2)
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/screenshot_2025-11-02-16642-090ceedb_annotated.png
+
+保存到: data/20251102_043355/annotated_results/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 12 张图片
+平均处理时间: 18.16秒/张
+✓ 完成: data/20251102_043355 - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+处理目录: data/20251102_043355
+找到 12 张图片
+OCR: 启用
+
+第 1/12 张: screenshot_2025-11-02-16435-aac59600.png
+AI结果: 
+8:33 | Time displayed (timestamp) | 3(Technical & Device Identifiers)
+Sat, Nov 1 | Date displayed (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 129.71秒
+找到: 8:33
+找到: Sat, Nov 1
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16435-aac59600_annotated.png
+
+第 2/12 张: screenshot_2025-11-02-16459-bd862897.png
+AI结果: 
+8:34 | Device time (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 125.09秒
+找到: 8:34
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16459-bd862897_annotated.png
+
+第 3/12 张: screenshot_2025-11-02-16476-503a25fd.png
+AI结果: 
+Mountain View | Location (city) displayed on the map indicating user's current area | 3(Technical & Device Identifiers)
+处理时间: 148.37秒
+找到: Mountain View
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16476-503a25fd_annotated.png
+
+第 4/12 张: screenshot_2025-11-02-16494-5706e529.png
+AI结果: 
+8:34 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 103.13秒
+找到: 8:34
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16494-5706e529_annotated.png
+
+第 5/12 张: screenshot_2025-11-02-16509-506ea726.png
+AI结果: 
+8:35 | Device timestamp shown in status bar | 3(Technical & Device Identifiers)
+处理时间: 107.43秒
+找到: 8:35
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16509-506ea726_annotated.png
+
+第 6/12 张: screenshot_2025-11-02-16523-0c527d58.png
+AI结果: 
+8:35 | Device time (timestamp) | 3(Technical & Device Identifiers)
+22.5 km | Approximate distance from user's current location to a place | 3(Technical & Device Identifiers)
+300.0 m | Approximate distance from user's current location to a place | 3(Technical & Device Identifiers)
+处理时间: 187.47秒
+未找到: 8:35
+找到: 22.5 km
+找到: 300.0 m
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16523-0c527d58_annotated.png
+
+第 7/12 张: screenshot_2025-11-02-16543-80f3da96.png
+AI结果: 
+8:35 | Timestamp (device time) | 3(Technical & Device Identifiers)
+处理时间: 171.92秒
+未找到: 8:35
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16543-80f3da96_annotated.png
+
+第 8/12 张: screenshot_2025-11-02-16571-25db00e8.png
+AI结果: 
+8:36 | Current device time (timestamp) | 3(Technical & Device Identifiers)
+Private · 1 place | Saved places count in 'Favorites' list | 4(Behavior & Context Traces)
+Private · 0 places | Saved places count in 'Want to go' list | 4(Behavior & Context Traces)
+Private · 0 places | Saved places count in 'Travel plans' list | 4(Behavior & Context Traces)
+Private · 0 places | Saved places count in 'Starred places' list | 4(Behavior & Context Traces)
+处理时间: 280.62秒
+找到: 8:36
+  拼接匹配成功: 连续 3 个OCR结果
+找到: Private · 1 place
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16571-25db00e8_annotated.png
+
+第 9/12 张: screenshot_2025-11-02-16590-038a26c3.png
+AI结果: 
+8:36 | Device timestamp shown in status bar | 3(Technical & Device Identifiers)
+Private · 1 place | Count of saved places in the user's Favorites list | 4(Behavior & Context Traces)
+Private · 0 places | Count of saved places in the user's Want to go list | 4(Behavior & Context Traces)
+Private · 0 places | Count of saved places in the user's Travel plans list | 4(Behavior & Context Traces)
+Private · 0 places | Count of saved places in the user's Starred places list | 4(Behavior & Context Traces)
+处理时间: 229.81秒
+找到: 8:36
+  拼接匹配成功: 连续 3 个OCR结果
+找到: Private · 1 place
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16590-038a26c3_annotated.png
+
+第 10/12 张: screenshot_2025-11-02-16603-66a6e255.png
+AI结果: 
+8:36 | Device timestamp | 3(Technical & Device Identifiers)
+Saved | Indicates the place is saved on the user's account | 4(Behavior & Context Traces)
+处理时间: 410.86秒
+未找到: 8:36
+找到: Saved
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16603-66a6e255_annotated.png
+
+第 11/12 张: screenshot_2025-11-02-16623-be78b900.png
+AI结果: 
+8:37 | Device timestamp | 3(Technical & Device Identifiers)
+Saved in Want to go & 1 more list | User’s saved places activity | 4(Behavior & Context Traces)
+处理时间: 250.20秒
+未找到: 8:37
+找到: Saved in Want to go & 1 more list
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16623-be78b900_annotated.png
+
+第 12/12 张: screenshot_2025-11-02-16642-090ceedb.png
+AI结果: 
+8:37 | Device timestamp displayed in the status bar | 3(Technical & Device Identifiers)
+Saved (2) | Indicates the place is saved in 2 of the user's lists (user action history) | 4(Behavior & Context Traces)
+处理时间: 254.90秒
+未找到: 8:37
+找到: Saved (2)
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/screenshot_2025-11-02-16642-090ceedb_annotated.png
+
+保存到: data/20251102_043355/annotated_results/openai_gpt-5-pro/privacy_results.json
+
+完成！处理了 12 张图片
+平均处理时间: 199.96秒/张
+✓ 完成: data/20251102_043355 - openai/gpt-5-pro
+
+
+----------------------------------
+使用模型: openai/o3
+----------------------------------
+处理目录: data/20251102_043355
+找到 12 张图片
+OCR: 启用
+
+第 1/12 张: screenshot_2025-11-02-16435-aac59600.png
+AI结果: 
+8:33 | Timestamp (device time) | 3(Technical & Device Identifiers)  
+Sat, Nov 1 | Date (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 15.41秒
+找到: 8:33
+找到: Sat, Nov 1
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16435-aac59600_annotated.png
+
+第 2/12 张: screenshot_2025-11-02-16459-bd862897.png
+AI结果: 
+No privacy information found
+处理时间: 6.58秒
+未发现隐私信息
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16459-bd862897_annotated.png
+
+第 3/12 张: screenshot_2025-11-02-16476-503a25fd.png
+AI结果: 
+Mountain View | User’s current city location | 3(Technical & Device Identifiers)
+Googleplex | Landmark near user’s current location | 3(Technical & Device Identifiers)
+Charleston Rd | Street near user’s current location | 3(Technical & Device Identifiers)
+处理时间: 19.23秒
+找到: Mountain View
+找到: Googleplex
+找到: Charleston Rd
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16476-503a25fd_annotated.png
+
+第 4/12 张: screenshot_2025-11-02-16494-5706e529.png
+AI结果: 
+8:34 | Device timestamp | 3(Technical & Device Identifiers)
+处理时间: 8.69秒
+找到: 8:34
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16494-5706e529_annotated.png
+
+第 5/12 张: screenshot_2025-11-02-16509-506ea726.png
+AI结果: 
+No privacy information found
+处理时间: 8.21秒
+未发现隐私信息
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16509-506ea726_annotated.png
+
+第 6/12 张: screenshot_2025-11-02-16523-0c527d58.png
+AI结果: 
+nearby coffee shops | User search query | 4(Behavior & Context Traces)
+处理时间: 19.86秒
+找到: nearby coffee shops
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16523-0c527d58_annotated.png
+
+第 7/12 张: screenshot_2025-11-02-16543-80f3da96.png
+AI结果: 
+No privacy information found
+处理时间: 17.93秒
+未发现隐私信息
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16543-80f3da96_annotated.png
+
+第 8/12 张: screenshot_2025-11-02-16571-25db00e8.png
+AI结果: 
+Private · 1 place | Indication of user's saved places count | 4(Behavior & Context Traces)
+Private · 0 places | Indication of user's saved places count | 4(Behavior & Context Traces)
+处理时间: 9.21秒
+  拼接匹配成功: 连续 3 个OCR结果
+找到: Private · 1 place
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16571-25db00e8_annotated.png
+
+第 9/12 张: screenshot_2025-11-02-16590-038a26c3.png
+AI结果: 
+Private · 1 place | Indicates user's saved places history (Favorites list) | 4(Behavior & Context Traces)
+Private · 0 places | Indicates user's saved places history (Want to go list) | 4(Behavior & Context Traces)
+Private · 0 places | Indicates user's saved places history (Travel plans list) | 4(Behavior & Context Traces)
+Private · 0 places | Indicates user's saved places history (Starred places list) | 4(Behavior & Context Traces)
+处理时间: 20.64秒
+  拼接匹配成功: 连续 3 个OCR结果
+找到: Private · 1 place
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+  拼接匹配成功: 连续 2 个OCR结果
+找到: Private · 0 places
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16590-038a26c3_annotated.png
+
+第 10/12 张: screenshot_2025-11-02-16603-66a6e255.png
+AI结果: 
+8:36 | Current device time (timestamp) | 3(Technical & Device Identifiers)
+WEST SAN JOSE | Approximate user location displayed on map | 3(Technical & Device Identifiers)
+处理时间: 19.70秒
+未找到: 8:36
+找到: WEST SAN JOSE
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16603-66a6e255_annotated.png
+
+第 11/12 张: screenshot_2025-11-02-16623-be78b900.png
+AI结果: 
+Saved in Want to go & 1 more list | User’s saved places list, indicating personal preference/behavior | 4(Behavior & Context Traces)
+处理时间: 11.70秒
+找到: Saved in Want to go & 1 more list
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16623-be78b900_annotated.png
+
+第 12/12 张: screenshot_2025-11-02-16642-090ceedb.png
+AI结果: 
+Ardenwood | Approximate location displayed on map | 3(Technical & Device Identifiers)
+Newark | Approximate location displayed on map | 3(Technical & Device Identifiers)
+处理时间: 19.57秒
+找到: Ardenwood
+找到: Newark
+保存到: data/20251102_043355/annotated_results/openai_o3/screenshot_2025-11-02-16642-090ceedb_annotated.png
+
+保存到: data/20251102_043355/annotated_results/openai_o3/privacy_results.json
+
+完成！处理了 12 张图片
+平均处理时间: 14.73秒/张
+✓ 完成: data/20251102_043355 - openai/o3
+
+==================================
+全部任务完成！
+==================================
