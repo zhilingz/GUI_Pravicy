@@ -19,14 +19,14 @@ This project combines Large Language Models (LLM) and Optical Character Recognit
 
 ## 🏗️ Project Structure
 
-\`\`\`
+```
 GUI_Pravicy/
 ├── label.py              # Main processing script
 ├── pipeline.sh           # Batch processing pipeline
 ├── api.txt              # API key configuration file
 ├── log/                 # Log file directory
 └── README.md
-\`\`\`
+```
 
 ## 🔐 Privacy Information Categories
 
@@ -73,76 +73,76 @@ Labels/scores/preferences derived from raw data
 
 ### Install Dependencies
 
-\`\`\`bash
+```bash
 pip install openai pillow easyocr
-\`\`\`
+```
 
 ### Configure API Key
 
 Set environment variable:
-\`\`\`bash
+```bash
 export OPENAI_API_KEY="your_api_key_here"
-\`\`\`
+```
 
-Or configure in \`api.txt\` file.
+Or configure in `api.txt` file.
 
 ### Basic Usage
 
 #### Process a Single Dataset
 
-\`\`\`bash
+```bash
 python label.py /path/to/your/dataset
-\`\`\`
+```
 
 #### Specify Model
 
-\`\`\`bash
+```bash
 python label.py /path/to/your/dataset --model "google/gemini-2.5-pro"
-\`\`\`
+```
 
 #### Custom Processing Range
 
-\`\`\`bash
+```bash
 # Process images 3-10
 python label.py /path/to/your/dataset --start 3 --end 10
-\`\`\`
+```
 
 #### Disable OCR (Get AI Analysis Only)
 
-\`\`\`bash
+```bash
 python label.py /path/to/your/dataset --no-ocr
-\`\`\`
+```
 
 #### Batch Processing
 
 Use the pipeline script to batch process multiple datasets and models:
 
-\`\`\`bash
+```bash
 bash pipeline.sh
-\`\`\`
+```
 
 Run in background:
-\`\`\`bash
+```bash
 nohup bash pipeline.sh > pipeline.log 2>&1 &
-\`\`\`
+```
 
 ## 📝 Command Line Arguments
 
 | Parameter | Short | Description | Default |
 |-----------|-------|-------------|---------|
-| \`directory\` | - | Data directory to process (required) | - |
-| \`--model\` | \`-m\` | Specify AI model to use | \`openai/gpt-5-pro\` |
-| \`--start\` | \`-s\` | Start from the Nth image | 1 |
-| \`--end\` | \`-e\` | End at the Nth image | None |
-| \`--no-ocr\` | \`-n\` | Disable OCR, show AI results only | False |
-| \`--print-ocr\` | \`-p\` | Print OCR recognition results | False |
+| `directory` | - | Data directory to process (required) | - |
+| `--model` | `-m` | Specify AI model to use | `openai/gpt-5-pro` |
+| `--start` | `-s` | Start from the Nth image | 1 |
+| `--end` | `-e` | End at the Nth image | None |
+| `--no-ocr` | `-n` | Disable OCR, show AI results only | False |
+| `--print-ocr` | `-p` | Print OCR recognition results | False |
 
 ### Supported Models
 
-- \`openai/gpt-5-pro\`
-- \`openai/o3\`
-- \`google/gemini-2.5-pro\`
-- \`openai/o4-mini-high\`
+- `openai/gpt-5-pro`
+- `openai/o3`
+- `google/gemini-2.5-pro`
+- `openai/o4-mini-high`
 
 ## 📤 Output Format
 
@@ -159,9 +159,9 @@ The system annotates privacy information on original screenshots with colored bo
 
 ### JSON Results
 
-Generated \`privacy_results.json\` contains:
+Generated `privacy_results.json` contains:
 
-\`\`\`json
+```json
 {
   "summary": {
     "total_images": 17,
@@ -194,7 +194,7 @@ Generated \`privacy_results.json\` contains:
     }
   ]
 }
-\`\`\`
+```
 
 ## 🔬 How It Works
 
