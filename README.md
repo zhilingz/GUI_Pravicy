@@ -23,8 +23,6 @@ This project combines Large Language Models (LLM) and Optical Character Recognit
 GUI_Pravicy/
 ├── label.py              # Main processing script
 ├── pipeline.sh           # Batch processing pipeline
-├── api.txt              # API key configuration file
-├── log/                 # Log file directory
 └── README.md
 ```
 

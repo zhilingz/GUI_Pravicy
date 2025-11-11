@@ -21,8 +21,6 @@
 GUI_Pravicy/
 ├── label.py              # 主要处理脚本
 ├── pipeline.sh           # 批量处理流水线
-├── api.txt              # API 密钥配置文件
-├── log/                 # 日志文件目录
 └── README.md
 ```
 

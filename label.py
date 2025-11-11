@@ -106,7 +106,7 @@ def convert_bbox_to_rect(bbox):
     y_coords = [point[1] for point in bbox]
     return min(x_coords), min(y_coords), max(x_coords), max(y_coords)
 
-def parse_and_annotate(ai_output, image_path, output_dir, print_ocr=False):
+def parse_and_annotate(ai_output, image_path, output_dir, print_ocr=False, no_save=False):
     """解析AI输出并标注隐私信息"""
     
     # 初始化EasyOCR
@@ -180,16 +180,19 @@ def parse_and_annotate(ai_output, image_path, output_dir, print_ocr=False):
     else:
         print("未发现隐私信息")
     
-    # 无论是否有隐私信息，都保存图片
-    os.makedirs(output_dir, exist_ok=True)
-    base_name = os.path.splitext(os.path.basename(image_path))[0]
-    output_path = os.path.join(output_dir, f"{base_name}_annotated.png")
-    image.save(output_path)
-    print(f"保存到: {output_path}")
+    # 无论是否有隐私信息，都保存图片（除非设置了 no_save）
+    if not no_save:
+        os.makedirs(output_dir, exist_ok=True)
+        base_name = os.path.splitext(os.path.basename(image_path))[0]
+        output_path = os.path.join(output_dir, f"{base_name}_annotated.png")
+        image.save(output_path)
+        print(f"保存到: {output_path}")
+    else:
+        print("跳过保存图片（--no-save）")
 
     return privacy_items
 
-def process(directory_path, enable_ocr=True, start=1, end=None, model_name="openai/gpt-5-pro", print_ocr=False):
+def process(directory_path, enable_ocr=True, start=1, end=None, model_name="openai/gpt-5-pro", print_ocr=False, no_save=False):
     """批量处理图片和manager.json文件"""
     
     images_dir = os.path.join(directory_path, "images")
@@ -243,7 +246,7 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
             - Examples: email, phone, home address, bank card, payment account.
             
             3. **Technical & Device Identifiers** — enable cross-session/device tracking. 
-            - Examples: location related to the user(city, country, street, etc.), timestamps, device ID, IMEI, MAC, ad ID, cookie ID, browser fingerprint, IP (context-dependent).
+            - Examples: location related to the user, location on the map, timestamps, device ID, IMEI, MAC, ad ID, cookie ID, browser fingerprint, IP (context-dependent).
             
             4. **Behavior & Context Traces** — records stitching actions. 
             - Examples: searches history of the user.
@@ -298,7 +301,7 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         print(f"处理时间: {processing_time:.2f}秒")
         
         if enable_ocr:
-            privacy_items = parse_and_annotate(ai_output, image_path, output_dir, print_ocr)
+            privacy_items = parse_and_annotate(ai_output, image_path, output_dir, print_ocr, no_save)
             # 无论是否有隐私信息，都记录该图片
             all_privacy_data.append({
                 "step": i,
@@ -309,8 +312,8 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
             })
             
     
-    # 保存JSON文件
-    if enable_ocr and all_privacy_data:
+    # 保存JSON文件（除非设置了 no_save）
+    if enable_ocr and all_privacy_data and not no_save:
         avg_time = sum(processing_times) / len(processing_times) if processing_times else 0
         
         json_data = {
@@ -330,6 +333,8 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         with open(json_file_path, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=2)
         print(f"\n保存到: {json_file_path}")
+    elif no_save:
+        print("\n跳过保存JSON文件（--no-save）")
     
     print(f"\n完成！处理了 {len(all_privacy_data)} 张图片")
     if processing_times:
@@ -341,12 +346,13 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description='隐私信息分析工具')
     parser.add_argument('directory', help='目录路径')
-    parser.add_argument('--no-ocr', '-n', action='store_true', help='禁用OCR，只显示AI结果')
+    parser.add_argument('--no-ocr', '-nc', action='store_true', help='禁用OCR，只显示AI结果')
     parser.add_argument('--print-ocr', '-p', action='store_true', help='打印OCR结果')
     parser.add_argument('--start', '-s', type=int, default=1, help='从第N张图片开始 (默认: 1)')
     parser.add_argument('--end', '-e', type=int, default=None, help='到第N张图片结束 (默认: None)')
+    parser.add_argument('--no-save', '-ns', action='store_true', help='只分析图片而不保存任何结果（不保存标注图片和JSON文件）')
     parser.add_argument('--model', '-m', type=str, default="openai/gpt-5-pro", 
-    help='模型名称 (默认: openai/gpt-5-pro),支持: openai/gpt-5-pro, openai/o3, google/gemini-2.5-pro, openai/o4-mini-high')
+        help='模型名称 (默认: openai/gpt-5-pro),支持: openai/gpt-5-pro, openai/o3, google/gemini-2.5-pro, openai/o4-mini-high')
 
     args = parser.parse_args()
     
@@ -355,4 +361,6 @@ if __name__ == "__main__":
         exit(1)
     
     print(f"处理目录: {args.directory}")
-    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr)
+    if args.no_save:
+        print("模式: 只分析，不保存结果")
+    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr, args.no_save)

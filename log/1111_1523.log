@@ -1,0 +1,320 @@
+nohup: ignoring input
+==================================
+处理目录: data/20251031_113417_Call_Chen_from_Contacts
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+处理目录: data/20251031_113417_Call_Chen_from_Contacts
+找到 6 张图片
+OCR: 启用
+
+第 1/6 张: screenshot_2025-10-31-41657-096dcdaf.png
+AI结果: 
+3:34 | Timestamp of the screenshot | 3(Technical & Device Identifiers)
+处理时间: 34.86秒
+找到: 3:34
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-41657-096dcdaf_annotated.png
+
+第 2/6 张: screenshot_2025-10-31-41675-57ae24c5.png
+AI结果: 
+3:34 | Timestamp | 3(Technical & Device Identifiers)
+47:05 | Timestamp related to a user activity | 3(Technical & Device Identifiers)
+Deep Work Session Complete | Information about a user's activity | 4(Behavior & Context Traces)
+处理时间: 12.03秒
+找到: 3:34
+找到: 47:05
+找到: Deep Work Session Complete
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-41675-57ae24c5_annotated.png
+
+第 3/6 张: screenshot_2025-10-31-41695-8fcca0b4.png
+AI结果: 
+3:35 | Time | 3(Technical & Device Identifiers)
+T | User's initial | 1(Core Identity Identifiers)
+Chen | Contact name | 1(Core Identity Identifiers)
+Christopher Lee | Contact name | 1(Core Identity Identifiers)
+David Martinez | Contact name | 1(Core Identity Identifiers)
+EmiRobDaniebRChristopherAbmanielberLiD anie Anderso-Taylor555-0147 | Contact name and phone number | 1(Core Identity Identifiers)
+Emma Johnson | Contact name | 1(Core Identity Identifiers)
+Jessica Brown | Contact name | 1(Core Identity Identifiers)
+处理时间: 16.40秒
+找到: 3:35
+找到: T
+找到: Chen
+找到: Christopher Lee
+找到: David Martinez
+未找到: EmiRobDaniebRChristopherAbmanielberLiD anie Anderso-Taylor555-0147
+找到: Emma Johnson
+找到: Jessica Brown
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-41695-8fcca0b4_annotated.png
+
+第 4/6 张: screenshot_2025-10-31-41710-3a66166d.png
+AI结果: 
+Chen | Real name | 1(Core Identity Identifiers)
++165078943211 | Phone number | 2(Contact & Financial)
+处理时间: 8.71秒
+找到: Chen
+找到: +165078943211
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-41710-3a66166d_annotated.png
+
+第 5/6 张: screenshot_2025-10-31-41722-97e1a79c.png
+AI结果: 
+Chen | Contact's name | 1(Core Identity Identifiers)
++165078943211 | Phone number | 2(Contact & Financial)
+3:35 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 10.64秒
+找到: Chen
+找到: +165078943211
+找到: 3:35
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-41722-97e1a79c_annotated.png
+
+第 6/6 张: screenshot_2025-10-31-41734-ed767338.png
+AI结果: 
+Chen | Contact's name | 1(Core Identity Identifiers)
++165078943211 | Phone number | 2(Contact & Financial)
+3:35 | Time | 3(Technical & Device Identifiers)
+处理时间: 9.84秒
+找到: Chen
+找到: +165078943211
+找到: 3:35
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-41734-ed767338_annotated.png
+
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 6 张图片
+平均处理时间: 15.41秒/张
+✓ 完成: data/20251031_113417_Call_Chen_from_Contacts - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/chatgpt-4o-latest
+----------------------------------
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+处理目录: data/20251031_113417_Call_Chen_from_Contacts
+找到 6 张图片
+OCR: 启用
+
+第 1/6 张: screenshot_2025-10-31-41657-096dcdaf.png
+AI结果: 
+No privacy information found
+处理时间: 2.71秒
+未发现隐私信息
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-41657-096dcdaf_annotated.png
+
+第 2/6 张: screenshot_2025-10-31-41675-57ae24c5.png
+AI结果: 
+Deep Work Session Complete | Personal productivity context, potentially revealing behavior | 4(Behavior & Context Traces)
+处理时间: 8.04秒
+找到: Deep Work Session Complete
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-41675-57ae24c5_annotated.png
+
+第 3/6 张: screenshot_2025-10-31-41695-8fcca0b4.png
+AI结果: 
+Chen | Contact name | 1(Core Identity Identifiers)  
+Christopher Lee | Contact name | 1(Core Identity Identifiers)  
+David Martinez | Contact name | 1(Core Identity Identifiers)  
+EmiRobDaniebRChristopherAbmanielberLiDanie Anderso-Taylor555-0147 | Contact name and phone number | 2(Contact & Financial)  
+Emma Johnson | Contact name | 1(Core Identity Identifiers)  
+Jessica Brown | Contact name | 1(Core Identity Identifiers)
+处理时间: 3.23秒
+找到: Chen
+找到: Christopher Lee
+找到: David Martinez
+未找到: EmiRobDaniebRChristopherAbmanielberLiDanie Anderso-Taylor555-0147
+找到: Emma Johnson
+找到: Jessica Brown
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-41695-8fcca0b4_annotated.png
+
+第 4/6 张: screenshot_2025-10-31-41710-3a66166d.png
+AI结果: 
++165078943211 | Phone number | 2(Contact & Financial)  
+Chen | Contact name (potentially identifiable) | 1(Core Identity Identifiers)
+处理时间: 3.34秒
+找到: +165078943211
+找到: Chen
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-41710-3a66166d_annotated.png
+
+第 5/6 张: screenshot_2025-10-31-41722-97e1a79c.png
+AI结果: 
++165078943211 | Phone number | 2(Contact & Financial)  
+Chen | Contact name (real name) | 1(Core Identity Identifiers)
+处理时间: 3.27秒
+找到: +165078943211
+找到: Chen
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-41722-97e1a79c_annotated.png
+
+第 6/6 张: screenshot_2025-10-31-41734-ed767338.png
+AI结果: 
++165078943211 | Phone number | 2(Contact & Financial)  
+Chen | Contact name (potentially identifying) | 1(Core Identity Identifiers)
+处理时间: 3.20秒
+找到: +165078943211
+找到: Chen
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-41734-ed767338_annotated.png
+
+保存到: data/20251031_113417_Call_Chen_from_Contacts/annotated_results/openai_chatgpt-4o-latest/privacy_results.json
+
+完成！处理了 6 张图片
+平均处理时间: 3.97秒/张
+✓ 完成: data/20251031_113417_Call_Chen_from_Contacts - openai/chatgpt-4o-latest
+
+==================================
+处理目录: data/20251031_121504_Gmail__View_'Verify'_email_in
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+处理目录: data/20251031_121504_Gmail__View_'Verify'_email_in
+找到 5 张图片
+OCR: 启用
+
+第 1/5 张: screenshot_2025-10-31-44105-a587a3a1.png
+AI结果: 
+4:15 | Timestamp | 3(Technical & Device Identifiers)
+Deep Work Session Complete | Notification revealing user activity | 4(Behavior & Context Traces)
+处理时间: 11.90秒
+找到: 4:15
+找到: Deep Work Session Complete
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44105-a587a3a1_annotated.png
+
+第 2/5 张: screenshot_2025-10-31-44131-6d7ee4c7.png
+AI结果: 
+T | User's profile initial | 1(Core Identity Identifiers)
+Will Lockett | Name of an email sender | 1(Core Identity Identifiers)
+Alex Mathers | Name of an email sender | 1(Core Identity Identifiers)
+4:15 | Timestamp | 3(Technical & Device Identifiers)
+Welcome to Claude — let's get started | Email subject revealing user's service signup | 4(Behavior & Context Traces)
+Trump Won't Last Until 2028, And No Kin... | Email subject revealing user's subscriptions and potential political interests | 4(Behavior & Context Traces)
+You just published your first story on Me... | Email subject revealing a user's action | 4(Behavior & Context Traces)
+Address not found Your message wasn't deli... | Email content revealing a user's action | 4(Behavior & Context Traces)
+Welcome to Medium | Email subject revealing user's service signup | 4(Behavior & Context Traces)
+处理时间: 19.96秒
+找到: T
+找到: Will Lockett
+找到: Alex Mathers
+找到: 4:15
+未找到: Welcome to Claude — let's get started
+未找到: Trump Won't Last Until 2028, And No Kin...
+未找到: You just published your first story on Me...
+未找到: Address not found Your message wasn't deli...
+找到: Welcome to Medium
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44131-6d7ee4c7_annotated.png
+
+第 3/5 张: screenshot_2025-10-31-44147-cea779d9.png
+AI结果: 
+4:15 | Timestamp | 3(Technical & Device Identifiers)
+LTE | Network type indicator | 3(Technical & Device Identifiers)
+处理时间: 12.00秒
+找到: 4:15
+找到: LTE
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44147-cea779d9_annotated.png
+
+第 4/5 张: screenshot_2025-10-31-44161-91379990.png
+AI结果: 
+4:16 | Timestamp | 3(Technical & Device Identifiers)
+Tim Bench | Person's name | 1(Core Identity Identifiers)
+Oct 29 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 10.64秒
+找到: 4:16
+未找到: Tim Bench
+找到: Oct 29
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44161-91379990_annotated.png
+
+第 5/5 张: screenshot_2025-10-31-44174-11f9337d.png
+AI结果: 
+Tim Bench | User's full name | 1(Core Identity Identifiers)
+122850 | Account verification code | 2(Contact & Financial)
+4:16 | Timestamp | 3(Technical & Device Identifiers)
+2 days ago | Email timestamp | 3(Technical & Device Identifiers)
+处理时间: 13.86秒
+未找到: Tim Bench
+找到: 122850
+找到: 4:16
+找到: 2 days ago
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44174-11f9337d_annotated.png
+
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 5 张图片
+平均处理时间: 13.67秒/张
+✓ 完成: data/20251031_121504_Gmail__View_'Verify'_email_in - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/chatgpt-4o-latest
+----------------------------------
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+处理目录: data/20251031_121504_Gmail__View_'Verify'_email_in
+找到 5 张图片
+OCR: 启用
+
+第 1/5 张: screenshot_2025-10-31-44105-a587a3a1.png
+AI结果: 
+06:42 | Timestamp showing user activity time | 3(Technical & Device Identifiers)  
+4:15 | Device time indicating current session | 3(Technical & Device Identifiers)  
+Deep Work Session Complete | Context of user behavior or activity | 4(Behavior & Context Traces)  
+
+
+处理时间: 6.28秒
+找到: 06:42
+找到: 4:15
+找到: Deep Work Session Complete
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44105-a587a3a1_annotated.png
+
+第 2/5 张: screenshot_2025-10-31-44131-6d7ee4c7.png
+AI结果: 
+me, Mail | Possible user-defined sender name indicating user identity | 1(Core Identity Identifiers)  
+I'm Tony, CEO at Medium. | Personal name of sender in email content | 1(Core Identity Identifiers)  
+2:03 AM | Timestamp of user communication | 3(Technical & Device Identifiers)  
+Oct 30 | Timestamp of user communication | 3(Technical & Device Identifiers)
+处理时间: 5.17秒
+找到: me, Mail
+未找到: I'm Tony, CEO at Medium.
+找到: 2:03 AM
+找到: Oct 30
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44131-6d7ee4c7_annotated.png
+
+第 3/5 张: screenshot_2025-10-31-44147-cea779d9.png
+AI结果: 
+No privacy information found
+处理时间: 3.99秒
+未发现隐私信息
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44147-cea779d9_annotated.png
+
+第 4/5 张: screenshot_2025-10-31-44161-91379990.png
+AI结果: 
+Tim Bench | Real name of the user | 1(Core Identity Identifiers)
+处理时间: 2.48秒
+未找到: Tim Bench
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44161-91379990_annotated.png
+
+第 5/5 张: screenshot_2025-10-31-44174-11f9337d.png
+AI结果: 
+Tim Bench | Real name of the user | 1(Core Identity Identifiers)  
+verify@x.com | Sender's email address | 2(Contact & Financial)
+处理时间: 2.89秒
+未找到: Tim Bench
+找到: verify@x.com
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44174-11f9337d_annotated.png
+
+保存到: data/20251031_121504_Gmail__View_'Verify'_email_in/annotated_results/openai_chatgpt-4o-latest/privacy_results.json
+
+完成！处理了 5 张图片
+平均处理时间: 4.16秒/张
+✓ 完成: data/20251031_121504_Gmail__View_'Verify'_email_in - openai/chatgpt-4o-latest
+
+==================================
+全部任务完成！
+==================================

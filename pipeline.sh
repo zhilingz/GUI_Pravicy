@@ -1,20 +1,20 @@
 #!/bin/bash
 
 # 定义要处理的文件夹列表
-DIRECTORIES=(
-    "data/20251031_134545"
-    "data/20251031_140418"
-    "data/20251101_101324"
-    "data/20251102_043355"   
-)  
+# 自动搜索 data 文件夹下的所有子文件夹
+DIRECTORIES=($(find data -maxdepth 1 -mindepth 1 -type d))
+#     "data/20251031_134545"
+#     "data/20251031_140418"
+#     "data/20251101_101324"
+#     "data/20251102_043355"   
+# )  
 
 # 定义要使用的模型列表
 MODELS=(
     "google/gemini-2.5-pro"
-    "openai/gpt-5-pro"
-    "openai/o3"
+    "openai/chatgpt-4o-latest"
 )
-
+# "openai/gpt-5-pro"
 # 遍历每个文件夹
 for dir in "${DIRECTORIES[@]}"; do
     echo "=================================="
@@ -52,4 +52,3 @@ echo "=================================="
 echo "全部任务完成！"
 echo "=================================="
 
-# nohup bash pipeline.sh > pipeline.log 2>&1 &
