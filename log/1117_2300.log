@@ -1,0 +1,2705 @@
+nohup: ignoring input
+当前脚本的PID: 3817611
+==================================
+处理目录: data/mobile/20251101_101324_Open_new_conversation_in_Claud
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+开始时间: 2025-11-17 23:19:16
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251101_101324_Open_new_conversation_in_Claud
+OCR: 启用 (Google Vision API)
+
+第 1/10 张: screenshot_2025-11-01-36805-1423bedb.png
+VLM处理时间: 27.42秒
+OCR结果: ['2:13', 'M', 'M', 'LTE', 'Sat', ',', 'Nov', '1', 'M', 'Play', 'Store', 'Gmail', 'Photos', 'YouTube', 'Phone', 'Messages', 'Chrome', 'G']
+找到: 2:13 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sat, Nov 1 (共 1 处)
+找到: Play Store (共 1 处)
+找到: Gmail (共 1 处)
+找到: Photos (共 1 处)
+找到: YouTube (共 1 处)
+找到: Phone (共 1 处)
+找到: Messages (共 1 处)
+找到: Chrome (共 1 处)
+找到: G (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36805-1423bedb_annotated.png
+OCR处理时间: 60.66秒
+
+第 2/10 张: screenshot_2025-11-01-36830-b36683f0.png
+VLM处理时间: 47.16秒
+OCR结果: ['2:13', 'M', 'M', '™', 'G', 'LTE', '↓', 'Q', 'Quora', 'Chrome', 'YouTube', 'Play', 'Books', '1', 'Calendar', 'Camera', 'Chrome', 'Claude', 'ווי', 'Clock', 'Contacts', 'Docs', 'Drive', '♡', 'M', 'Files', 'Fit', 'Gemini', 'Gmail', 'G', 'in', 'Google', 'Keep', 'Notes', 'LinkedIn', 'Me', 'Medium', 'Messages', 'Maps', 'Phone', 'Photos', 'C', '་', '་']
+未找到: 2:13 Me M
+找到: LTE (共 1 处)
+找到: G (共 1 处)
+找到: Quora (共 1 处)
+找到: Chrome (共 1 处)
+找到: YouTube (共 1 处)
+找到: Play Books (共 1 处)
+找到: 1 (共 1 处)
+找到: Calendar (共 1 处)
+找到: Camera (共 1 处)
+找到: Claude (共 1 处)
+找到: Clock (共 1 处)
+找到: Contacts (共 1 处)
+找到: Docs (共 1 处)
+找到: Drive (共 1 处)
+找到: Files (共 1 处)
+找到: Fit (共 1 处)
+找到: Gemini (共 1 处)
+找到: Gmail (共 1 处)
+找到: Google (共 1 处)
+找到: Keep Notes (共 1 处)
+找到: LinkedIn (共 1 处)
+找到: Maps (共 1 处)
+找到: Medium (共 1 处)
+找到: Messages (共 1 处)
+找到: Phone (共 1 处)
+找到: Photos (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36830-b36683f0_annotated.png
+OCR处理时间: 0.75秒
+
+第 3/10 张: screenshot_2025-11-01-36847-85cc8f87.png
+VLM处理时间: 14.56秒
+OCR结果: ['2:14', 'Mc', 'M', '၁', 'LTE', 'M', '1']
+找到: 2:14 (共 1 处)
+找到: LTE (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36847-85cc8f87_annotated.png
+OCR处理时间: 0.43秒
+
+第 4/10 张: screenshot_2025-11-01-36861-4bf0d73d.png
+VLM处理时间: 19.10秒
+OCR结果: ['2:14', 'M', 'M', '←', 'Sonnet', '4.5', '✓', 'Get', 'more', 'with', 'Claude', 'Pro', '☑', 'III', 'LTE', 'Upgrade', 'How', 'can', 'I', 'help', 'you', 'this', 'evening', '?', 'Chat', 'with', 'Claude', '...', '+']
+找到: 2:14 (共 1 处)
+未找到: Me M
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: Get more with Claude Pro (共 1 处)
+找到: Upgrade (共 1 处)
+找到: How can I help you this evening? (共 1 处)
+找到: Chat with Claude... (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36861-4bf0d73d_annotated.png
+OCR处理时间: 0.59秒
+
+第 5/10 张: screenshot_2025-11-01-36894-91ebecee.png
+VLM处理时间: 9.92秒
+OCR结果: ['2:15', 'M', 'M', '←', 'Sonnet', '4.5', '✓', 'Get', 'more', 'with', 'Claude', 'Pro', 'LTE', 'Upgrade', '☑', '↑', 'How', 'can', 'I', 'help', 'you', 'this', 'evening', '?', 'III', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', '+', '↑']
+找到: 2:15 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: Get more with Claude Pro (共 1 处)
+找到: Upgrade (共 1 处)
+找到: How can I help you this evening? (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working I have about 90 minutes. (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36894-91ebecee_annotated.png
+OCR处理时间: 0.60秒
+
+第 6/10 张: screenshot_2025-11-01-36909-6dd2bbdb.png
+VLM处理时间: 11.43秒
+OCR结果: ['←', '2:15', 'M', 'M', 'Sonnet', '4.5', 'LTE', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', 'Reply', 'to', 'Claude', '...', '+']
+找到: 2:15 (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: LTE (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working I have about 90 minutes. (共 1 处)
+找到: Reply to Claude... (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36909-6dd2bbdb_annotated.png
+OCR处理时间: 0.58秒
+
+第 7/10 张: screenshot_2025-11-01-36921-406ba312.png
+VLM处理时间: 28.47秒
+OCR结果: ['←', '2:15', 'MM', '"', 'Sonnet', '4.5', 'LTE', '1', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', "I'll", 'help', 'you', 'find', 'some', 'quiet', 'coffee', 'shops', 'for', 'your', 'focus', 'time', '.', 'First', ',', 'let', 'me', 'get', 'your', 'location', 'so', 'I', 'can', 'give', 'you', 'relevant', 'recommendations', '.', 'Checking', 'location', '...', 'Permission', 'request', 'Х', 'Claude', 'wants', 'access', 'to', 'Location', 'Approximate', 'or', 'precise', 'Claude', 'will', 'use', 'your', 'location', 'info', 'to', 'provide', 'context', '-', 'aware', 'responses', '.', 'Allow', 'Once', 'Always', 'Allow', "Don't", 'Allow', 'Review', 'each', 'action', 'carefully', 'before', 'approving', '.', 'You', 'can', 'edit', 'permissions', 'anytime', 'in', 'settings', '.']
+找到: 2:15 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working I have about 90 minutes. (共 1 处)
+找到: I'll help you find some quiet coffee shops for your focus time. First, let me get your location so I can give you relevant recommendations. (共 1 处)
+找到: Checking location... (共 1 处)
+找到: Permission request (共 1 处)
+找到: Claude wants access to (共 1 处)
+找到: Location (共 1 处)
+找到: Approximate or precise (共 1 处)
+找到: Claude will use your location info to provide context-aware responses. (共 1 处)
+找到: Allow Once (共 1 处)
+找到: Always Allow (共 1 处)
+找到: Don't Allow (共 1 处)
+找到: Review each action carefully before approving. (共 1 处)
+找到: You can edit permissions anytime in settings. (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36921-406ba312_annotated.png
+OCR处理时间: 0.60秒
+
+第 8/10 张: screenshot_2025-11-01-36934-f7875098.png
+VLM处理时间: 18.88秒
+OCR结果: ['←', '2:15', 'M', 'M', 'Sonnet', '4.5', 'LTE', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', 'I', "'", 'У', 'S', 'Allow', 'Claude', 'to', 'access', 'this', "device's", 'location', '?', 'Precise', 'Approximate', 'While', 'using', 'the', 'app', 'Reply', 'to', 'Claude', '...', '+', 'Only', 'this', 'time', "Don't", 'allow']
+找到: 2:15 (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: LTE (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working I have about 90 minutes. (共 1 处)
+找到: Allow Claude to access this device's location? (共 1 处)
+找到: Precise (共 1 处)
+找到: Approximate (共 1 处)
+找到: While using the app (共 1 处)
+找到: Only this time (共 1 处)
+找到: Don't allow (共 1 处)
+找到: Reply to Claude... (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36934-f7875098_annotated.png
+OCR处理时间: 0.71秒
+
+第 9/10 张: screenshot_2025-11-01-36948-6f973f0f.png
+VLM处理时间: 13.55秒
+OCR结果: ['←', '2:15', 'M', 'M', 'Sonnet', '4.5', 'LTE', 'AI', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', "I'll", 'help', 'you', 'find', 'some', 'quiet', 'coffee', 'shops', 'for', 'your', 'focus', 'time', '.', 'First', ',', 'let', 'me', 'get', 'your', 'location', 'so', 'I', 'can', 'give', 'you', 'relevant', 'recommendations', '.', 'Checking', 'location', '...', 'Reply', 'to', 'Claude', '...', '+']
+找到: 2:15 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working I have about 90 minutes. (共 1 处)
+找到: I'll help you find some quiet coffee shops for your focus time. First, let me get your location so I can give you relevant recommendations. (共 1 处)
+找到: Checking location... (共 1 处)
+找到: Reply to Claude... (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36948-6f973f0f_annotated.png
+OCR处理时间: 0.57秒
+
+第 10/10 张: screenshot_2025-11-01-36961-d4379f96.png
+VLM处理时间: 27.41秒
+OCR结果: ['←', '2:16', 'M', 'M', 'Sonnet', '4.5', 'LTE', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', "I'll", 'help', 'you', 'find', 'some', 'quiet', 'coffee', 'shops', 'for', 'your', 'focus', 'time', '.', 'First', ',', 'let', 'me', 'get', 'your', 'location', 'so', 'I', 'can', 'give', 'you', 'relevant', 'recommendations', '.', 'Location', 'Near', '1600', 'Amphitheatre', 'Pkwy', ',', 'Mountain', 'View', ',', 'CA', '94043', ',', 'USA', 'he', 'Park', 'Computer', 'ry', 'Museum', 'N', 'Google', 'M', '✪', 'Searched', 'for', '"', 'quiet', 'coffee', 'shops', 'working', '...', 'Based', 'on', 'my', 'search', ',', 'here', 'are', '3', 'quiet', 'coffee', 'shops', 'near', 'you', 'in', 'Mountain', 'View', 'that', 'are', 'great', 'for', 'focused', 'work', ':', '1.', 'Red', 'Rock', 'Coffee', '(', '201', 'Castro', 'St', ')', 'The', 'second', 'floor', 'seat', '*', '↓', 'rea', 'is', 'particularly', 'good', 'for', 'working', 'on', 'w₁ung', 'projects', 'or', 'Reply', 'to', 'Claude', '...', '+']
+找到: 2:16 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working I have about 90 minutes. (共 1 处)
+找到: I'll help you find some quiet coffee shops for your focus time. First, let me get your location so I can give you relevant recommendations. (共 1 处)
+找到: Location (共 1 处)
+找到: Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA (共 1 处)
+未找到: Computer History Museum
+找到: Google (共 1 处)
+找到: Searched for “quiet coffee shops working ... (共 1 处)
+找到: Based on my search, here are 3 quiet coffee shops near you in Mountain View that are great for focused work: (共 1 处)
+找到: 1. Red Rock Coffee (201 Castro St) (共 1 处)
+未找到: The second floor seat' rea is particularly good for working on w...ing projects or
+找到: Reply to Claude... (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/screenshot_2025-11-01-36961-d4379f96_annotated.png
+OCR处理时间: 0.82秒
+
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 10 张图片
+平均VLM处理时间: 21.79秒/张
+平均OCR处理时间: 6.63秒/张
+✓ 完成: data/mobile/20251101_101324_Open_new_conversation_in_Claud - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+开始时间: 2025-11-17 23:24:02
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251101_101324_Open_new_conversation_in_Claud
+OCR: 启用 (Google Vision API)
+
+第 1/10 张: screenshot_2025-11-01-36805-1423bedb.png
+VLM处理时间: 276.03秒
+OCR结果: ['2:13', 'M', 'M', 'LTE', 'Sat', ',', 'Nov', '1', 'M', 'Play', 'Store', 'Gmail', 'Photos', 'YouTube', 'Phone', 'Messages', 'Chrome', 'G']
+找到: 2:13 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sat, Nov 1 (共 1 处)
+找到: Play Store (共 1 处)
+找到: Gmail (共 1 处)
+找到: Photos (共 1 处)
+找到: YouTube (共 1 处)
+找到: Phone (共 1 处)
+找到: Messages (共 1 处)
+找到: Chrome (共 1 处)
+找到: G (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36805-1423bedb_annotated.png
+OCR处理时间: 27.71秒
+
+第 2/10 张: screenshot_2025-11-01-36830-b36683f0.png
+VLM处理时间: 455.55秒
+OCR结果: ['2:13', 'M', 'M', '™', 'G', 'LTE', '↓', 'Q', 'Quora', 'Chrome', 'YouTube', 'Play', 'Books', '1', 'Calendar', 'Camera', 'Chrome', 'Claude', 'ווי', 'Clock', 'Contacts', 'Docs', 'Drive', '♡', 'M', 'Files', 'Fit', 'Gemini', 'Gmail', 'G', 'in', 'Google', 'Keep', 'Notes', 'LinkedIn', 'Me', 'Medium', 'Messages', 'Maps', 'Phone', 'Photos', 'C', '་', '་']
+未找到: 2:13 Mk
+找到: LTE (共 1 处)
+找到: Quora (共 1 处)
+找到: Chrome (共 1 处)
+找到: YouTube (共 1 处)
+找到: Play Books (共 1 处)
+找到: Calendar (共 1 处)
+找到: Camera (共 1 处)
+找到: Chrome (共 1 处)
+找到: Claude (共 1 处)
+找到: Clock (共 1 处)
+找到: Contacts (共 1 处)
+找到: Docs (共 1 处)
+找到: Drive (共 1 处)
+找到: Files (共 1 处)
+找到: Fit (共 1 处)
+找到: Gemini (共 1 处)
+找到: Gmail (共 1 处)
+找到: Google (共 1 处)
+找到: Keep Notes (共 1 处)
+找到: LinkedIn (共 1 处)
+找到: Maps (共 1 处)
+找到: Medium (共 1 处)
+找到: Messages (共 1 处)
+找到: Phone (共 1 处)
+找到: Photos (共 1 处)
+未找到: Play
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36830-b36683f0_annotated.png
+OCR处理时间: 0.95秒
+
+第 3/10 张: screenshot_2025-11-01-36847-85cc8f87.png
+VLM处理时间: 177.74秒
+OCR结果: ['2:14', 'Mc', 'M', '၁', 'LTE', 'M', '1']
+找到: 2:14 (共 1 处)
+找到: LTE (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36847-85cc8f87_annotated.png
+OCR处理时间: 0.48秒
+
+第 4/10 张: screenshot_2025-11-01-36861-4bf0d73d.png
+VLM处理时间: 244.79秒
+OCR结果: ['2:14', 'M', 'M', '←', 'Sonnet', '4.5', '✓', 'Get', 'more', 'with', 'Claude', 'Pro', '☑', 'III', 'LTE', 'Upgrade', 'How', 'can', 'I', 'help', 'you', 'this', 'evening', '?', 'Chat', 'with', 'Claude', '...', '+']
+找到: 2:14 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: Get more with Claude Pro (共 1 处)
+找到: Upgrade (共 1 处)
+找到: How can I help you this evening? (共 1 处)
+找到: Chat with Claude... (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36861-4bf0d73d_annotated.png
+OCR处理时间: 1.65秒
+
+第 5/10 张: screenshot_2025-11-01-36894-91ebecee.png
+VLM处理时间: 25.07秒
+OCR结果: ['2:15', 'M', 'M', '←', 'Sonnet', '4.5', '✓', 'Get', 'more', 'with', 'Claude', 'Pro', 'LTE', 'Upgrade', '☑', '↑', 'How', 'can', 'I', 'help', 'you', 'this', 'evening', '?', 'III', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', '+', '↑']
+未发现隐私信息
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36894-91ebecee_annotated.png
+OCR处理时间: 0.75秒
+
+第 6/10 张: screenshot_2025-11-01-36909-6dd2bbdb.png
+VLM处理时间: 270.99秒
+OCR结果: ['←', '2:15', 'M', 'M', 'Sonnet', '4.5', 'LTE', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', 'Reply', 'to', 'Claude', '...', '+']
+找到: 2:15 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working? I have about 90 minutes. (共 1 处)
+找到: Reply to Claude… (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36909-6dd2bbdb_annotated.png
+OCR处理时间: 1.80秒
+
+第 7/10 张: screenshot_2025-11-01-36921-406ba312.png
+VLM处理时间: 459.41秒
+OCR结果: ['←', '2:15', 'MM', '"', 'Sonnet', '4.5', 'LTE', '1', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', "I'll", 'help', 'you', 'find', 'some', 'quiet', 'coffee', 'shops', 'for', 'your', 'focus', 'time', '.', 'First', ',', 'let', 'me', 'get', 'your', 'location', 'so', 'I', 'can', 'give', 'you', 'relevant', 'recommendations', '.', 'Checking', 'location', '...', 'Permission', 'request', 'Х', 'Claude', 'wants', 'access', 'to', 'Location', 'Approximate', 'or', 'precise', 'Claude', 'will', 'use', 'your', 'location', 'info', 'to', 'provide', 'context', '-', 'aware', 'responses', '.', 'Allow', 'Once', 'Always', 'Allow', "Don't", 'Allow', 'Review', 'each', 'action', 'carefully', 'before', 'approving', '.', 'You', 'can', 'edit', 'permissions', 'anytime', 'in', 'settings', '.']
+找到: 2:15 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working? I have about 90 minutes. (共 1 处)
+找到: I'll help you find some quiet coffee shops for your focus time. First, let me get your location so I can give you relevant recommendations. (共 1 处)
+找到: Checking location… (共 1 处)
+找到: Permission request (共 1 处)
+找到: Claude wants access to (共 1 处)
+找到: Location (共 1 处)
+找到: Approximate or precise (共 1 处)
+找到: Claude will use your location info to provide context-aware responses. (共 1 处)
+找到: Allow Once (共 1 处)
+找到: Always Allow (共 1 处)
+找到: Don't Allow (共 1 处)
+找到: Review each action carefully before approving. (共 1 处)
+找到: You can edit permissions anytime in settings. (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36921-406ba312_annotated.png
+OCR处理时间: 1.21秒
+
+第 8/10 张: screenshot_2025-11-01-36934-f7875098.png
+VLM处理时间: 340.82秒
+OCR结果: ['←', '2:15', 'M', 'M', 'Sonnet', '4.5', 'LTE', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', 'I', "'", 'У', 'S', 'Allow', 'Claude', 'to', 'access', 'this', "device's", 'location', '?', 'Precise', 'Approximate', 'While', 'using', 'the', 'app', 'Reply', 'to', 'Claude', '...', '+', 'Only', 'this', 'time', "Don't", 'allow']
+找到: 2:15 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working? I have about 90 minutes. (共 1 处)
+找到: Allow Claude to access this device’s location? (共 1 处)
+找到: Precise (共 1 处)
+找到: Approximate (共 1 处)
+找到: While using the app (共 1 处)
+找到: Only this time (共 1 处)
+找到: Don’t allow (共 1 处)
+找到: Reply to Claude... (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36934-f7875098_annotated.png
+OCR处理时间: 2.23秒
+
+第 9/10 张: screenshot_2025-11-01-36948-6f973f0f.png
+VLM处理时间: 268.20秒
+OCR结果: ['←', '2:15', 'M', 'M', 'Sonnet', '4.5', 'LTE', 'AI', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', "I'll", 'help', 'you', 'find', 'some', 'quiet', 'coffee', 'shops', 'for', 'your', 'focus', 'time', '.', 'First', ',', 'let', 'me', 'get', 'your', 'location', 'so', 'I', 'can', 'give', 'you', 'relevant', 'recommendations', '.', 'Checking', 'location', '...', 'Reply', 'to', 'Claude', '...', '+']
+找到: 2:15 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working? I have about 90 minutes. (共 1 处)
+找到: I'll help you find some quiet coffee shops for your focus time. First, let me get your location so I can give you relevant recommendations. (共 1 处)
+找到: Checking location… (共 1 处)
+找到: Reply to Claude… (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36948-6f973f0f_annotated.png
+OCR处理时间: 1.14秒
+
+第 10/10 张: screenshot_2025-11-01-36961-d4379f96.png
+VLM处理时间: 1190.36秒
+OCR结果: ['←', '2:16', 'M', 'M', 'Sonnet', '4.5', 'LTE', 'I', 'need', 'to', 'schedule', 'some', 'focus', 'time', '.', 'Can', 'you', 'recommend', '3', 'coffee', 'shops', 'near', 'me', 'that', 'are', 'quiet', 'for', 'working', 'I', 'have', 'about', '90', 'minutes', '.', "I'll", 'help', 'you', 'find', 'some', 'quiet', 'coffee', 'shops', 'for', 'your', 'focus', 'time', '.', 'First', ',', 'let', 'me', 'get', 'your', 'location', 'so', 'I', 'can', 'give', 'you', 'relevant', 'recommendations', '.', 'Location', 'Near', '1600', 'Amphitheatre', 'Pkwy', ',', 'Mountain', 'View', ',', 'CA', '94043', ',', 'USA', 'he', 'Park', 'Computer', 'ry', 'Museum', 'N', 'Google', 'M', '✪', 'Searched', 'for', '"', 'quiet', 'coffee', 'shops', 'working', '...', 'Based', 'on', 'my', 'search', ',', 'here', 'are', '3', 'quiet', 'coffee', 'shops', 'near', 'you', 'in', 'Mountain', 'View', 'that', 'are', 'great', 'for', 'focused', 'work', ':', '1.', 'Red', 'Rock', 'Coffee', '(', '201', 'Castro', 'St', ')', 'The', 'second', 'floor', 'seat', '*', '↓', 'rea', 'is', 'particularly', 'good', 'for', 'working', 'on', 'w₁ung', 'projects', 'or', 'Reply', 'to', 'Claude', '...', '+']
+找到: 2:16 (共 1 处)
+找到: LTE (共 1 处)
+找到: Sonnet 4.5 (共 1 处)
+找到: I need to schedule some focus time. Can you recommend 3 coffee shops near me that are quiet for working? I have about 90 minutes. (共 1 处)
+找到: I'll help you find some quiet coffee shops for your focus time. First, let me get your location so I can give you relevant recommendations. (共 1 处)
+找到: Location (共 1 处)
+找到: Near 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA (共 1 处)
+找到: Google (共 1 处)
+未找到: Computer History Museum
+未找到: The Park
+找到: Searched for “quiet coffee shops working …” (共 1 处)
+找到: Based on my search, here are 3 quiet coffee shops near you in Mountain View that are great for focused work: (共 1 处)
+找到: 1. Red Rock Coffee (201 Castro St) (共 1 处)
+未找到: The second floor seati rea is particularly good for working on writing projects or
+找到: Reply to Claude... (共 1 处)
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/screenshot_2025-11-01-36961-d4379f96_annotated.png
+OCR处理时间: 3.07秒
+
+保存到: data/mobile/20251101_101324_Open_new_conversation_in_Claud/level/openai_gpt-5-pro/privacy_results.json
+
+完成！处理了 10 张图片
+平均VLM处理时间: 370.90秒/张
+平均OCR处理时间: 4.10秒/张
+✓ 完成: data/mobile/20251101_101324_Open_new_conversation_in_Claud - openai/gpt-5-pro
+
+==================================
+处理目录: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+开始时间: 2025-11-18 00:26:53
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen
+OCR: 启用 (Google Vision API)
+
+第 1/14 张: screenshot_2025-10-31-44214-2d072407.png
+VLM处理时间: 33.01秒
+OCR结果: ['4:16', '04:54', 'Deep', 'Work', 'Session', 'Complete', 'LTE', 'M', 'Play', 'Store', 'Gmail', 'Photos', 'YouTube', 'Phone', 'Messages', 'Chrome', 'G', 'Σ', '3']
+找到: 4:16 (共 1 处)
+找到: 04:54 (共 1 处)
+找到: Deep Work Session Complete (共 1 处)
+找到: LTE (共 1 处)
+找到: Play Store (共 1 处)
+找到: Gmail (共 1 处)
+找到: Photos (共 1 处)
+找到: YouTube (共 1 处)
+找到: Phone (共 1 处)
+找到: Messages (共 1 处)
+找到: Chrome (共 1 处)
+找到: G (共 1 处)
+找到: M (共 1 处)
+找到: ♡ (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44214-2d072407_annotated.png
+OCR处理时间: 71.44秒
+
+第 2/14 张: screenshot_2025-10-31-44236-1d25c535.png
+VLM处理时间: 15.23秒
+OCR结果: ['4:17', 'LTE', '←', 'Tim', 'Bench', ',', 'confirm', 'your', 'email', 'address', 'to', 'access', 'all', 'of', "X's", 'features', 'Inbox', 'verify@x.com', '2', 'days', 'ago', '.', 'to', 'me', '▾', '☑', '↑', 'Confirm', 'your', 'email', 'address', "Let's", 'make', 'sure', 'this', 'is', 'the', 'right', 'email', 'address', 'for', 'you', '.', 'Please', 'enter', 'this', 'verification', 'code', 'to', 'continue', 'using', 'X', ':', '122850', 'Verification', 'codes', 'expire', 'after', 'two', 'hours', '.', 'Thanks', ',', 'X', 'X', 'X', 'may', 'use', 'your', 'email', 'address', 'for', 'purposes', 'Reply', '10', 'で']
+找到: 4:17 (共 1 处)
+找到: LTE (共 1 处)
+找到: Tim Bench, confirm your email address to access all of X's features (共 1 处)
+找到: Inbox (共 1 处)
+找到: verify@x.com (共 1 处)
+找到: 2 days ago (共 1 处)
+找到: to me (共 1 处)
+找到: Confirm your email address (共 1 处)
+找到: Let's make sure this is the right email address for you. Please enter this verification code to continue using X: (共 1 处)
+找到: 122850 (共 1 处)
+找到: Verification codes expire after two hours. (共 1 处)
+找到: Thanks, (共 1 处)
+找到: X (共 1 处)
+找到: X may use your email address for purposes (共 1 处)
+找到: Reply (共 1 处)
+找到: 10 (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44236-1d25c535_annotated.png
+OCR处理时间: 0.65秒
+
+第 3/14 张: screenshot_2025-10-31-44252-b1145cb5.png
+VLM处理时间: 14.55秒
+OCR结果: ['4:17', '=', 'Search', 'in', 'mail', 'LTE', 'T', 'Primary', '3', 'Tap', 'a', 'sender', 'image', 'to', 'select', 'that', 'conversation', '.', 'Dismiss', 'Anthropic', 'Team', '2:03', 'AM', 'Welcome', 'to', 'Claude', '-', "let's", 'get', 'started', 'Imagine', 'having', 'a', 'thought', 'partner', 'who', 'helps', '...', 'Oct', '30', 'Will', 'Lockett', 'Trump', "Won't", 'Last', 'Until', '2028', ',', 'And', 'No', 'Kin', '...', 'The', 'clock', 'is', 'ticking', '.', 'Trump', "Won't", 'Last', 'Until', '...', 'Medium', 'Oct', '30', 'You', 'just', 'published', 'your', 'first', 'story', 'on', 'Me', '...', 'Congratulations', 'on', 'your', 'first', 'Medium', 'story', '..', 'Alex', 'Mathers', 'Those', 'with', 'audiences', 'will', 'be', 'stronger', '.', "I've", 'nervously', 'smashed', 'the', 'publish', 'button', 't', '...', 'me', ',', 'Mail', '2', 'M', '(', 'no', 'subject', ')', '6', 'Oct', '30', 'Oct', '30', 'Address', 'not', 'found', 'Your', 'message', "wasn't", 'deli', '...', 'Medium', 'Welcome', 'to', 'Medium', "I'm", 'Tony', ',', 'CEO', 'at', 'Medium', '.', 'Fir', 'Promotions', '10', 'Oct', '30', 'Compose']
+找到: 4:17 (共 1 处)
+找到: Search in mail (共 1 处)
+找到: LTE (共 1 处)
+找到: T (共 1 处)
+找到: Primary (共 1 处)
+找到: Tap a sender image to select that conversation. (共 1 处)
+找到: Dismiss (共 1 处)
+找到: Anthropic Team (共 1 处)
+找到: 2:03 AM (共 1 处)
+找到: Welcome to Claude — let's get started (共 1 处)
+找到: Imagine having a thought partner who helps... (共 1 处)
+找到: Will Lockett (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: Trump Won't Last Until 2028, And No Kin... (共 1 处)
+找到: The clock is ticking. Trump Won't Last Until... (共 1 处)
+找到: Medium (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: You just published your first story on Me... (共 1 处)
+找到: Congratulations on your first Medium story... (共 1 处)
+找到: Alex Mathers (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: Those with audiences will be stronger. (共 1 处)
+找到: I've nervously smashed the publish button t... (共 1 处)
+找到: M (共 1 处)
+找到: me, Mail 2 (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: (no subject) (共 1 处)
+找到: Address not found Your message wasn't deli... (共 1 处)
+找到: Medium (共 1 处)
+找到: Welcome to Medium (共 1 处)
+找到: I'm Tony, CEO at Medium. Fir (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: Compose (共 1 处)
+找到: Promotions (共 1 处)
+找到: 10 (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44252-b1145cb5_annotated.png
+OCR处理时间: 0.82秒
+
+第 4/14 张: screenshot_2025-10-31-44265-c5ff2653.png
+VLM处理时间: 22.96秒
+OCR结果: ['4:17', 'LTE', 'Gmail', 'Primary', '10', 'T', 'Promotions', '1', 'new', 'Dismiss', '2', 'Social', '(', 'i', ')', 'Updates', 'All', 'labels', '☆', 'Starred', 'Snoozed', '2:03', 'AM', 'ed', 'helps', '...', 'Oct', '30', '>', 'Kin', '...', 'Until', '...', 'Oct', '30', 'Σ', 'Important', '2', 'Me', '...', 'tory', '...', 'A', 'Sent', 'Oct', '30', 'er', '.', 'Scheduled', 'ton', 't', '...', 'Outbox', 'Oct', '30', 'Drafts', '1', 't', 'deli', '...', 'All', 'mail', '11', 'Oct', '30', 'Spam', '1', 'mpose', 'Trash', 'Google', 'apps']
+找到: 4:17 (共 1 处)
+找到: Gmail (共 1 处)
+找到: T (共 1 处)
+找到: Primary (共 1 处)
+找到: 10 (共 1 处)
+找到: Promotions (共 1 处)
+找到: 1 new (共 1 处)
+找到: Dismiss (共 1 处)
+找到: Social (共 1 处)
+找到: Updates (共 1 处)
+找到: All labels (共 1 处)
+找到: 2:03 AM (共 1 处)
+找到: ed helps... (共 1 处)
+找到: Starred (共 1 处)
+找到: Kin... Until... (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: Snoozed (共 1 处)
+找到: Important (共 1 处)
+找到: 2 (共 1 处)
+找到: Sent (共 1 处)
+找到: Me... tory ... (共 1 处)
+找到: Scheduled (共 1 处)
+未找到: er. ton t...
+找到: Outbox (共 1 处)
+找到: Drafts (共 1 处)
+找到: 1 (共 1 处)
+找到: 't deli... (共 1 处)
+找到: All mail (共 1 处)
+找到: 11 (共 1 处)
+找到: Spam (共 1 处)
+找到: 1 (共 1 处)
+找到: mpose (共 1 处)
+找到: Trash (共 1 处)
+找到: Google apps (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44265-c5ff2653_annotated.png
+OCR处理时间: 0.61秒
+
+第 5/14 张: screenshot_2025-10-31-44279-93346495.png
+VLM处理时间: 13.56秒
+OCR结果: ['4:18', '=', 'Search', 'in', 'mail', 'LTE', 'Sent', 'To', '▾', 'Attachment', 'Date', 'Sent', 'Tap', 'a', 'sender', 'image', 'to', 'select', 'that', 'conversation', '.', 'To', ':', 'info', '2', '(', 'no', 'subject', ')', 'Address', 'not', 'found', 'Your', 'message', 'wa', '...', 'To', ':', 'info', '(', 'no', 'subject', ')', 'To', ':', 'partnership', '2', 'P', '(', 'no', 'subject', ')', 'How', 'do', 'you', 'do', '?', 'To', ':', 'intlmarket', '2', '(', 'no', 'subject', ')', 'How', 'are', 'you', 'P', 'To', ':', 'press', '(', 'no', 'subject', ')', 'Hi', '10', 'T', 'Dismiss', 'Inbox', 'Inbox', 'Inbox', '=', 'Oct', '30', 'Oct', '30', 'Oct', '28', 'Oct', '28', 'Oct', '28', 'Compose']
+找到: 4:18 (共 1 处)
+找到: LTE (共 1 处)
+找到: Search in mail (共 1 处)
+找到: T (共 1 处)
+找到: Sent (共 1 处)
+找到: To (共 1 处)
+找到: Attachment (共 1 处)
+找到: Date (共 1 处)
+找到: Sent (共 1 处)
+找到: Tap a sender image to select that conversation. (共 1 处)
+找到: Dismiss (共 1 处)
+找到: To: info (共 1 处)
+找到: Address not found Your message wa... (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: Inbox (共 1 处)
+找到: To: info (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: To: partnership (共 1 处)
+找到: How do you do? (共 1 处)
+找到: Oct 28 (共 1 处)
+找到: To: intlmarket (共 1 处)
+找到: How are you (共 1 处)
+找到: Oct 28 (共 1 处)
+找到: To: press (共 1 处)
+找到: Hi (共 1 处)
+找到: Oct 28 (共 1 处)
+找到: Compose (共 1 处)
+找到: 10 (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44279-93346495_annotated.png
+OCR处理时间: 0.68秒
+
+第 6/14 张: screenshot_2025-10-31-44292-4a10b784.png
+VLM处理时间: 13.95秒
+OCR结果: ['4:18', 'LTE', '(', 'no', 'subject', ')', 'Inbox', '☑', 'T', 'Tim', 'Bench', '3', 'days', 'ago', 'to', 'partnership', '✓', 'How', 'do', 'you', 'do', '?', 'Mail', 'Delivery', 'Su', '...', '3', 'days', 'ago', 'M', 'to', 'me', '✓', '?', '↑', 'रु', 'Address', 'not', 'found', 'Your', 'message', "wasn't", 'delivered', 'to', 'partnership@bytedance.com', 'because', 'the', 'address', "couldn't", 'be', 'found', ',', 'or', 'is', 'unable', 'to', 'receive', 'mail', '.', 'Reply', 'で']
+找到: 4:18 (共 1 处)
+找到: LTE (共 1 处)
+找到: (no subject) (共 1 处)
+找到: Inbox (共 1 处)
+找到: Tim Bench (共 1 处)
+找到: 3 days ago (共 1 处)
+找到: to partnership (共 1 处)
+找到: How do you do? (共 1 处)
+找到: Mail Delivery Su... (共 1 处)
+找到: to me (共 1 处)
+找到: Address not found (共 1 处)
+找到: Your message wasn't delivered to partnership@bytedance.com because the address couldn't be found, or is unable to receive mail. (共 1 处)
+找到: Reply (共 1 处)
+未找到: 9
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44292-4a10b784_annotated.png
+OCR处理时间: 0.63秒
+
+第 7/14 张: screenshot_2025-10-31-44304-42d0c1ab.png
+VLM处理时间: 21.69秒
+OCR结果: ['4:18', '03:16', 'Deep', 'Work', 'Session', 'Complete', 'LTE', 'M', 'Play', 'Store', 'Gmail', 'Photos', 'YouTube', 'Phone', 'Messages', 'Chrome', 'G', 'Σ', '3']
+找到: 4:18 (共 1 处)
+找到: Deep Work Session Complete (共 1 处)
+找到: 03:16 (共 1 处)
+找到: LTE (共 1 处)
+找到: Play Store (共 1 处)
+找到: Gmail (共 1 处)
+找到: Photos (共 1 处)
+找到: YouTube (共 1 处)
+找到: Phone (共 1 处)
+找到: Messages (共 1 处)
+找到: Chrome (共 1 处)
+找到: G (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44304-42d0c1ab_annotated.png
+OCR处理时间: 2.11秒
+
+第 8/14 张: screenshot_2025-10-31-44325-02cf0521.png
+VLM处理时间: 17.38秒
+OCR结果: ['4:18', 'LTE', '(', 'no', 'subject', ')', 'Inbox', '☑', 'T', 'Tim', 'Bench', '3', 'days', 'ago', 'to', 'partnership', '✓', 'How', 'do', 'you', 'do', '?', 'Mail', 'Delivery', 'Su', '...', '3', 'days', 'ago', 'T', 'to', 'me', '✓', '?', '↑', 'रु', 'Address', 'not', 'found', 'Your', 'message', "wasn't", 'delivered', 'to', 'partnership@bytedance.com', 'because', 'the', 'address', "couldn't", 'be', 'found', ',', 'or', 'is', 'unable', 'to', 'receive', 'mail', '.', 'Reply', 'で']
+找到: 4:18 (共 1 处)
+找到: LTE (共 1 处)
+找到: (no subject) (共 1 处)
+找到: Inbox (共 1 处)
+找到: Tim Bench (共 1 处)
+找到: 3 days ago (共 1 处)
+找到: to partnership (共 1 处)
+找到: How do you do? (共 1 处)
+找到: Mail Delivery Su... (共 1 处)
+找到: to me (共 1 处)
+找到: Address not found (共 1 处)
+找到: Your message wasn't delivered to partnership@bytedance.com because the address couldn't be found, or is unable to receive mail. (共 1 处)
+找到: Reply (共 1 处)
+未找到: 9
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44325-02cf0521_annotated.png
+OCR处理时间: 0.61秒
+
+第 9/14 张: screenshot_2025-10-31-44340-b7cedb05.png
+VLM处理时间: 16.72秒
+OCR结果: ['4:19', '=', 'Search', 'in', 'mail', 'LTE', 'Sent', 'To', '▾', 'Attachment', 'Date', 'Sent', 'Tap', 'a', 'sender', 'image', 'to', 'select', 'that', 'conversation', '.', 'To', ':', 'info', '2', '(', 'no', 'subject', ')', 'Address', 'not', 'found', 'Your', 'message', 'wa', '...', 'To', ':', 'info', '(', 'no', 'subject', ')', 'To', ':', 'partnership', '2', 'P', '(', 'no', 'subject', ')', 'How', 'do', 'you', 'do', '?', 'To', ':', 'intlmarket', '2', '(', 'no', 'subject', ')', 'How', 'are', 'you', 'P', 'To', ':', 'press', '(', 'no', 'subject', ')', 'Hi', '१', 'T', '=', 'Dismiss', 'Inbox', 'Oct', '30', 'Oct', '30', 'Inbox', 'Oct', '28', 'Inbox', 'Oct', '28', 'Oct', '28', 'Compose']
+找到: 4:19 (共 1 处)
+找到: LTE (共 1 处)
+找到: Search in mail (共 1 处)
+找到: T (共 1 处)
+找到: Sent (共 1 处)
+找到: To (共 1 处)
+找到: Attachment (共 1 处)
+找到: Date (共 1 处)
+找到: Tap a sender image to select that conversation. (共 1 处)
+找到: Dismiss (共 1 处)
+找到: To: info (共 1 处)
+找到: (no subject) (共 1 处)
+找到: Address not found Your message wa... (共 1 处)
+找到: Inbox (共 1 处)
+找到: Oct 30 (共 1 处)
+找到: To: partnership (共 1 处)
+找到: How do you do? (共 1 处)
+找到: Oct 28 (共 1 处)
+找到: To: intlmarket (共 1 处)
+找到: How are you (共 1 处)
+找到: To: press (共 1 处)
+找到: Hi (共 1 处)
+找到: Compose (共 1 处)
+未找到: 9
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44340-b7cedb05_annotated.png
+OCR处理时间: 0.65秒
+
+第 10/14 张: screenshot_2025-10-31-44353-feb699a0.png
+VLM处理时间: 19.49秒
+OCR结果: ['4:19', 'LTE', '(', 'no', 'subject', ')', 'Inbox', '☑', 'T', 'Tim', 'Bench', '3', 'days', 'ago', 'to', 'partnership', '✓', 'How', 'do', 'you', 'do', '?', 'M', '?', 'Mail', 'Delivery', 'Su', '...', '3', 'days', 'ago', 'to', 'me', '↑', '←', 'Address', 'not', 'found', 'Your', 'message', "wasn't", 'delivered', 'to', 'partnership@bytedance.com', 'because', 'the', 'address', "couldn't", 'be', 'found', ',', 'or', 'is', 'unable', 'to', 'receive', 'mail', '.', 'Reply', 'で']
+找到: 4:19 (共 1 处)
+找到: LTE (共 1 处)
+找到: (no subject) (共 1 处)
+找到: Inbox (共 1 处)
+找到: Tim Bench (共 1 处)
+找到: 3 days ago (共 1 处)
+找到: T (共 1 处)
+找到: to partnership (共 1 处)
+找到: How do you do? (共 1 处)
+找到: M (共 1 处)
+找到: Mail Delivery Su... (共 1 处)
+找到: to me (共 1 处)
+找到: Address not found (共 1 处)
+找到: Your message wasn't delivered to partnership@bytedance.com because the address couldn't be found, or is unable to receive mail. (共 1 处)
+找到: Reply (共 1 处)
+未找到: 9
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44353-feb699a0_annotated.png
+OCR处理时间: 0.59秒
+
+第 11/14 张: screenshot_2025-10-31-44365-15a918a0.png
+VLM处理时间: 16.26秒
+OCR结果: ['4:19', 'LTE', '(', 'no', 'subject', ')', 'Inbox', '☑', 'T', 'Tim', 'Bench', '3', 'days', 'ago', 'to', 'partnership', '✓', '«', 'Reply', 'all', 'How', 'do', 'you', 'do', '?', '→', 'Forward', 'Mail', 'Delivery', 'S', 'M', 'to', 'me', '✰', 'Add', 'star', '?', '☑', 'Mark', 'unread', 'from', 'here', 'G', 'Translate', 'Print', 'Address', 'not', 'for', ':', 'Report', 'spam', 'Your', 'message', "wasn't", 'delivered', 'to', 'partnership@bytedance.com', 'because', 'the', 'address', "couldn't", 'be', 'found', ',', 'or', 'is', 'unable', 'to', 'receive', 'mail', '.', 'Reply', 'で']
+找到: 4:19 (共 1 处)
+找到: LTE (共 1 处)
+找到: (no subject) (共 1 处)
+找到: Inbox (共 1 处)
+找到: Tim Bench (共 1 处)
+找到: 3 days ago (共 1 处)
+找到: to partnership (共 1 处)
+找到: Reply all (共 1 处)
+找到: How do you do? (共 1 处)
+找到: Forward (共 1 处)
+找到: Mail Delivery S (共 1 处)
+找到: to me (共 1 处)
+找到: Add star (共 1 处)
+找到: Mark unread from here (共 1 处)
+找到: Translate (共 1 处)
+找到: Print (共 1 处)
+未找到: Address not found
+找到: Report spam (共 1 处)
+找到: Your message wasn't delivered to partnership@bytedance.com because the address couldn't be found, or is unable to receive mail. (共 1 处)
+找到: Reply (共 1 处)
+未找到: 9
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44365-15a918a0_annotated.png
+OCR处理时间: 0.63秒
+
+第 12/14 张: screenshot_2025-10-31-44381-cd87c8ec.png
+VLM处理时间: 10.54秒
+OCR结果: ['4:19', '<', 'From', 'benchtest76@gmail.com', 'Fwd', ':', 'Forward', 'to', 'Compose', 'email', 'GIF', 'ווין', 'LTE', '>', '2', 'q', "'", 'we', '3', '4', '+', '5', 'r', 'r', '*', 'ť³', 'y', 'asdf', 'N', '?', '123', '@', '6', '7', '8', 'u', 'i', 'ор', 'gh', 'hjk', 'jkl', 'х', 'с', '·', 'vbnm', '(', '☑', '→', 'I']
+找到: 4:19 (共 1 处)
+找到: LTE (共 1 处)
+找到: From (共 1 处)
+找到: benchtest76@gmail.com (共 1 处)
+找到: Forward to (共 1 处)
+找到: Fwd: (共 1 处)
+找到: Compose email (共 1 处)
+找到: GIF (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44381-cd87c8ec_annotated.png
+OCR处理时间: 0.56秒
+
+第 13/14 张: screenshot_2025-10-31-44397-75586451.png
+VLM处理时间: 26.29秒
+OCR结果: ['<', '4:20', 'From', 'benchtest76@gmail.com', 'recipient@example.com', 'Add', 'recipient', 'recipient@example.com', 'GIF', 'ווין', '2', 'q', "'", 'we', '3', '4', '5', 'r', 'r', '*', 'ť³', 'y', 't', 'y', "'", "u'i", '8', 'ор', 'asdfghjkl', 'N', 'х', 'с', '·', 'vbnm', '(', '☑', '?', '123', '@', '☺', '→', 'I', 'LTE']
+找到: 4:20 (共 1 处)
+找到: From benchtest76@gmail.com (共 1 处)
+找到: recipient@example.com (共 1 处)
+找到: Add recipient (共 1 处)
+找到: recipient@example.com (共 1 处)
+找到: GIF (共 1 处)
+找到: LTE (共 1 处)
+未找到: 1
+找到: 2 (共 1 处)
+找到: 3 (共 1 处)
+找到: 4 (共 1 处)
+未找到: qwer
+未找到: tyuiop
+找到: asdfghjkl (共 1 处)
+未找到: ZXCV
+找到: ?123 (共 1 处)
+找到: @ (共 1 处)
+未找到: bnm
+未找到: X
+未找到: 0
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44397-75586451_annotated.png
+OCR处理时间: 0.64秒
+
+第 14/14 张: screenshot_2025-10-31-44410-c6870452.png
+VLM处理时间: 24.98秒
+OCR结果: ['4:20', '←', 'LTE', '☑', 'G', ':', 'partnership@bytedance.com', 'because', 'the', 'address', "couldn't", 'be', 'found', ',', 'or', 'is', 'unable', 'to', 'receive', 'mail', '.', 'The', 'response', 'from', 'the', 'remote', 'server', 'was', ':', '550', 'verify', 'address', 'failed', ',', 'User', 'not', 'found', 'partnership@bytedance.com', 'Forwarded', 'message', '·', 'From', ':', 'Tim', 'Bench', '<', 'benchtest76@gmail.com', '>', 'To', ':', 'partnership@bytedance.com', 'Cc', ':', 'Bcc', ':', 'Date', ':', 'Tue', ',', '28', 'Oct', '2025', '12:29:02', '+0000', 'Subject', ':', 'How', 'do', 'you', 'do', '?', 'Tim', 'Bench', '4:20', 'AM', 'T', '←', 'to', 'recipient', '✓', 'Forwarded', 'message', 'From', ':', 'Tim', 'Bench', '<', 'benchtest76@gmail.com', '>', 'Date', ':', 'Tue', ',', 'Oct', '28', ',', '2025', ',', '12:29', 'PM', 'Subject', ':', 'To', ':', '<', 'partnership@bytedance.com', '>', 'Sent', 'Undo']
+找到: 4:20 (共 1 处)
+找到: LTE (共 1 处)
+找到: partnership@bytedance.com (共 1 处)
+找到: address couldn't be found, or is unable to receive mail. (共 1 处)
+找到: The response from the remote server was: (共 1 处)
+找到: 550 verify address failed, User not found (共 1 处)
+找到: partnership@bytedance.com (共 1 处)
+找到: Forwarded message (共 1 处)
+找到: From: Tim Bench <benchtest76@gmail.com> (共 1 处)
+找到: To: partnership@bytedance.com (共 1 处)
+找到: Date: Tue, 28 Oct 2025 12:29:02 +0000 (共 1 处)
+找到: Subject: How do you do? (共 1 处)
+找到: T (共 1 处)
+找到: Tim Bench (共 1 处)
+找到: 4:20 AM (共 1 处)
+找到: to recipient (共 1 处)
+找到: Forwarded message (共 1 处)
+找到: From: Tim Bench <benchtest76@gmail.com> (共 1 处)
+找到: Date: Tue, Oct 28, 2025, 12:29 PM (共 1 处)
+找到: To: <partnership@bytedance.com> (共 1 处)
+找到: Sent (共 1 处)
+未找到: 9
+找到: Undo (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/screenshot_2025-10-31-44410-c6870452_annotated.png
+OCR处理时间: 0.62秒
+
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 14 张图片
+平均VLM处理时间: 19.04秒/张
+平均OCR处理时间: 5.80秒/张
+✓ 完成: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+开始时间: 2025-11-18 00:33:09
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen
+OCR: 启用 (Google Vision API)
+
+第 1/14 张: screenshot_2025-10-31-44214-2d072407.png
+VLM处理时间: 312.73秒
+OCR结果: ['4:16', '04:54', 'Deep', 'Work', 'Session', 'Complete', 'LTE', 'M', 'Play', 'Store', 'Gmail', 'Photos', 'YouTube', 'Phone', 'Messages', 'Chrome', 'G', 'Σ', '3']
+找到: 4:16 (共 1 处)
+找到: LTE (共 1 处)
+找到: 04:54 (共 1 处)
+找到: Deep Work Session Complete (共 1 处)
+找到: Play Store (共 1 处)
+找到: Gmail (共 1 处)
+找到: Photos (共 1 处)
+找到: YouTube (共 1 处)
+找到: Phone (共 1 处)
+找到: Messages (共 1 处)
+找到: Chrome (共 1 处)
+找到: G (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/openai_gpt-5-pro/screenshot_2025-10-31-44214-2d072407_annotated.png
+OCR处理时间: 14.68秒
+
+第 2/14 张: screenshot_2025-10-31-44236-1d25c535.png
+VLM处理时间: 595.96秒
+OCR结果: ['4:17', 'LTE', '←', 'Tim', 'Bench', ',', 'confirm', 'your', 'email', 'address', 'to', 'access', 'all', 'of', "X's", 'features', 'Inbox', 'verify@x.com', '2', 'days', 'ago', '.', 'to', 'me', '▾', '☑', '↑', 'Confirm', 'your', 'email', 'address', "Let's", 'make', 'sure', 'this', 'is', 'the', 'right', 'email', 'address', 'for', 'you', '.', 'Please', 'enter', 'this', 'verification', 'code', 'to', 'continue', 'using', 'X', ':', '122850', 'Verification', 'codes', 'expire', 'after', 'two', 'hours', '.', 'Thanks', ',', 'X', 'X', 'X', 'may', 'use', 'your', 'email', 'address', 'for', 'purposes', 'Reply', '10', 'で']
+找到: 4:17 (共 1 处)
+找到: LTE (共 1 处)
+找到: Tim Bench, confirm your email address to access all of X’s features (共 1 处)
+找到: Inbox (共 1 处)
+找到: verify@x.com 2 days ago (共 1 处)
+找到: to me (共 1 处)
+找到: Confirm your email address (共 1 处)
+找到: Let’s make sure this is the right email address for you. Please enter this verification code to continue using X: (共 1 处)
+找到: 122850 (共 1 处)
+找到: Verification codes expire after two hours. (共 1 处)
+找到: Thanks, (共 1 处)
+找到: X (共 1 处)
+找到: X may use your email address for purposes (共 1 处)
+找到: Reply (共 1 处)
+找到: 10 (共 1 处)
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/level/openai_gpt-5-pro/screenshot_2025-10-31-44236-1d25c535_annotated.png
+OCR处理时间: 1.06秒
+
+第 3/14 张: screenshot_2025-10-31-44252-b1145cb5.png
+Traceback (most recent call last):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 982, in request
+    response = self._client.send(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/public/zhangzhiling/code/GUI_Pravicy/level.py", line 119, in <module>
+    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr, args.no_save_image, args.no_save_json, "level")
+  File "/public/zhangzhiling/code/GUI_Pravicy/level.py", line 111, in process
+    process_images(directory_path, parse_and_annotate, prompt_template, enable_ocr,
+  File "/public/zhangzhiling/code/GUI_Pravicy/googleocr_label.py", line 418, in process_images
+    ai_output, vlm_time = call_vlm_api(image_path, prompt_text, model_name, print_ai_output)
+  File "/public/zhangzhiling/code/GUI_Pravicy/googleocr_label.py", line 306, in call_vlm_api
+    completion = client.chat.completions.create(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1156, in create
+    return self._post(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+✗ 失败: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen - openai/gpt-5-pro
+
+==================================
+处理目录: data/mobile/20251031_123817_YouTube__View_first_video_in_W
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+开始时间: 2025-11-18 01:13:17
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251031_123817_YouTube__View_first_video_in_W
+OCR: 启用 (Google Vision API)
+
+第 1/8 张: screenshot_2025-10-31-45498-17b0ddaf.png
+VLM处理时间: 30.03秒
+OCR结果: ['4:38', 'M', 'LTE', 'Fri', ',', 'Oct', '31', 'M', 'Play', 'Store', 'Gmail', 'Photos', 'YouTube', 'Phone', 'Messages', 'Chrome', 'A', 'G']
+找到: 4:38 M (共 1 处)
+找到: LTE (共 1 处)
+找到: Fri, Oct 31 (共 1 处)
+找到: M (共 1 处)
+找到: Play Store (共 1 处)
+找到: Gmail (共 1 处)
+找到: Photos (共 1 处)
+找到: YouTube (共 1 处)
+找到: Phone (共 1 处)
+找到: Messages (共 1 处)
+找到: Chrome (共 1 处)
+找到: G (共 1 处)
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/screenshot_2025-10-31-45498-17b0ddaf_annotated.png
+OCR处理时间: 63.06秒
+
+第 2/8 张: screenshot_2025-10-31-45524-4225c18f.png
+VLM处理时间: 16.04秒
+OCR结果: ['4:38', 'M', 'YouTube', 'III', 'LTE', 'A', 'зда', 'Linked', 'in', 'Make', 'connections', 'that', 'count', '.', 'in', 'Search', 'for', 'a', 'healthcare', 'role', '.', '|', 'LinkedIn', ':', 'Jobs', '&', 'Business', 'News', 'Your', 'LinkedIn', 'connections', 'can', 'help', 'you', 'find', 'your', 'next', 'role', 'in', 'healthcare', '.', 'Get', 'the', 'app', '.', 'Sponsored', 'Watch', 'Open', 'app', 'Shorts', 'FOR', 'CALIFORNICATION', 'das', 'Priest', 'Home', 'Shorts', '...', '+', 'New', 'КГХСМ', 'T', 'Subscriptions', 'You', '7']
+找到: 4:38 (共 1 处)
+找到: YouTube (共 1 处)
+找到: Linked in (共 1 处)
+找到: Make connections that count. (共 1 处)
+找到: LTE (共 1 处)
+找到: Search for a healthcare role. (共 1 处)
+未找到: ad content
+未找到: ad content
+未找到: label
+未找到: UI text
+未找到: UI text
+未找到: UI text
+未找到: label
+未找到: on clothing
+未找到: name
+未找到: on an object
+未找到: UI text
+未找到: UI text
+未找到: UI text
+未找到: UI text
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/screenshot_2025-10-31-45524-4225c18f_annotated.png
+OCR处理时间: 1.31秒
+
+第 3/8 张: screenshot_2025-10-31-45548-576ae769.png
+VLM处理时间: 24.28秒
+OCR结果: ['4:39', 'M', '←', 'Search', 'YouTube', 'D', 'mathurat', 'pagi', 'eagles', 'hotel', 'california', 'live', 'concert', '☑', 'mygo', 'red', 'hot', 'chili', 'peppers', 'californication', 'guns', 'n', 'roses', 'sweet', 'child', 'o', 'mine', 'music', 'video', 'ay', 'like', 'nirvana', '-', 'topic', 'Channel', 'you', 'watch', 'red', 'hot', 'chili', 'peppers', '-', 'topic', 'QChannel', 'you', 'watch', '=', 'rhcp', 'californication', 'nirvana', 'come', 'as', 'you', 'are', 'cranberries', 'zombie', 'Q', 'radiohead', 'creep', 'Q', 'dream', 'theater', '1880P', 'FULL', 'HO', 'المأثورات', 'الصغرى', 'LTE', 'AL', '-', 'MATHURAT', 'AS', '-', 'SUGHRA', 'inteam', 'vevo', 'NIRVANA', 'STADIUM', 'ARCAOTUM', 'HD', 'CALIFORNICATION', 'RED', 'HOT', 'CHILI', 'PEPPERS', 'vevo', 'the', 'cranberries', 'Zombie', 'DREAM', 'THEATER', 'THE', 'SPIRIT', 'CARRIES', 'ON', 'Q', 'green', 'day', '21', 'guns', 'Q', 'σι', 'metallica', 'enter', 'sandman', 'dire', 'straits', 'sultans', 'of', 'swing', 'vevo', 'SULTANS', 'OF', 'SMING', 'LALCHEMY', 'LIVE', '>', 'ккккк', 'لا', '1', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7']
+找到: 4:39 (共 1 处)
+找到: LTE (共 1 处)
+找到: Search YouTube (共 1 处)
+找到: mathurat pagi (共 1 处)
+找到: eagles hotel california live concert (共 1 处)
+找到: mygo (共 1 处)
+找到: inteam (共 1 处)
+找到: AL-MATHURAT AS-SUGHRA (共 1 处)
+找到: red hot chili peppers californication (共 1 处)
+找到: guns n roses sweet child o mine music video (共 1 处)
+未找到: You may like
+找到: nirvana - topic (共 1 处)
+找到: Channel you watch (共 1 处)
+找到: red hot chili peppers - topic (共 1 处)
+找到: rhcp californication (共 1 处)
+找到: nirvana come as you are (共 1 处)
+找到: cranberries zombie (共 1 处)
+找到: radiohead creep (共 1 处)
+找到: dream theater (共 1 处)
+找到: green day 21 guns (共 1 处)
+找到: metallica enter sandman (共 1 处)
+找到: dire straits sultans of swing (共 1 处)
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/screenshot_2025-10-31-45548-576ae769_annotated.png
+OCR处理时间: 0.87秒
+
+第 4/8 张: screenshot_2025-10-31-45568-930ffe0d.png
+VLM处理时间: 15.06秒
+OCR结果: ['4:39', 'M', '←', 'Search', 'YouTube', 'D', 'mathurat', 'pagi', 'eagles', 'hotel', 'california', 'live', 'concert', 'mygo', 'red', 'hot', 'chili', 'peppers', 'californication', 'g', "'", '*', 'Settings', 'la', 'O', 'Try', 'handwriting', 'demo', '☑', 'C', 'Show', 'clipboard', 're', 'C', 'Show', 'translate', 'rl', '1880P', 'FULL', 'HO', 'المأثورات', 'الصغرى', 'LTE', 'AL', '-', 'MATHURAT', 'AS', '-', 'SUGHRA', 'inteam', 'HD', '»', 'кккк', 'Alt', '|', 'Alt', 'V', 'Alt', 'T', '-', 'Show', 'on', '-', 'screen', 'keyboard', 'Alt', 'K', '=', '✓', 'Switch', 'to', 'horizontal', 'toolbar', 'cranberries', 'zombie', 'Q', 'radiohead', 'creep', 'Q', 'dream', 'theater', 'vevo', 'DREAM', 'THEATER', 'THE', 'SPIRIT', 'CARRIES', 'ON', 'Q', 'green', 'day', '21', 'guns', 'Q', 'σι', 'metallica', 'enter', 'sandman', 'dire', 'straits', 'sultans', 'of', 'swing', 'vevo', 'SULTANS', 'OF', 'SMING', 'LALCHEMY', 'LIVE', '|', '7', '7', '7', '7', '7', ';']
+找到: 4:39 (共 1 处)
+找到: Search YouTube (共 1 处)
+找到: mathurat pagi (共 1 处)
+找到: eagles hotel california live concert (共 1 处)
+找到: mygo (共 1 处)
+找到: red hot chili peppers californication (共 1 处)
+找到: Settings (共 1 处)
+找到: Try handwriting demo (共 1 处)
+找到: Show clipboard (共 1 处)
+找到: Show translate (共 1 处)
+找到: AL-MATHURAT AS-SUGHRA (共 1 处)
+找到: Show on-screen keyboard (共 1 处)
+找到: Switch to horizontal toolbar (共 1 处)
+找到: cranberries zombie (共 1 处)
+找到: radiohead creep (共 1 处)
+找到: dream theater (共 1 处)
+找到: green day 21 guns (共 1 处)
+找到: metallica enter sandman (共 1 处)
+找到: dire straits sultans of swing (共 1 处)
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/screenshot_2025-10-31-45568-930ffe0d_annotated.png
+OCR处理时间: 0.82秒
+
+第 5/8 张: screenshot_2025-10-31-45585-fdf87ac7.png
+VLM处理时间: 23.88秒
+OCR结果: ['4:39', 'M', '←', 'Search', 'YouTube', 'D', 'mathurat', 'pagi', 'eagles', 'hotel', 'california', 'live', 'concert', 'mygo', 'red', 'hot', 'chili', 'peppers', 'californication', 'guns', 'n', 'roses', 'sweet', 'child', 'o', 'mine', 'music', 'video', 'You', 'may', 'like', 'nirvana', '-', 'topic', 'Q', 'Channel', 'you', 'watch', 'Q', 'red', 'hot', 'chili', 'peppers', '-', 'topic', 'Channel', 'you', 'watch', 'Q', 'rhcp', 'californication', 'Q', 'nirvana', 'come', 'as', 'you', 'are', 'Q', 'cranberries', 'zombie', 'Q', 'radiohead', 'creep', 'Q', 'dream', 'theater', '1880P', 'FULL', 'HO', 'المأثورات', 'الصغرى', 'LTE', 'AL', '-', 'MATHURAT', 'AS', '-', 'SUGHRA', 'inteam', 'vevo', 'NIRVANA', 'STADIUM', 'ARCAOTUM', 'HD', 'CALIFORNICATION', 'RED', 'HOT', 'CHILI', 'PEPPERS', 'vevo', 'the', 'cranberries', 'Zombie', 'DREAM', 'THEATER', 'THE', 'SPIRIT', 'CARRIES', 'ON', 'Q', 'green', 'day', '21', 'guns', 'Q', 'σι', 'metallica', 'enter', 'sandman', 'dire', 'straits', 'sultans', 'of', 'swing', 'vevo', 'SULTANS', 'OF', 'SMING', 'LALCHEMY', 'LIVE', '>', 'ккккк', 'لا', '1', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7']
+找到: 4:39 (共 1 处)
+找到: Search YouTube (共 1 处)
+找到: LTE (共 1 处)
+找到: mathurat pagi (共 1 处)
+找到: المأثورات الصغري AL-MATHURAT AS-SUGHRA (共 1 处)
+找到: inteam (共 1 处)
+找到: eagles hotel california live concert (共 1 处)
+找到: HD (共 1 处)
+找到: mygo (共 1 处)
+找到: red hot chili peppers californication (共 1 处)
+找到: guns n roses sweet child o mine music video (共 1 处)
+找到: vevo (共 1 处)
+找到: You may like (共 1 处)
+找到: nirvana - topic (共 1 处)
+找到: Channel you watch (共 1 处)
+找到: red hot chili peppers - topic (共 1 处)
+找到: Channel you watch (共 1 处)
+找到: rhcp californication (共 1 处)
+找到: CALIFORNICATION RED HOT CHILI PEPPERS (共 1 处)
+找到: nirvana come as you are (共 1 处)
+找到: cranberries zombie (共 1 处)
+找到: the cranberries Zombie (共 1 处)
+找到: radiohead creep (共 1 处)
+找到: dream theater (共 1 处)
+找到: DREAM THEATER THE SPIRIT CARRIES ON (共 1 处)
+找到: green day 21 guns (共 1 处)
+找到: metallica enter sandman (共 1 处)
+找到: dire straits sultans of swing (共 1 处)
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/screenshot_2025-10-31-45585-fdf87ac7_annotated.png
+OCR处理时间: 0.90秒
+
+第 6/8 张: screenshot_2025-10-31-45604-c3c3b772.png
+VLM处理时间: 13.36秒
+OCR结果: ['4:40', 'M', '►YouTube', 'LTE', 'два', 'All', 'Music', 'Mixes', 'Axl', 'Rose', 'Live', 'Linked', 'in', 'Make', 'connections', 'that', 'count', '.', 'in', 'Search', 'for', 'a', 'healthcare', 'role', '.', '|', 'LinkedIn', ':', 'Jobs', '&', 'Business', 'News', 'Your', 'LinkedIn', 'connections', 'can', 'help', 'you', 'find', 'your', 'next', 'role', 'in', 'healthcare', '.', 'Get', 'the', 'app', '.', 'Sponsored', 'Watch', 'Open', 'app', 'Shorts', 'FOR', 'CALIFORNICATION', 'Home', 'Shorts', '...', '+', 'New', 'КГХСМ', 'T', 'Subscriptions', 'You', '7']
+找到: 4:40 (共 1 处)
+找到: YouTube (共 1 处)
+找到: All (共 1 处)
+找到: Music (共 1 处)
+找到: Mixes (共 1 处)
+找到: Axl Rose (共 1 处)
+找到: Live (共 1 处)
+找到: Linked in (共 1 处)
+找到: Make connections that count. (共 1 处)
+找到: Search for a healthcare role. (共 1 处)
+未找到: title
+未找到: description
+未找到: UI text
+未找到: UI text
+未找到: UI text
+未找到: UI text
+未找到: in a video
+未找到: UI text
+未找到: UI text
+未找到: UI text
+未找到: UI text
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/screenshot_2025-10-31-45604-c3c3b772_annotated.png
+OCR处理时间: 1.28秒
+
+第 7/8 张: screenshot_2025-10-31-45629-8c467b44.png
+VLM处理时间: 19.79秒
+OCR结果: ['4:40', 'M', 'T', 'LTE', 'в', 'Q', 'Tim', 'Bench', '@', 'TimBench', '-', 'g3z', '•', 'View', 'channel', '>', '12', 'Switch', 'account', 'G', 'Google', 'Account', 'History', 'HD', '6:45', '5:03', 'Eagles', '-', 'Hotel', 'California', '(', 'Live', '19', '...', 'Eagles', 'vevo', 'Guns', 'N', "'", 'Roses', '-', 'Sweet', 'Child', 'O', "'", 'Min', '...', 'Guns', 'N', "'", 'Roses', 'Playlists', '0', 'Watch', 'later', 'Private', 'open', 'Public', '-', 'Playlist', 'Your', 'videos', 'Your', 'movies', 'Try', 'YouTube', 'Premium', 'for', '¤0', 'Home', 'Shorts', '+', 'Turn', 'on', 'Incognito', 'View', 'all', '+', 'View', 'all', '3', '7', 'Liked', 'videos', 'Private', 'Subscriptions', 'You']
+找到: 4:40 (共 1 处)
+找到: LTE (共 1 处)
+找到: Tim Bench (共 1 处)
+未找到: @TimBench-g3z
+找到: View channel > (共 1 处)
+找到: Switch account (共 1 处)
+找到: Google Account (共 1 处)
+找到: Turn on Incognito (共 1 处)
+找到: History (共 1 处)
+找到: View all (共 1 处)
+找到: Eagles - Hotel California (Live 19... (共 1 处)
+找到: Guns N' Roses - Sweet Child O' Min... (共 1 处)
+找到: Eagles (共 1 处)
+找到: Guns N' Roses (共 1 处)
+找到: Playlists (共 1 处)
+找到: Watch later (共 1 处)
+找到: Private (共 1 处)
+找到: open (共 1 处)
+找到: Public Playlist (共 1 处)
+找到: Liked videos (共 1 处)
+找到: Your videos (共 1 处)
+找到: Your movies (共 1 处)
+找到: Try YouTube Premium for ¤0 (共 1 处)
+找到: Home (共 1 处)
+找到: Shorts (共 1 处)
+找到: Subscriptions (共 1 处)
+找到: You (共 1 处)
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/screenshot_2025-10-31-45629-8c467b44_annotated.png
+OCR处理时间: 1.02秒
+
+第 8/8 张: screenshot_2025-10-31-45649-b95817cc.png
+VLM处理时间: 19.81秒
+OCR结果: ['4:40', 'M', 'LTE', '1', 'Capital', 'Centre', 'Largo', ',', 'MD', 'March', '21', ',', '1977', 'Eagles', '-', 'Hotel', 'California', '(', 'Live', '1977', ')', '(', 'Official', 'Video', ')', '[', 'HD', ']', '732,056,435', 'views', '2y', 'ago', '...', 'more', 'Eagles', '2.25M', 'Subscribe', '2.9M', 'Q', 'Share', 'Save', 'Clip', '↓', 'Downl', 'Comments', '88K', 'Yeah', 'im', 'still', 'here', 'in', '2025', '4K', '11', '°', 'Eagles', '-', 'Take', 'It', 'To', 'The', 'Limit', '(', 'Live', '1977', ')', '(', 'Official', 'Video', ')', '[', '4K', ']', 'Eagles', '26M', 'views', '•', '1', 'year', 'ago', '5:04']
+找到: 4:40 (共 1 处)
+找到: LTE (共 1 处)
+找到: Capital Centre Largo, MD March 21, 1977 (共 1 处)
+找到: Eagles - Hotel California (Live 1977) (Official Video) [HD] (共 1 处)
+找到: 732,056,435 views (共 1 处)
+找到: 2y ago (共 1 处)
+找到: ...more (共 1 处)
+找到: Eagles (共 1 处)
+找到: 2.25M (共 1 处)
+找到: Subscribe (共 1 处)
+找到: 2.9M (共 1 处)
+找到: Share (共 1 处)
+找到: Save (共 1 处)
+找到: Clip (共 1 处)
+找到: Downl (共 1 处)
+找到: Comments 88K (共 1 处)
+找到: Yeah im still here in 2025 (共 1 处)
+找到: 5:04 (共 1 处)
+找到: Eagles - Take It To The Limit (Live 1977) (Official Video) [4K] (共 1 处)
+找到: Eagles (共 1 处)
+找到: 26M views (共 1 处)
+找到: 1 year ago (共 1 处)
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/screenshot_2025-10-31-45649-b95817cc_annotated.png
+OCR处理时间: 0.91秒
+
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 8 张图片
+平均VLM处理时间: 20.28秒/张
+平均OCR处理时间: 8.77秒/张
+✓ 完成: data/mobile/20251031_123817_YouTube__View_first_video_in_W - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+开始时间: 2025-11-18 01:17:11
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251031_123817_YouTube__View_first_video_in_W
+OCR: 启用 (Google Vision API)
+
+第 1/8 张: screenshot_2025-10-31-45498-17b0ddaf.png
+VLM处理时间: 502.89秒
+OCR结果: ['4:38', 'M', 'LTE', 'Fri', ',', 'Oct', '31', 'M', 'Play', 'Store', 'Gmail', 'Photos', 'YouTube', 'Phone', 'Messages', 'Chrome', 'A', 'G']
+找到: 4:38 (共 1 处)
+找到: M (共 1 处)
+找到: Fri, Oct 31 (共 1 处)
+找到: LTE (共 1 处)
+找到: Play Store (共 1 处)
+找到: Gmail (共 1 处)
+找到: Photos (共 1 处)
+找到: YouTube (共 1 处)
+找到: Phone (共 1 处)
+找到: Messages (共 1 处)
+找到: Chrome (共 1 处)
+找到: G (共 1 处)
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/openai_gpt-5-pro/screenshot_2025-10-31-45498-17b0ddaf_annotated.png
+OCR处理时间: 73.13秒
+
+第 2/8 张: screenshot_2025-10-31-45524-4225c18f.png
+VLM处理时间: 1166.44秒
+OCR结果: ['4:38', 'M', 'YouTube', 'III', 'LTE', 'A', 'зда', 'Linked', 'in', 'Make', 'connections', 'that', 'count', '.', 'in', 'Search', 'for', 'a', 'healthcare', 'role', '.', '|', 'LinkedIn', ':', 'Jobs', '&', 'Business', 'News', 'Your', 'LinkedIn', 'connections', 'can', 'help', 'you', 'find', 'your', 'next', 'role', 'in', 'healthcare', '.', 'Get', 'the', 'app', '.', 'Sponsored', 'Watch', 'Open', 'app', 'Shorts', 'FOR', 'CALIFORNICATION', 'das', 'Priest', 'Home', 'Shorts', '...', '+', 'New', 'КГХСМ', 'T', 'Subscriptions', 'You', '7']
+找到: 4:38 (共 1 处)
+找到: LTE (共 1 处)
+找到: YouTube (共 1 处)
+找到: LinkedIn (共 1 处)
+找到: Make connections that count. (共 1 处)
+找到: in (共 1 处)
+找到: Search for a healthcare role. (共 1 处)
+未找到: title/recommended content
+未找到: description/recommended content
+未找到: label
+未找到: label
+未找到: label
+未找到: title
+未找到: overlay text
+未找到: -shirt text
+未找到: label
+未找到: label text
+未找到: tab label
+未找到: tab label
+未找到: tab label
+未找到: tab label
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/openai_gpt-5-pro/screenshot_2025-10-31-45524-4225c18f_annotated.png
+OCR处理时间: 1.82秒
+
+第 3/8 张: screenshot_2025-10-31-45548-576ae769.png
+VLM处理时间: 498.01秒
+OCR结果: ['4:39', 'M', '←', 'Search', 'YouTube', 'D', 'mathurat', 'pagi', 'eagles', 'hotel', 'california', 'live', 'concert', '☑', 'mygo', 'red', 'hot', 'chili', 'peppers', 'californication', 'guns', 'n', 'roses', 'sweet', 'child', 'o', 'mine', 'music', 'video', 'ay', 'like', 'nirvana', '-', 'topic', 'Channel', 'you', 'watch', 'red', 'hot', 'chili', 'peppers', '-', 'topic', 'QChannel', 'you', 'watch', '=', 'rhcp', 'californication', 'nirvana', 'come', 'as', 'you', 'are', 'cranberries', 'zombie', 'Q', 'radiohead', 'creep', 'Q', 'dream', 'theater', '1880P', 'FULL', 'HO', 'المأثورات', 'الصغرى', 'LTE', 'AL', '-', 'MATHURAT', 'AS', '-', 'SUGHRA', 'inteam', 'vevo', 'NIRVANA', 'STADIUM', 'ARCAOTUM', 'HD', 'CALIFORNICATION', 'RED', 'HOT', 'CHILI', 'PEPPERS', 'vevo', 'the', 'cranberries', 'Zombie', 'DREAM', 'THEATER', 'THE', 'SPIRIT', 'CARRIES', 'ON', 'Q', 'green', 'day', '21', 'guns', 'Q', 'σι', 'metallica', 'enter', 'sandman', 'dire', 'straits', 'sultans', 'of', 'swing', 'vevo', 'SULTANS', 'OF', 'SMING', 'LALCHEMY', 'LIVE', '>', 'ккккк', 'لا', '1', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7']
+找到: 4:39 (共 1 处)
+找到: LTE (共 1 处)
+找到: Search YouTube (共 1 处)
+找到: mathurat pagi (共 1 处)
+找到: eagles hotel california live concert (共 1 处)
+找到: mygo (共 1 处)
+找到: red hot chili peppers californication (共 1 处)
+找到: guns n roses sweet child o mine music video (共 1 处)
+未找到: may like
+找到: nirvana - topic (共 1 处)
+找到: Channel you watch (共 1 处)
+找到: red hot chili peppers - topic (共 1 处)
+未找到: Channel you watch
+找到: rhcp californication (共 1 处)
+找到: nirvana come as you are (共 1 处)
+找到: cranberries zombie (共 1 处)
+找到: radiohead creep (共 1 处)
+找到: dream theater (共 1 处)
+找到: green day 21 guns (共 1 处)
+找到: metallica enter sandman (共 1 处)
+找到: dire straits sultans of swing (共 1 处)
+找到: HD (共 1 处)
+找到: vevo (共 1 处)
+找到: CALIFORNICATION (共 1 处)
+未找到: STADIUM ARCADIUM
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/openai_gpt-5-pro/screenshot_2025-10-31-45548-576ae769_annotated.png
+OCR处理时间: 1.21秒
+
+第 4/8 张: screenshot_2025-10-31-45568-930ffe0d.png
+VLM处理时间: 1197.50秒
+OCR结果: ['4:39', 'M', '←', 'Search', 'YouTube', 'D', 'mathurat', 'pagi', 'eagles', 'hotel', 'california', 'live', 'concert', 'mygo', 'red', 'hot', 'chili', 'peppers', 'californication', 'g', "'", '*', 'Settings', 'la', 'O', 'Try', 'handwriting', 'demo', '☑', 'C', 'Show', 'clipboard', 're', 'C', 'Show', 'translate', 'rl', '1880P', 'FULL', 'HO', 'المأثورات', 'الصغرى', 'LTE', 'AL', '-', 'MATHURAT', 'AS', '-', 'SUGHRA', 'inteam', 'HD', '»', 'кккк', 'Alt', '|', 'Alt', 'V', 'Alt', 'T', '-', 'Show', 'on', '-', 'screen', 'keyboard', 'Alt', 'K', '=', '✓', 'Switch', 'to', 'horizontal', 'toolbar', 'cranberries', 'zombie', 'Q', 'radiohead', 'creep', 'Q', 'dream', 'theater', 'vevo', 'DREAM', 'THEATER', 'THE', 'SPIRIT', 'CARRIES', 'ON', 'Q', 'green', 'day', '21', 'guns', 'Q', 'σι', 'metallica', 'enter', 'sandman', 'dire', 'straits', 'sultans', 'of', 'swing', 'vevo', 'SULTANS', 'OF', 'SMING', 'LALCHEMY', 'LIVE', '|', '7', '7', '7', '7', '7', ';']
+找到: 4:39 (共 1 处)
+找到: LTE (共 1 处)
+找到: Search YouTube (共 1 处)
+找到: mathurat pagi (共 1 处)
+找到: eagles hotel california live concert (共 1 处)
+找到: mygo (共 1 处)
+找到: red hot chili peppers californication (共 1 处)
+找到: cranberries zombie (共 1 处)
+找到: radiohead creep (共 1 处)
+找到: dream theater (共 1 处)
+找到: green day 21 guns (共 1 处)
+找到: metallica enter sandman (共 1 处)
+找到: dire straits sultans of swing (共 1 处)
+找到: Settings (共 1 处)
+找到: Try handwriting demo (共 1 处)
+找到: Show clipboard (共 1 处)
+找到: Show translate (共 1 处)
+找到: Show on-screen keyboard (共 1 处)
+找到: Switch to horizontal toolbar (共 1 处)
+未找到: Alt I
+找到: Alt V (共 1 处)
+找到: Alt T (共 1 处)
+找到: Alt K (共 1 处)
+找到: AL-MATHURAT AS-SUGHRA (共 1 处)
+找到: HD (共 1 处)
+找到: vevo (共 1 处)
+未找到: W
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/openai_gpt-5-pro/screenshot_2025-10-31-45568-930ffe0d_annotated.png
+OCR处理时间: 1.13秒
+
+第 5/8 张: screenshot_2025-10-31-45585-fdf87ac7.png
+VLM处理时间: 416.71秒
+OCR结果: ['4:39', 'M', '←', 'Search', 'YouTube', 'D', 'mathurat', 'pagi', 'eagles', 'hotel', 'california', 'live', 'concert', 'mygo', 'red', 'hot', 'chili', 'peppers', 'californication', 'guns', 'n', 'roses', 'sweet', 'child', 'o', 'mine', 'music', 'video', 'You', 'may', 'like', 'nirvana', '-', 'topic', 'Q', 'Channel', 'you', 'watch', 'Q', 'red', 'hot', 'chili', 'peppers', '-', 'topic', 'Channel', 'you', 'watch', 'Q', 'rhcp', 'californication', 'Q', 'nirvana', 'come', 'as', 'you', 'are', 'Q', 'cranberries', 'zombie', 'Q', 'radiohead', 'creep', 'Q', 'dream', 'theater', '1880P', 'FULL', 'HO', 'المأثورات', 'الصغرى', 'LTE', 'AL', '-', 'MATHURAT', 'AS', '-', 'SUGHRA', 'inteam', 'vevo', 'NIRVANA', 'STADIUM', 'ARCAOTUM', 'HD', 'CALIFORNICATION', 'RED', 'HOT', 'CHILI', 'PEPPERS', 'vevo', 'the', 'cranberries', 'Zombie', 'DREAM', 'THEATER', 'THE', 'SPIRIT', 'CARRIES', 'ON', 'Q', 'green', 'day', '21', 'guns', 'Q', 'σι', 'metallica', 'enter', 'sandman', 'dire', 'straits', 'sultans', 'of', 'swing', 'vevo', 'SULTANS', 'OF', 'SMING', 'LALCHEMY', 'LIVE', '>', 'ккккк', 'لا', '1', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7']
+找到: 4:39 (共 1 处)
+找到: LTE (共 1 处)
+找到: Search YouTube (共 1 处)
+找到: mathurat pagi (共 1 处)
+找到: eagles hotel california live concert (共 1 处)
+找到: mygo (共 1 处)
+找到: red hot chili peppers californication (共 1 处)
+找到: guns n roses sweet child o mine music video (共 1 处)
+找到: You may like (共 1 处)
+找到: nirvana - topic (共 1 处)
+找到: Channel you watch (共 1 处)
+找到: red hot chili peppers - topic (共 1 处)
+找到: Channel you watch (共 1 处)
+找到: rhcp californication (共 1 处)
+找到: nirvana come as you are (共 1 处)
+找到: cranberries zombie (共 1 处)
+找到: radiohead creep (共 1 处)
+找到: dream theater (共 1 处)
+找到: green day 21 guns (共 1 处)
+找到: metallica enter sandman (共 1 处)
+找到: dire straits sultans of swing (共 1 处)
+找到: HD (共 1 处)
+找到: CALIFORNICATION (共 1 处)
+找到: vevo (共 1 处)
+找到: vevo (共 1 处)
+未找到: STADIUM ARCADIUM
+找到: NIRVANA (共 1 处)
+找到: DREAM THEATER (共 1 处)
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/openai_gpt-5-pro/screenshot_2025-10-31-45585-fdf87ac7_annotated.png
+OCR处理时间: 1.21秒
+
+第 6/8 张: screenshot_2025-10-31-45604-c3c3b772.png
+VLM处理时间: 528.75秒
+OCR结果: ['4:40', 'M', '►YouTube', 'LTE', 'два', 'All', 'Music', 'Mixes', 'Axl', 'Rose', 'Live', 'Linked', 'in', 'Make', 'connections', 'that', 'count', '.', 'in', 'Search', 'for', 'a', 'healthcare', 'role', '.', '|', 'LinkedIn', ':', 'Jobs', '&', 'Business', 'News', 'Your', 'LinkedIn', 'connections', 'can', 'help', 'you', 'find', 'your', 'next', 'role', 'in', 'healthcare', '.', 'Get', 'the', 'app', '.', 'Sponsored', 'Watch', 'Open', 'app', 'Shorts', 'FOR', 'CALIFORNICATION', 'Home', 'Shorts', '...', '+', 'New', 'КГХСМ', 'T', 'Subscriptions', 'You', '7']
+找到: 4:40 M (共 1 处)
+找到: LTE (共 1 处)
+找到: YouTube (共 1 处)
+找到: All (共 1 处)
+找到: Music (共 1 处)
+找到: Mixes (共 1 处)
+找到: Axl Rose (共 1 处)
+找到: Live (共 1 处)
+找到: LinkedIn (共 1 处)
+找到: Make connections that count. (共 1 处)
+找到: Search for a healthcare role. (共 1 处)
+未找到: text
+未找到: text
+未找到: label
+未找到: label
+未找到: label
+未找到: name
+未找到: content text
+未找到: label
+未找到: label
+未找到: label
+未找到: label
+未找到: label
+未找到: initial
+保存到: data/mobile/20251031_123817_YouTube__View_first_video_in_W/level/openai_gpt-5-pro/screenshot_2025-10-31-45604-c3c3b772_annotated.png
+OCR处理时间: 1.83秒
+
+第 7/8 张: screenshot_2025-10-31-45629-8c467b44.png
+Traceback (most recent call last):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 982, in request
+    response = self._client.send(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/public/zhangzhiling/code/GUI_Pravicy/level.py", line 119, in <module>
+    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr, args.no_save_image, args.no_save_json, "level")
+  File "/public/zhangzhiling/code/GUI_Pravicy/level.py", line 111, in process
+    process_images(directory_path, parse_and_annotate, prompt_template, enable_ocr,
+  File "/public/zhangzhiling/code/GUI_Pravicy/googleocr_label.py", line 418, in process_images
+    ai_output, vlm_time = call_vlm_api(image_path, prompt_text, model_name, print_ai_output)
+  File "/public/zhangzhiling/code/GUI_Pravicy/googleocr_label.py", line 306, in call_vlm_api
+    completion = client.chat.completions.create(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1156, in create
+    return self._post(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+✗ 失败: data/mobile/20251031_123817_YouTube__View_first_video_in_W - openai/gpt-5-pro
+
+==================================
+处理目录: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+开始时间: 2025-11-18 03:00:45
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊
+OCR: 启用 (Google Vision API)
+
+第 1/31 张: screenshot_2025-11-10-34471-5c9c22e3.png
+VLM处理时间: 23.38秒
+OCR结果: ['9:34', '每日', '新', '发现', '灵兽', '大', '冒险', '梦幻', '西游', '网', '大话', '西游', '(', '…', '黑色', '四叶草', '率', '战', '灵', '龙族', ':', '卡塞', '无尽', '的', '拉格', '率', '土', '之', '滨', '€', 'bilibili', '小红', '书', '英雄', '联盟', 'S15', '游戏', '中心', '哔', '哩', '哔', '哩', '小红', '书', '虎林', '英雄', '联盟', 'S5', '虎', '扑', '大', '神', '知', '乎', '高', '德', '地图', '·', '网易', '大', '神', '知', '乎', '百度', '手机', '助手', '【', '猎', '聘', '11.11', '+', 'AI', '搜索', '+', '携程', '旅行', '番茄', '免费', '小说', '猎', '聘', '百度']
+找到: 9:34 (共 1 处)
+找到: 每日新发现 (共 1 处)
+找到: 灵兽大冒险 (共 1 处)
+找到: 梦幻西游网... (共 1 处)
+找到: 大话西游(... (共 1 处)
+找到: 黑色四叶草... (共 1 处)
+找到: 战灵 (共 1 处)
+找到: 龙族:卡塞... (共 1 处)
+找到: 无尽的拉格... (共 1 处)
+找到: 率土之滨 (共 1 处)
+找到: 游戏中心 (共 1 处)
+找到: 高德地图 (共 1 处)
+找到: bilibili (共 1 处)
+找到: 英雄联盟S15 (共 1 处)
+找到: 哔哩哔哩 (共 1 处)
+找到: 大神 (共 1 处)
+找到: ·网易大神 (共 1 处)
+找到: 小红书 (共 1 处)
+找到: 虎扑 (共 1 处)
+未找到: 英雄联盟S15
+找到: 知乎 (共 1 处)
+找到: 百度手机助手 (共 1 处)
+找到: 猎聘 (共 1 处)
+找到: 11.11 (共 1 处)
+找到: 携程旅行 (共 1 处)
+找到: 番茄免费小说 (共 1 处)
+找到: 猎聘 (共 1 处)
+找到: AI搜索+ (共 1 处)
+未找到: du
+找到: 百度 (共 1 处)
+未找到: G
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34471-5c9c22e3_annotated.png
+OCR处理时间: 73.01秒
+
+第 2/31 张: screenshot_2025-11-10-34491-7c6b16c9.png
+VLM处理时间: 19.69秒
+OCR结果: ['天', '猫', '双', '10.15', '11.14', '双', '11', '吃喝玩乐', '购', '上', '淘', '宝', '更', '优惠', '淘', '宝', '闪', '购', '品牌', '大使', '孟子义', '广告', '天', '猫', '双', ']', '疯狂', '好', '六', '夜', '2025', '15', ':', '00-22', ':', '00', '看好', '六', '夜晚', '会', '赢', '¥', '8888', '大', '红包', '和', '金条', '上', '淘', '宝', '官方', '双', '11', '‹', '›', '扭', '一扭', '进入', '活动', '页', 'bilibili', '跳过', '1']
+找到: 天猫双11 (共 1 处)
+找到: 10.15 - 11.14 (共 1 处)
+找到: 双11吃喝玩乐购 上淘宝更优惠 (共 1 处)
+找到: 淘宝闪购品牌大使 (共 1 处)
+找到: 孟子义 (共 1 处)
+找到: 广告 (共 1 处)
+未找到: *活动时间为11月1日-11月10日,详情请见天程网站内活动与规则页面
+找到: *红包为购物红包;奖品图片仅为示意,奖品内容请以实际为准 (共 1 处)
+未找到: 天猫双11疯狂好六夜
+找到: 2025 (共 1 处)
+找到: 15:00-22:00 (共 1 处)
+找到: 看好六夜晚会 (共 1 处)
+找到: 赢¥8888大红包和金条 (共 1 处)
+未找到: 上淘宝 官方双11
+找到: 扭一扭 (共 1 处)
+找到: 进入活动页 (共 1 处)
+找到: bilibili (共 1 处)
+找到: 跳过 1 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34491-7c6b16c9_annotated.png
+OCR处理时间: 0.62秒
+
+第 3/31 张: screenshot_2025-11-10-34507-8e028418.png
+VLM处理时间: 20.21秒
+OCR结果: ['9:35', '挑战', '转正', '答题', '点击', '设置', '昵称', '◇', 'LVD', '空间', '>', '0', '注册', '会员', 'B', '币', ':', '0.0', '硬币', ':', '0', '4', '动态', '●', '流量', '会员', '全都', '有', '大', '会员', '首', '月', '仅需', '1', '分钱', '>', '0', '关注', '粉丝', '会员', '中心', '↓', 'D', '离线', '缓存', '历史', '记录', '我', '的', '收藏', '稍后', '再看', '发布', '你', '的', '第', '一个', '视频', '有奖', '发布', '领', '限定', '头像', '挂件', ',', '赢', '活动', '奖金', '我', '的', '服务', '课', '我', '的', '课程', '免', '流量', '服务', '个性', '装扮', '我', '的', '钱包', '合', '首页', '关注', '购', '+', '购', 'II', '会员', '购', '我', '的']
+找到: 9:35 (共 1 处)
+找到: 挑战转正答题 (共 1 处)
+找到: 点击设置昵称 (共 1 处)
+未找到: LVO
+找到: 空间 (共 1 处)
+找到: 0 动态 (共 1 处)
+找到: 注册会员 (共 1 处)
+找到: B币: 0.0 硬币: 0 (共 1 处)
+找到: 流量会员全都有 (共 1 处)
+找到: 大会员首月仅需1分钱 (共 1 处)
+找到: 4 关注 (共 1 处)
+找到: 0 粉丝 (共 1 处)
+找到: 会员中心 (共 1 处)
+找到: 离线缓存 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 我的收藏 (共 1 处)
+找到: 稍后再看 (共 1 处)
+未找到: UP 发布你的第一个视频
+找到: 领限定头像挂件,赢活动奖金 (共 1 处)
+找到: 我的服务 (共 1 处)
+找到: 有奖发布 (共 1 处)
+找到: 我的课程 (共 1 处)
+找到: 免流量服务 (共 1 处)
+找到: 个性装扮 (共 1 处)
+找到: 我的钱包 (共 1 处)
+找到: 首页 (共 1 处)
+找到: 关注 (共 1 处)
+找到: 会员购 (共 1 处)
+找到: 我的 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34507-8e028418_annotated.png
+OCR处理时间: 0.44秒
+
+第 4/31 张: screenshot_2025-11-10-34518-0adc095d.png
+VLM处理时间: 29.95秒
+OCR结果: ['9:35', '>', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '活动', '雪', '降临', '2025', '年', '11', '月', '10', '日', '09:34', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', 'XUE', 'SHAN', 'ANGLINO', '以', '节', 'EX', '平民', '攻略', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '冬', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '【', '長', '3600', '防御', '80', '法', '6', '星', '高', '台大', 'C', '决战', '技', 'VS', '斯托斯', '贝塔', '×', '8', ',', '猜猜', '谁', '击败', '的', '数', '哪个', '技能', '击败', '的', '数量', '最多', '回', '大', '鲸鱼', '斯卡蒂', '00:29', '/', '05:18', '日', '2025', '年', '11', '月', '10', '日', '00:54', '昨天', '苦情', '教', '01', ':', '40/26', ':', '07', 'Lisa', '两位', '苦', '情', '教主', '罕见', '合作', '乡村', '大片', '《', '女人', '的', '村庄', '》', '!', '田', '...', '回', '虫', '哥', '说', '电影', '2025', '年', '11', '月', '9', '日', '23:52', '【', '巫师', '】', 'Lisa', '资本', '博弈', ',', '但', '是', '第二', '季']
+找到: 9:35 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: @方牙鸟 (共 1 处)
+找到: 00:10/18:13 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动 雪山降临 (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 操作轻 (共 1 处)
+找到: 09:32/24:39 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 3600防御80法抗 (共 1 处)
+找到: 6星高台大C决战技VS斯托斯贝塔×8,猜猜谁击败的数... (共 1 处)
+找到: 哪个技能击败的数量最多 (共 1 处)
+找到: 大鲸鱼斯卡蒂 (共 1 处)
+找到: 00:29/05:18 (共 1 处)
+找到: 2025年11月10日 00:54 (共 1 处)
+找到: 昨天 (共 1 处)
+找到: 两位苦情教主罕见合作乡村大片《女人的村庄》!田... (共 1 处)
+找到: 虫哥说电影 (共 1 处)
+找到: 苦情教 (共 1 处)
+找到: 01:40/26:07 (共 1 处)
+找到: 2025年11月9日 23:52 (共 1 处)
+找到: 【巫师】Lisa资本博弈,但是第二季 (共 1 处)
+找到: Lisa (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34518-0adc095d_annotated.png
+OCR处理时间: 0.67秒
+
+第 5/31 张: screenshot_2025-11-10-34530-f18ab8af.png
+VLM处理时间: 17.26秒
+OCR结果: ['9:35', '来', '了', '来', '了', '来', '支持', '了', '是', '我', '最', '喜欢', '的', '环节', '!', '桃', '黑黑', 'Tor', 'bilibili', '简介', '评论', '264', '点', '我', '发', '弹', '幕', '弹', '桃', '黑黑', 'Tor', '充电', '≡', '已', '关注', '231.3', '万', '粉丝', '173', '视频', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '6', '万', '151', '2025', '年', '11', '月', '3', '日', '16', ':', '55210', '人', '正在', '看', '3109', '不', '喜欢', '804', '245', '17', '合集', '·', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '...', '11', '4/4', '>', '查理', '和', '巧克力', '工厂', '电影', '回', '1821', '万', '61.4', '万', '【', '桃', '黑黑', '】', '爆笑', '故事', '超长', '下饭', '合', '高中', ',', '大学', '故事', '集', '(', '半', '小时', '无', '广', '纯', '享', '版', ')']
+找到: 9:35 (共 1 处)
+找到: 来了来了来支持了 (共 1 处)
+找到: 是我最喜欢的环节! (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: bilibili (共 1 处)
+找到: 简介 (共 1 处)
+找到: 评论 264 (共 1 处)
+找到: 点我发弹幕 (共 1 处)
+找到: 弹 (共 1 处)
+找到: 充电 (共 1 处)
+找到: 已关注 (共 1 处)
+找到: 231.3万粉丝 (共 1 处)
+找到: 173视频 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 6万 (共 1 处)
+找到: 151 (共 1 处)
+未找到: 2025年11月3日 16:55
+未找到: 10人正在看
+找到: 3109 (共 1 处)
+找到: 不喜欢 (共 1 处)
+找到: 804 (共 1 处)
+找到: 245 (共 1 处)
+找到: 17 (共 1 处)
+找到: 合集・【桃黑黑】《我心中的宝藏博主... (共 1 处)
+找到: 4/4 (共 1 处)
+找到: 查理和巧克力工厂 (共 1 处)
+找到: 电影 (共 1 处)
+找到: 1821万 (共 1 处)
+找到: 61.4万 (共 1 处)
+找到: 【桃黑黑】爆笑故事超长下饭合集(半小时无广纯享版) (共 1 处)
+找到: 高中,大学故事 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34530-f18ab8af_annotated.png
+OCR处理时间: 0.56秒
+
+第 6/31 张: screenshot_2025-11-10-34541-b92dd8e8.png
+VLM处理时间: 24.40秒
+OCR结果: ['9:35', '>', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '活动', '雪', '降临', '2025', '年', '11', '月', '10', '日', '09:34', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', 'XUE', 'SHAN', 'ANGLINO', '以', '节', 'EX', '平民', '攻略', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '冬', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '【', '長', '3600', '防御', '80', '法', '6', '星', '高', '台大', 'C', '决战', '技', 'VS', '斯托斯', '贝塔', '×', '8', ',', '猜猜', '谁', '击败', '的', '数', '哪个', '技能', '击败', '的', '数量', '最多', '回', '大', '鲸鱼', '斯卡蒂', '00:29', '/', '05:18', '日', '2025', '年', '11', '月', '10', '日', '00:54', '昨天', '苦情', '教', '01', ':', '40/26', ':', '07', 'Lisa', '两位', '苦', '情', '教主', '罕见', '合作', '乡村', '大片', '《', '女人', '的', '村庄', '》', '!', '田', '...', '回', '虫', '哥', '说', '电影', '2025', '年', '11', '月', '9', '日', '23:52', '【', '巫师', '】', 'Lisa', '资本', '博弈', ',', '但', '是', '第二', '季']
+找到: 9:35 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏 博主桃》 P4 (共 1 处)
+找到: 00:10 / 18:13 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动 雪山降临 (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 09:32 / 24:39 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 3600防御80法抗 (共 1 处)
+找到: 6星高台大C决战技VS斯托斯贝塔×8,猜猜谁击败的数... (共 1 处)
+找到: 哪个技能击败的数量最多 (共 1 处)
+找到: 大鲸鱼斯卡蒂 (共 1 处)
+找到: 00:29 / 05:18 (共 1 处)
+找到: 2025年11月10日 00:54 (共 1 处)
+找到: 昨天 (共 1 处)
+找到: 两位苦情教主罕见合作乡村大片《女人的村庄》!田... (共 1 处)
+找到: 苦情教主 (共 1 处)
+找到: 虫哥说电影 (共 1 处)
+找到: 01:40 / 26:07 (共 1 处)
+找到: 2025年11月9日 23:52 (共 1 处)
+找到: 【巫师】Lisa资本博弈,但是第二季 (共 1 处)
+找到: Lisa (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34541-b92dd8e8_annotated.png
+OCR处理时间: 0.65秒
+
+第 7/31 张: screenshot_2025-11-10-34554-5cc12b97.png
+VLM处理时间: 19.93秒
+OCR结果: ['9:35', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙痛', '!!!', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '2025', '年', '11', '月', '10', '日', '09:34', '〝', '活动', '雪', '岛', '人', '节', 'EX', '平民', '攻略', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '转', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '分享', '☑', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:35 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 00:10 / 18:13 (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 09:32 / 24:39 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34554-5cc12b97_annotated.png
+OCR处理时间: 0.50秒
+
+第 8/31 张: screenshot_2025-11-10-34567-1807579b.png
+VLM处理时间: 49.01秒
+OCR结果: ['9:36', '>', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '活动', '雪', '降临', '2025', '年', '11', '月', '10', '日', '09:34', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', 'XUE', 'SHAN', 'ANGLINO', '以', '节', 'EX', '平民', '攻略', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '冬', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '【', '長', '3600', '防御', '80', '法', '6', '星', '高', '台大', 'C', '决战', '技', 'VS', '斯托斯', '贝塔', '×', '8', ',', '猜猜', '谁', '击败', '的', '数', '哪个', '技能', '击败', '的', '数量', '最多', '回', '大', '鲸鱼', '斯卡蒂', '00:29', '/', '05:18', '日', '2025', '年', '11', '月', '10', '日', '00:54', '昨天', '苦情', '教', '01', ':', '40/26', ':', '07', 'Lisa', '两位', '苦', '情', '教主', '罕见', '合作', '乡村', '大片', '《', '女人', '的', '村庄', '》', '!', '田', '...', '回', '虫', '哥', '说', '电影', '2025', '年', '11', '月', '9', '日', '23:52', '【', '巫师', '】', 'Lisa', '资本', '博弈', ',', '但', '是', '第二', '季']
+找到: 9:36 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 00:10/18:13 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动 (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 09:32/24:39 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 3600防御80法抗 (共 1 处)
+找到: 6星高台大C决战技VS斯托斯贝塔×8,猜猜谁击败的数... (共 1 处)
+找到: 哪个技能击败的数量最多 (共 1 处)
+找到: 大鲸鱼斯卡蒂 (共 1 处)
+找到: 00:29/05:18 (共 1 处)
+找到: 2025年11月10日 00:54 (共 1 处)
+找到: 昨天 (共 1 处)
+找到: 两位苦情教主罕见合作乡村大片《女人的村庄》!田... (共 1 处)
+找到: 虫哥说电影 (共 1 处)
+找到: 苦情教 (共 1 处)
+找到: 01:40/26:07 (共 1 处)
+找到: 2025年11月9日 23:52 (共 1 处)
+找到: 【巫师】Lisa资本博弈,但是第二季 (共 1 处)
+找到: Lisa (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34567-1807579b_annotated.png
+OCR处理时间: 0.67秒
+
+第 9/31 张: screenshot_2025-11-10-34579-8febf503.png
+VLM处理时间: 22.30秒
+OCR结果: ['9:36', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙痛', '!!!', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '2025', '年', '11', '月', '10', '日', '09:34', '〝', '活动', '雪', '岛', '人', '节', 'EX', '平民', '攻略', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '转', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '分享', '☑', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:36 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 00:10 / 18:13 (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动 (共 1 处)
+找到: 雪山降临 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 09:32 / 24:39 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34579-8febf503_annotated.png
+OCR处理时间: 0.47秒
+
+第 10/31 张: screenshot_2025-11-10-34591-e9f2ccdc.png
+VLM处理时间: 26.35秒
+OCR结果: ['9:36', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙痛', '!!!', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '2025', '年', '11', '月', '10', '日', '09:34', '〝', '活动', '雪', '岛', '人', '节', 'EX', '平民', '攻略', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '转', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '分享', '☑', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:36 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: @方牙鸟 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 00:10/18:13 (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动雪降临 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 操作轻:09:32/24:39 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34591-e9f2ccdc_annotated.png
+OCR处理时间: 0.48秒
+
+第 11/31 张: screenshot_2025-11-10-34603-c0616dc6.png
+VLM处理时间: 62.01秒
+OCR结果: ['9:36', '>', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '活动', '雪', '降临', '2025', '年', '11', '月', '10', '日', '09:34', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', 'XUE', 'SHAN', 'ANGLINO', '以', '节', 'EX', '平民', '攻略', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '冬', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '【', '長', '3600', '防御', '80', '法', '6', '星', '高', '台大', 'C', '决战', '技', 'VS', '斯托斯', '贝塔', '×', '8', ',', '猜猜', '谁', '击败', '的', '数', '哪个', '技能', '击败', '的', '数量', '最多', '回', '大', '鲸鱼', '斯卡蒂', '00:29', '/', '05:18', '日', '2025', '年', '11', '月', '10', '日', '00:54', '昨天', '苦情', '教', '01', ':', '40/26', ':', '07', 'Lisa', '两位', '苦', '情', '教主', '罕见', '合作', '乡村', '大片', '《', '女人', '的', '村庄', '》', '!', '田', '...', '回', '虫', '哥', '说', '电影', '2025', '年', '11', '月', '9', '日', '23:52', '【', '巫师', '】', 'Lisa', '资本', '博弈', ',', '但', '是', '第二', '季']
+找到: 9:36 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 00:10 / 18:13 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动 (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 操作轻松 (共 1 处)
+找到: 09:32 / 24:39 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 3600防御80法抗 (共 1 处)
+找到: 哪个技能击败的数量最多 (共 1 处)
+找到: 6星高台大C决战技VS斯托斯贝塔×8,猜猜谁击败的数... (共 1 处)
+找到: 00:29 / 05:18 (共 1 处)
+找到: 大鲸鱼斯卡蒂 (共 1 处)
+找到: 2025年11月10日 00:54 (共 1 处)
+找到: 昨天 (共 1 处)
+找到: 两位苦情教主罕见合作乡村大片《女人的村庄》!田... (共 1 处)
+找到: 苦情教主 (共 1 处)
+找到: 01:40 / 26:07 (共 1 处)
+找到: 虫哥说电影 (共 1 处)
+找到: 2025年11月9日 23:52 (共 1 处)
+找到: Lisa (共 1 处)
+找到: 【巫师】Lisa资本博弈,但是第二季 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34603-c0616dc6_annotated.png
+OCR处理时间: 0.64秒
+
+第 12/31 张: screenshot_2025-11-10-34616-cc1b4678.png
+VLM处理时间: 35.10秒
+OCR结果: ['9:36', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙痛', '!!!', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '2025', '年', '11', '月', '10', '日', '09:34', '〝', '活动', '雪', '岛', '人', '节', 'EX', '平民', '攻略', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '转', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '分享', '☑', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:36 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 00:10 / 18:13 (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动 (共 1 处)
+找到: 雪山降临 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 【OS-EX4】酒神: 猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 操作轻 (共 1 处)
+找到: 09:32 / 24:39 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34616-cc1b4678_annotated.png
+OCR处理时间: 0.46秒
+
+第 13/31 张: screenshot_2025-11-10-34627-df5c7d08.png
+VLM处理时间: 27.00秒
+OCR结果: ['9:37', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '活动', '雪', '降临', '2025', '年', '11', '月', '10', '日', '09:34', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', 'XUE', 'SHAN', 'ANGLINO', '以', '节', 'EX', '平民', '攻略', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '冬', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '【', '長', '3600', '防御', '80', '法', '6', '星', '高', '台大', 'C', '决战', '技', 'VS', '斯托斯', '贝塔', '×', '8', ',', '猜猜', '谁', '击败', '的', '数', '哪个', '技能', '击败', '的', '数量', '最多', '回', '大', '鲸鱼', '斯卡蒂', '00:29', '/', '05:18', '日', '2025', '年', '11', '月', '10', '日', '00:54', '昨天', '苦情', '教', '01', ':', '40/26', ':', '07', 'Lisa', '两位', '苦', '情', '教主', '罕见', '合作', '乡村', '大片', '《', '女人', '的', '村庄', '》', '!', '田', '...', '回', '虫', '哥', '说', '电影', '2025', '年', '11', '月', '9', '日', '23:52', '【', '巫师', '】', 'Lisa', '资本', '博弈', ',', '但', '是', '第二', '季']
+找到: 9:37 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 00:10 / 18:13 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏 博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动 (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 操作轻 (共 1 处)
+找到: 09:32 / 24:39 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 3600防御80法抗 (共 1 处)
+找到: 6星高台大C决战技VS斯托斯 贝塔×8,猜猜谁击败的数... (共 1 处)
+找到: 哪个技能击败的数量最多 (共 1 处)
+找到: 大鲸鱼斯卡蒂 (共 1 处)
+找到: 00:29 / 05:18 (共 1 处)
+找到: 2025年11月10日 00:54 (共 1 处)
+找到: 昨天 (共 1 处)
+找到: 两位苦情教主罕见合作乡村 大片《女人的村庄》!田... (共 1 处)
+找到: 虫哥说电影 (共 1 处)
+找到: 苦情教 (共 1 处)
+找到: 01:40 / 26:07 (共 1 处)
+找到: 2025年11月9日 23:52 (共 1 处)
+找到: 【巫师】Lisa资本博弈,但 是第二季 (共 1 处)
+找到: Lisa (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34627-df5c7d08_annotated.png
+OCR处理时间: 0.66秒
+
+第 14/31 张: screenshot_2025-11-10-34640-f8c5451f.png
+VLM处理时间: 25.73秒
+OCR结果: ['9:37', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙痛', '!!!', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '2025', '年', '11', '月', '10', '日', '09:34', '〝', '活动', '雪', '岛', '人', '节', 'EX', '平民', '攻略', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '转', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '分享', '☑', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:37 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 00:10 / 18:13 (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 09:32 / 24:39 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34640-f8c5451f_annotated.png
+OCR处理时间: 0.55秒
+
+第 15/31 张: screenshot_2025-11-10-34651-cef0834c.png
+VLM处理时间: 16.26秒
+OCR结果: ['9:37', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '活动', '雪', '降临', '2025', '年', '11', '月', '10', '日', '09:34', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', 'XUE', 'SHAN', 'ANGLINO', '以', '节', 'EX', '平民', '攻略', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '冬', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '【', '長', '3600', '防御', '80', '法', '6', '星', '高', '台大', 'C', '决战', '技', 'VS', '斯托斯', '贝塔', '×', '8', ',', '猜猜', '谁', '击败', '的', '数', '哪个', '技能', '击败', '的', '数量', '最多', '回', '大', '鲸鱼', '斯卡蒂', '00:29', '/', '05:18', '日', '2025', '年', '11', '月', '10', '日', '00:54', '昨天', '苦情', '教', '01', ':', '40/26', ':', '07', 'Lisa', '两位', '苦', '情', '教主', '罕见', '合作', '乡村', '大片', '《', '女人', '的', '村庄', '》', '!', '田', '...', '回', '虫', '哥', '说', '电影', '2025', '年', '11', '月', '9', '日', '23:52', '【', '巫师', '】', 'Lisa', '资本', '博弈', ',', '但', '是', '第二', '季']
+找到: 9:37 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏 博主桃》 P4 (共 1 处)
+找到: 00:10/18:13 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+未找到: 【明日方舟】“雪山降临11...【OS-EX4】酒神:猫之神力
+找到: 09:32/24:39 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 6星高台大C决战技VS斯托斯 贝塔×8,猜猜谁击败的数... (共 1 处)
+找到: 00:29/05:18 (共 1 处)
+找到: 大鲸鱼斯卡蒂 (共 1 处)
+找到: 2025年11月10日 00:54 (共 1 处)
+找到: 昨天 (共 1 处)
+找到: 两位苦情教主罕见合作乡村 大片《女人的村庄》!田... (共 1 处)
+找到: 01:40/26:07 (共 1 处)
+找到: 虫哥说电影 (共 1 处)
+找到: 2025年11月9日 23:52 (共 1 处)
+找到: 【巫师】Lisa资本博弈,但是第二季 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34651-cef0834c_annotated.png
+OCR处理时间: 0.68秒
+
+第 16/31 张: screenshot_2025-11-10-34664-f21ac68f.png
+VLM处理时间: 16.44秒
+OCR结果: ['9:37', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙痛', '!!!', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '2025', '年', '11', '月', '10', '日', '09:34', '〝', '活动', '雪', '岛', '人', '节', 'EX', '平民', '攻略', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '转', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '分享', '☑', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:37 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 00:10/18:13 (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 09:32/24:39 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34664-f21ac68f_annotated.png
+OCR处理时间: 0.46秒
+
+第 17/31 张: screenshot_2025-11-10-34676-2a9205fe.png
+VLM处理时间: 43.62秒
+OCR结果: ['9:37', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '今天', '每', '方', '牙', '【', '桃', '黑黑', '】', '《', '我', '心中', '的', '宝藏', '博', '主', '桃', '》', 'P4', '回', '桃', '黑黑', 'Tor', '00:10', '/', '18:13', '活动', '雪', '降临', '2025', '年', '11', '月', '10', '日', '09:34', '【', '明日', '方舟', '】', '“', '雪山', '降临', '11', '...', 'XUE', 'SHAN', 'ANGLINO', '以', '节', 'EX', '平民', '攻略', '【', 'OS', '-', 'EX4', '】', '酒神', ':', '猫', '之', '神力', '回', '魔法', 'Zc', '目录', '操作', '冬', ':', '09', ':', '32/24', ':', '39', '2025', '年', '11', '月', '10', '日', '09:28', '【', '長', '3600', '防御', '80', '法', '6', '星', '高', '台大', 'C', '决战', '技', 'VS', '斯托斯', '贝塔', '×', '8', ',', '猜猜', '谁', '击败', '的', '数', '哪个', '技能', '击败', '的', '数量', '最多', '回', '大', '鲸鱼', '斯卡蒂', '00:29', '/', '05:18', '日', '2025', '年', '11', '月', '10', '日', '00:54', '昨天', '苦情', '教', '01', ':', '40/26', ':', '07', 'Lisa', '两位', '苦', '情', '教主', '罕见', '合作', '乡村', '大片', '《', '女人', '的', '村庄', '》', '!', '田', '...', '回', '虫', '哥', '说', '电影', '2025', '年', '11', '月', '9', '日', '23:52', '【', '巫师', '】', 'Lisa', '资本', '博弈', ',', '但', '是', '第二', '季']
+找到: 9:37 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 今天 (共 1 处)
+找到: @方牙鸟 (共 1 处)
+找到: 00:10/18:13 (共 1 处)
+找到: 【桃黑黑】《我心中的宝藏博主桃》 P4 (共 1 处)
+找到: 桃黑黑Tor (共 1 处)
+找到: 2025年11月10日 09:34 (共 1 处)
+找到: 活动 (共 1 处)
+找到: 雪山降临 (共 1 处)
+找到: EX平民攻略 (共 1 处)
+找到: 操作轻 (共 1 处)
+找到: 09:32/24:39 (共 1 处)
+找到: 【明日方舟】“雪山降临11... (共 1 处)
+找到: 【OS-EX4】酒神:猫之神力 (共 1 处)
+找到: 魔法Zc目录 (共 1 处)
+找到: 2025年11月10日 09:28 (共 1 处)
+找到: 3600防御80法抗 (共 1 处)
+找到: 6星高台大C决战技VS斯托斯贝塔×8,猜猜谁击败的数... (共 1 处)
+找到: 哪个技能击败的数量最多 (共 1 处)
+找到: 大鲸鱼斯卡蒂 (共 1 处)
+找到: 00:29/05:18 (共 1 处)
+找到: 2025年11月10日 00:54 (共 1 处)
+找到: 昨天 (共 1 处)
+找到: 两位苦情教主罕见合作乡村大片《女人的村庄》! 田... (共 1 处)
+找到: 虫哥说电影 (共 1 处)
+找到: 苦情教 (共 1 处)
+找到: 01:40/26:07 (共 1 处)
+找到: 2025年11月9日 23:52 (共 1 处)
+找到: 【巫师】Lisa资本博弈,但是第二季 (共 1 处)
+找到: Lisa (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34676-2a9205fe_annotated.png
+OCR处理时间: 0.65秒
+
+第 18/31 张: screenshot_2025-11-10-34689-cc7083f0.png
+VLM处理时间: 24.19秒
+OCR结果: ['9:38', '<', '历史', '记录', 'Q', ':', '全部', '视频', '直播', '专栏', '商品', '展演', '!!!!', '苦情', '教', '01:40', '/', '26:07', '两位', '苦', '情', '教主', '罕见', '合作', '乡村', '大片', '《', '女人', '的', '村庄', '》', '!', '田', '...', '回', '虫', '哥', '说', '电影', '2025', '年', '11', '月', '9', '日', '23:52', 'Lisa', "isa's", 'Capital', 'mit', 'Di', '资', '门', '【', '巫师', '】', 'Lisa', '资本', '博弈', ',', '但', '是', '第二', '季', '回', '巫师', '财经', '02', ':', '14/30', ':', '31', '2025', '年', '11', '月', '9', '日', '20:58', '老', '男', '宝', '登陆', '一觉醒来', '全世界', '的', 'k', '-', 'pop', '水平', '下降', '一', '万倍', ',', '我', '成', 'C', '位', '了', '回', '接', '二连', '珊', '妄想', '症', '02:24', '/', '14:51', '2025', '年', '11', '月', '9', '日', '20:52', '内', '娱', '编剧', '必修课', '骗子', '不', '01:52', '16:57', '骗子', '不入', '爱河', '!', '安娜', '们', '根本', '不需要', '霸道', '总裁', '“', '爱', '的', '救赎', '”', '...', '回', '女', '编剧', '就要', '写', '女主角', '2025', '年', '11', '月', '9', '日', '20:45', '【', '喜人', '奇妙', '夜', '2', '】', '《', '龙袍', '替', '身', '》', '第', '一次', '当', '皇帝', ':', '爽', '!', '.....', '回', '双', '高', '胎', '02:01', '/', '04:00', '日', '2025', '年', '11', '月', '9', '日', '20:41']
+找到: 9:38 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 两位苦情教主罕见合作乡村大片《女人的村庄》!田... (共 1 处)
+找到: 01:40/26:07 (共 1 处)
+找到: 虫哥说电影 (共 1 处)
+找到: 2025年11月9日 23:52 (共 1 处)
+找到: 【巫师】Lisa资本博弈,但是第二季 (共 1 处)
+找到: 02:14/30:31 (共 1 处)
+找到: 巫师财经 (共 1 处)
+找到: 2025年11月9日 20:58 (共 1 处)
+找到: 一觉醒来全世界的k-pop水平下降一万倍,我成C位了 (共 1 处)
+找到: 02:24 / 14:51 (共 1 处)
+找到: 接二连珊妄想症 (共 1 处)
+找到: 2025年11月9日 20:52 (共 1 处)
+找到: 骗子不入爱河!安娜们根本不需要霸道总裁“爱的救赎”... (共 1 处)
+找到: 01:52 / 16:57 (共 1 处)
+找到: 女编剧就要写女主角 (共 1 处)
+找到: 2025年11月9日 20:45 (共 1 处)
+找到: 【喜人奇妙夜2】《龙袍替身》第一次当皇帝:爽!... (共 1 处)
+找到: 02:01 / 04:00 (共 1 处)
+找到: 双高胎 (共 1 处)
+找到: 2025年11月9日 20:41 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34689-cc7083f0_annotated.png
+OCR处理时间: 0.75秒
+
+第 19/31 张: screenshot_2025-11-10-34702-e135f0ce.png
+VLM处理时间: 29.57秒
+OCR结果: ['9:38', '<', '历史', '记录', 'Q', ':', '全部', '视频', '直播', '专栏', '商品', '展演', '骗子', '不', '01', ':', '52/16', ':', '57', '02:01', '/', '04:00', 'ur', ')', '又细', '刷', '机', '女', '与', 'ㄨ', '土', '用', '2025', '年', '11', '月', '9', '日', '20:45', '【', '喜人', '奇妙', '夜', '2', '】', '《', '龙袍', '替', '身', '》', '第', '一次', '当', '皇帝', ':', '爽', '!', '...', '回', '双', '高', '胎', '2025', '年', '11', '月', '9', '日', '20:41', '男', '宝兴', '剪', '没', '重生', '之', '参加', '选秀', '全员', '拿了', '恶', '剪', '剧本', ',', '被', '大', '棒子', '做', '局', '了', '回', '接', '二连', '珊', '妄想', '症', '02:38', '/', '12:10', '2025', '年', '11', '月', '9', '日', '20:35', '我', '就说', '桃', '黑黑', '说话', '方式', '有', '一', '种', '似曾相识', '的', '感觉', '…………………', '回', '北葉', '拾芥', '00', ':', '04/00', ':', '47', '2025', '年', '11', '月', '9', '日', '20:27', '桃', '黑黑', '就', '这样', '唯', '爱女', '主', 'UP', '-FIRELIGHT-', '02:27', '/', '02:41', '2025', '年', '11', '月', '9', '日', '20:20', 'ZC', '代', '抽', '1500', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', '回', '破竹', '残羽', 'Jalen']
+找到: 9:38 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 骗子不 (共 1 处)
+找到: 01:52 / 16:57 (共 1 处)
+找到: 又细刷剧机女与义士用 (共 1 处)
+找到: 2025年11月9日 20:45 (共 1 处)
+找到: 【喜人奇妙夜2】《龙袍替身》第一次当皇帝:爽!... (共 1 处)
+找到: 02:01 / 04:00 (共 1 处)
+找到: 双高胎 (共 1 处)
+找到: 2025年11月9日 20:41 (共 1 处)
+找到: 男宝一剪没 (共 1 处)
+找到: 重生之参加选秀全员拿了恶剪剧本,被大棒子做局了 (共 1 处)
+找到: 02:38 / 12:10 (共 1 处)
+找到: 接二连珊妄想症 (共 1 处)
+找到: 2025年11月9日 20:35 (共 1 处)
+找到: 我就说桃黑黑说话方式有一种似曾相识的感觉...... (共 1 处)
+找到: 00:04 / 00:47 (共 1 处)
+找到: 北葉拾芥 (共 1 处)
+找到: 2025年11月9日 20:27 (共 1 处)
+找到: 桃黑黑就这样唯爱女主 (共 1 处)
+找到: -FIRELIGHT- (共 1 处)
+找到: 02:27 / 02:41 (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+找到: Zc代抽1500抽! (共 1 处)
+未找到: 【Zc/航空】惊现石油佬要求Zc代抽1500抽!整整五井...
+找到: 破竹残羽Jalen (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34702-e135f0ce_annotated.png
+OCR处理时间: 0.69秒
+
+第 20/31 张: screenshot_2025-11-10-34715-df336053.png
+VLM处理时间: 36.76秒
+OCR结果: ['9:38', '>', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', 'ur', '又细', '刷', '机', '女', '刁', '女工', '用', '骗子', '不', '01', ':', '52/16', ':', '57', '2025', '年', '11', '月', '9', '日', '20:45', '02:01', '/', '04:00', '【', '喜人', '奇妙', '夜', '2', '】', '《', '龙袍', '替', '身', '》', '第', '一次', '当', '皇帝', ':', '爽', '!', '……', '回', '双', '高', '胎', '2025', '年', '11', '月', '9', '日', '20:41', '男', '宝', '二', '剪', '设', '重生', '之', '参加', '选秀', '全员', '拿了', '恶', '剪', '剧本', ',', '被', '大', '棒子', '做', '了', '回', '接', '二连', '珊', '妄想', '症', '02', ':', '38/12', ':', '10', '门', '2025', '年', '11', '月', '9', '日', '20:35', '分享', '$', '☑', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:38 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 又細刷乳女ヲ乂土用 (共 1 处)
+找到: 骗子不火 (共 1 处)
+找到: 2025年11月9日 20:45 (共 1 处)
+找到: 【喜人奇妙夜2】《龙袍替身》第一次当皇帝:爽!... (共 1 处)
+找到: 02:01/04:00 (共 1 处)
+找到: 双高胎 (共 1 处)
+找到: 2025年11月9日 20:41 (共 1 处)
+找到: 男宝一剪没 (共 1 处)
+找到: 重生之参加选秀全员拿了恶剪剧本, 被大棒子做局了 (共 1 处)
+找到: 02:38/12:10 (共 1 处)
+找到: 接二连珊妄想症 (共 1 处)
+找到: 2025年11月9日 20:35 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34715-df336053_annotated.png
+OCR处理时间: 0.54秒
+
+第 21/31 张: screenshot_2025-11-10-34728-e6766259.png
+VLM处理时间: 24.41秒
+OCR结果: ['9:38', '>', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', 'ur', '又细', '刷', '机', '女', '刁', '女工', '用', '骗子', '不', '01', ':', '52/16', ':', '57', '2025', '年', '11', '月', '9', '日', '20:45', '02:01', '/', '04:00', '【', '喜人', '奇妙', '夜', '2', '】', '《', '龙袍', '替', '身', '》', '第', '一次', '当', '皇帝', ':', '爽', '!', '……', '回', '双', '高', '胎', '2025', '年', '11', '月', '9', '日', '20:41', '男', '宝', '二', '剪', '设', '重生', '之', '参加', '选秀', '全员', '拿了', '恶', '剪', '剧本', ',', '被', '大', '棒子', '做', '了', '回', '接', '二连', '珊', '妄想', '症', '02', ':', '38/12', ':', '10', '门', '2025', '年', '11', '月', '9', '日', '20:35', '分享', '$', '☑', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:38 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 骗子不 (共 1 处)
+找到: 又細刷乳女ヲ乂土用 (共 1 处)
+找到: 2025年11月9日 20:45 (共 1 处)
+找到: 01:52 / 16:57 (共 1 处)
+找到: 【喜人奇妙夜2】《龙袍替身》第一次当皇帝:爽!... (共 1 处)
+找到: 双高胎 (共 1 处)
+找到: 2025年11月9日 20:41 (共 1 处)
+找到: 02:01 / 04:00 (共 1 处)
+找到: 男宝一剪没 (共 1 处)
+找到: 重生之参加选秀全员拿了恶剪剧本,被大棒子做局了 (共 1 处)
+找到: 接二连珊妄想症 (共 1 处)
+找到: 2025年11月9日 20:35 (共 1 处)
+找到: 02:38 / 12:10 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34728-e6766259_annotated.png
+OCR处理时间: 0.52秒
+
+第 22/31 张: screenshot_2025-11-10-34740-23b6ab88.png
+VLM处理时间: 46.24秒
+OCR结果: ['9:39', '<', '历史', '记录', 'Q', ':', '全部', '视频', '直播', '专栏', '商品', '展演', '骗子', '不', '01', ':', '52/16', ':', '57', '02:01', '/', '04:00', 'ur', ')', '又细', '刷', '机', '女', '与', 'ㄨ', '土', '用', '2025', '年', '11', '月', '9', '日', '20:45', '【', '喜人', '奇妙', '夜', '2', '】', '《', '龙袍', '替', '身', '》', '第', '一次', '当', '皇帝', ':', '爽', '!', '...', '回', '双', '高', '胎', '2025', '年', '11', '月', '9', '日', '20:41', '男', '宝兴', '剪', '没', '重生', '之', '参加', '选秀', '全员', '拿了', '恶', '剪', '剧本', ',', '被', '大', '棒子', '做', '局', '了', '回', '接', '二连', '珊', '妄想', '症', '02:38', '/', '12:10', '2025', '年', '11', '月', '9', '日', '20:35', '我', '就说', '桃', '黑黑', '说话', '方式', '有', '一', '种', '似曾相识', '的', '感觉', '…………………', '回', '北葉', '拾芥', '00', ':', '04/00', ':', '47', '2025', '年', '11', '月', '9', '日', '20:27', '桃', '黑黑', '就', '这样', '唯', '爱女', '主', 'UP', '-FIRELIGHT-', '02:27', '/', '02:41', '2025', '年', '11', '月', '9', '日', '20:20', 'ZC', '代', '抽', '1500', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', '回', '破竹', '残羽', 'Jalen']
+找到: 9:39 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 骗子不 (共 1 处)
+找到: 01:52 / 16:57 (共 1 处)
+找到: 又細刷乳女刁乂土用 (共 1 处)
+找到: 2025年11月9日 20:45 (共 1 处)
+找到: 【喜人奇妙夜2】《龙袍替身》第一次当皇帝:爽!... (共 1 处)
+找到: 02:01 / 04:00 (共 1 处)
+找到: 双高胎 (共 1 处)
+找到: 2025年11月9日 20:41 (共 1 处)
+找到: 重生之参加选秀全员拿了恶剪剧本,被大棒子做局了 (共 1 处)
+找到: 男宝一剪没 (共 1 处)
+找到: 02:38 / 12:10 (共 1 处)
+找到: 接二连珊妄想症 (共 1 处)
+找到: 2025年11月9日 20:35 (共 1 处)
+找到: 我就说桃黑黑说话方式有一种似曾相识的感觉...... (共 1 处)
+找到: 00:04 / 00:47 (共 1 处)
+找到: 北葉拾芥 (共 1 处)
+找到: 2025年11月9日 20:27 (共 1 处)
+找到: 桃黑黑就这样唯爱女主 (共 1 处)
+找到: 02:27 / 02:41 (共 1 处)
+找到: -FIRELIGHT- (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+找到: 【Zc/航空】惊现石油佬要求 (共 1 处)
+找到: Zc代抽1500抽! (共 1 处)
+未找到: Zc代抽1500抽!整整五井...
+找到: 破竹残羽Jalen (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34740-23b6ab88_annotated.png
+OCR处理时间: 0.68秒
+
+第 23/31 张: screenshot_2025-11-10-34753-f1d4b3f6.png
+VLM处理时间: 33.85秒
+OCR结果: ['9:39', '<', '历史', '记录', 'Q', ':', '全部', '视频', '直播', '专栏', '商品', '展演', '02:27', '/', '02:41', '170/11', '\\', '/', '11', '\\', '970', 'II', 'UP', '-', 'FIRELIGHT-', '2025', '年', '11', '月', '9', '日', '20:20', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', 'ZC', '代', '抽', '1500', '抽', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', '四', '黄', ':', '01', ':', '40', '/', '23:32', '咱们', '不能', '这么傻', '吧', '【', '散', '人', '&', '桃', '黑黑', '《', '盛世', '天下', '》', '我', '不能', '当', '-', '00', ':', '20/11', ':', '24', ')', '00:04', '/', '46:52', '个', '学校', '回', '破竹', '残羽', 'Jalen', '2025', '年', '11', '月', '9', '日', '20:10', '【', '散', '人', '&', '桃', '黑黑', '】', '盛世', '天下', '全程', '互', '选', '对方', '排除', '项', '回', '卡川', 'Jayeez', '2025', '年', '11', '月', '9', '日', '17:46', '【', '散', '人', '】', '爆笑', '多人', '互', '坑', '《', '...', '1.', '上手', '回', '逍遥散', '人', '2025', '年', '11', '月', '9', '日', '17:35', '桃', '黑黑', '的', '心酸', '打工', '史', '回', '_', '是', '小李', '啊', '_', '00', ':', '02/06', ':', '37', '5', '个', '年级', '2025', '年', '11', '月', '9', '日', '17:35', '老', '了', '你', '就', '知道', '了']
+找到: 9:39 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 02:27 / 02:41 (共 1 处)
+找到: -FIRELIGHT- (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+找到: Zc代抽1500抽! (共 1 处)
+找到: 01:40 / 23:32 (共 1 处)
+找到: 【Zc/航空】惊现石油佬要求 (共 1 处)
+未找到: Zc代抽1500抽!整整五井...
+找到: 破竹残羽Jalen (共 1 处)
+找到: 2025年11月9日 20:10 (共 1 处)
+找到: 咱们不能这么傻吧 (共 1 处)
+找到: 散人&桃黑黑 (共 1 处)
+找到: 《盛世天下》 (共 1 处)
+找到: 【散人&桃黑黑】盛世天下 全程互选对方排除项 (共 1 处)
+找到: 卡川Jayeez (共 1 处)
+找到: 我不能当一 (共 1 处)
+找到: 00:20 / 11:24 (共 1 处)
+找到: 2025年11月9日 17:46 (共 1 处)
+找到: 00:04 / 46:52 (共 1 处)
+找到: 【散人】爆笑多人互坑《... (共 1 处)
+找到: 1.上手 (共 1 处)
+找到: 逍遥散人 (共 1 处)
+找到: 2025年11月9日 17:35 (共 1 处)
+未找到: 4个学校
+找到: 桃黑黑的心酸打工史 (共 1 处)
+找到: _是小李啊_ (共 1 处)
+找到: 00:02 / 06:37 (共 1 处)
+找到: 2025年11月9日 17:35 (共 1 处)
+找到: 老了你就知道了 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34753-f1d4b3f6_annotated.png
+OCR处理时间: 0.66秒
+
+第 24/31 张: screenshot_2025-11-10-34767-cc0c4628.png
+VLM处理时间: 42.83秒
+OCR结果: ['9:39', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '1', '/', 'U', '/', '11', '\\', '/', '197ŪKIT', '!!!', '02:27', '/', '02:41', 'UP', '-', 'FIRELIGHT-', '2025', '年', '11', '月', '9', '日', '20:20', 'ZC', '代', '抽', '150', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', '四', '黄', ':', '01', ':', '40', '/', '23:32', ')', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', '回', '破竹', '残羽', 'Jalen', '2025', '年', '11', '月', '9', '日', '20:10', '【', '散', '人', '&', '桃', '黑黑', '】', '盛世', '天下', '咱们', '不能', '这么傻', '吧', '「', '散', '人', '&', '桃', '黑黑', '點點', '點', '全程', '互', '选', '对方', '排除', '项', '分享', '*', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:39 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: UP -FIRELIGHT- (共 1 处)
+找到: 02:27 / 02:41 (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+未找到: 【Zc/航空】惊现石油佬要求Zc代抽1500抽! 整整五井...
+找到: 01:40 / 23:32 (共 1 处)
+找到: 破竹残羽Jalen (共 1 处)
+找到: 2025年11月9日 20:10 (共 1 处)
+找到: 【散人&桃黑黑】盛世天下全程互选对方排除项 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34767-cc0c4628_annotated.png
+OCR处理时间: 0.57秒
+
+第 25/31 张: screenshot_2025-11-10-34780-5270a711.png
+VLM处理时间: 45.05秒
+OCR结果: ['9:39', '<', '历史', '记录', 'Q', ':', '全部', '视频', '直播', '专栏', '商品', '展演', '02:27', '/', '02:41', '170/11', '\\', '/', '11', '\\', '970', 'II', 'UP', '-', 'FIRELIGHT-', '2025', '年', '11', '月', '9', '日', '20:20', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', 'ZC', '代', '抽', '1500', '抽', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', '四', '黄', ':', '01', ':', '40', '/', '23:32', '咱们', '不能', '这么傻', '吧', '【', '散', '人', '&', '桃', '黑黑', '《', '盛世', '天下', '》', '我', '不能', '当', '-', '00', ':', '20/11', ':', '24', ')', '00:04', '/', '46:52', '个', '学校', '回', '破竹', '残羽', 'Jalen', '2025', '年', '11', '月', '9', '日', '20:10', '【', '散', '人', '&', '桃', '黑黑', '】', '盛世', '天下', '全程', '互', '选', '对方', '排除', '项', '回', '卡川', 'Jayeez', '2025', '年', '11', '月', '9', '日', '17:46', '【', '散', '人', '】', '爆笑', '多人', '互', '坑', '《', '...', '1.', '上手', '回', '逍遥散', '人', '2025', '年', '11', '月', '9', '日', '17:35', '桃', '黑黑', '的', '心酸', '打工', '史', '回', '_', '是', '小李', '啊', '_', '00', ':', '02/06', ':', '37', '5', '个', '年级', '2025', '年', '11', '月', '9', '日', '17:35', '老', '了', '你', '就', '知道', '了']
+找到: 9:39 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 02:27 / 02:41 (共 1 处)
+找到: UP -FIRELIGHT- (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+找到: 【Zc/航空】惊现石油佬要求 (共 1 处)
+未找到: Zc代抽1500抽! 整整五井...
+未找到: Zc代抽1500抽!
+找到: 四黄 (共 1 处)
+找到: 01:40 / 23:32 (共 1 处)
+未找到: UP 破竹残羽Jalen
+找到: 2025年11月9日 20:10 (共 1 处)
+找到: 【散人&桃黑黑】盛世天下 (共 1 处)
+找到: 全程互选对方排除项 (共 1 处)
+找到: 咱们不能这么傻吧 (共 1 处)
+找到: 散人&桃黑黑 (共 1 处)
+找到: 《盛世天下》 (共 1 处)
+找到: 我不能当一 (共 1 处)
+找到: 00:20 / 11:24 (共 1 处)
+未找到: UP 卡川Jayeez
+找到: 2025年11月9日 17:46 (共 1 处)
+找到: 【散人】爆笑多人互坑《... (共 1 处)
+找到: 1.上手 (共 1 处)
+找到: 00:04 / 46:52 (共 1 处)
+未找到: UP 逍遥散人
+找到: 2025年11月9日 17:35 (共 1 处)
+找到: 桃黑黑的心酸打工史 (共 1 处)
+未找到: 4个学校
+找到: 5个年级 (共 1 处)
+找到: 00:02 / 06:37 (共 1 处)
+未找到: UP _是小李啊_
+找到: 2025年11月9日 17:35 (共 1 处)
+找到: 老了你就知道了 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34780-5270a711_annotated.png
+OCR处理时间: 0.68秒
+
+第 26/31 张: screenshot_2025-11-10-34793-d07f746b.png
+VLM处理时间: 26.01秒
+OCR结果: ['9:39', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '1', '/', 'U', '/', '11', '\\', '/', '197ŪKIT', '!!!', '02:27', '/', '02:41', 'UP', '-', 'FIRELIGHT-', '2025', '年', '11', '月', '9', '日', '20:20', 'ZC', '代', '抽', '150', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', '四', '黄', ':', '01', ':', '40', '/', '23:32', ')', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', '回', '破竹', '残羽', 'Jalen', '2025', '年', '11', '月', '9', '日', '20:10', '【', '散', '人', '&', '桃', '黑黑', '】', '盛世', '天下', '咱们', '不能', '这么傻', '吧', '「', '散', '人', '&', '桃', '黑黑', '點點', '點', '全程', '互', '选', '对方', '排除', '项', '分享', '*', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:39 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: UP-FIRELIGHT- (共 1 处)
+找到: 02:27/02:41 (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+找到: Zc代抽1500抽 (共 1 处)
+找到: 【Zc/航空】惊现石油佬要求 (共 1 处)
+找到: 01:40 / 23:32 (共 1 处)
+未找到: Zc代抽1500抽!整整五井...
+找到: 破竹残羽Jalen (共 1 处)
+找到: 2025年11月9日 20:10 (共 1 处)
+找到: 咱们不能这么傻吧 (共 1 处)
+找到: 【散人&桃黑黑】盛世天下 (共 1 处)
+找到: 全程互选对方排除项 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34793-d07f746b_annotated.png
+OCR处理时间: 0.55秒
+
+第 27/31 张: screenshot_2025-11-10-34805-75d8bb45.png
+VLM处理时间: 19.16秒
+OCR结果: ['9:40', '>', '历史', '记录', 'Q', ':', '全部', '视频', '直播', '专栏', '商品', '展演', '02:27', '/', '02:41', '170/11', '\\', '/', '11', '\\', '970', 'II', 'UP', '-', 'FIRELIGHT-', '2025', '年', '11', '月', '9', '日', '20:20', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', 'ZC', '代', '抽', '1500', '抽', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', '四', '黄', ':', '01', ':', '40', '/', '23:32', '咱们', '不能', '这么傻', '吧', '【', '散', '人', '&', '桃', '黑黑', '《', '盛世', '天下', '》', '我', '不能', '当', '-', '00', ':', '20/11', ':', '24', ')', '00:04', '/', '46:52', '个', '学校', '回', '破竹', '残羽', 'Jalen', '2025', '年', '11', '月', '9', '日', '20:10', '【', '散', '人', '&', '桃', '黑黑', '】', '盛世', '天下', '全程', '互', '选', '对方', '排除', '项', '回', '卡川', 'Jayeez', '2025', '年', '11', '月', '9', '日', '17:46', '【', '散', '人', '】', '爆笑', '多人', '互', '坑', '《', '...', '1.', '上手', '回', '逍遥散', '人', '2025', '年', '11', '月', '9', '日', '17:35', '桃', '黑黑', '的', '心酸', '打工', '史', '回', '_', '是', '小李', '啊', '_', '00', ':', '02/06', ':', '37', '5', '个', '年级', '2025', '年', '11', '月', '9', '日', '17:35', '老', '了', '你', '就', '知道', '了']
+找到: 9:40 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 02:27 / 02:41 (共 1 处)
+找到: -FIRELIGHT- (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+未找到: 【Zc/航空】惊现石油佬要求 Zc代抽1500抽!整整五井...
+找到: 01:40 / 23:32 (共 1 处)
+找到: 破竹残羽Jalen (共 1 处)
+找到: 2025年11月9日 20:10 (共 1 处)
+找到: 【散人&桃黑黑】盛世天下 全程互选对方排除项 (共 1 处)
+找到: 00:20 / 11:24 (共 1 处)
+找到: 卡川Jayeez (共 1 处)
+找到: 2025年11月9日 17:46 (共 1 处)
+找到: 【散人】爆笑多人互坑《... (共 1 处)
+找到: 00:04 / 46:52 (共 1 处)
+找到: 逍遥散人 (共 1 处)
+找到: 2025年11月9日 17:35 (共 1 处)
+找到: 桃黑黑的心酸打工史 (共 1 处)
+找到: 00:02 / 06:37 (共 1 处)
+找到: _是小李啊_ (共 1 处)
+找到: 2025年11月9日 17:35 (共 1 处)
+找到: 老了你就知道了 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34805-75d8bb45_annotated.png
+OCR处理时间: 0.68秒
+
+第 28/31 张: screenshot_2025-11-10-34818-24c6f75d.png
+VLM处理时间: 19.50秒
+OCR结果: ['9:40', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '1', '/', 'U', '/', '11', '\\', '/', '197ŪKIT', '!!!', '02:27', '/', '02:41', 'UP', '-', 'FIRELIGHT-', '2025', '年', '11', '月', '9', '日', '20:20', 'ZC', '代', '抽', '150', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', '四', '黄', ':', '01', ':', '40', '/', '23:32', ')', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', '回', '破竹', '残羽', 'Jalen', '2025', '年', '11', '月', '9', '日', '20:10', '【', '散', '人', '&', '桃', '黑黑', '】', '盛世', '天下', '咱们', '不能', '这么傻', '吧', '「', '散', '人', '&', '桃', '黑黑', '點點', '點', '全程', '互', '选', '对方', '排除', '项', '分享', '*', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:40 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: UP -FIRELIGHT- (共 1 处)
+找到: 02:27 / 02:41 (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+未找到: 【Zc/航空】惊现石油佬要求Zc代抽1500抽!整整五井...
+找到: 破竹残羽Jalen (共 1 处)
+找到: 01:40 / 23:32 (共 1 处)
+找到: 2025年11月9日 20:10 (共 1 处)
+找到: 【散人&桃黑黑】盛世天下全程互选对方排除项 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34818-24c6f75d_annotated.png
+OCR处理时间: 0.62秒
+
+第 29/31 张: screenshot_2025-11-10-34832-136088e2.png
+VLM处理时间: 13.80秒
+OCR结果: ['9:40', '>', '历史', '记录', 'Q', ':', '全部', '视频', '直播', '专栏', '商品', '展演', '02:27', '/', '02:41', '170/11', '\\', '/', '11', '\\', '970', 'II', 'UP', '-', 'FIRELIGHT-', '2025', '年', '11', '月', '9', '日', '20:20', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', 'ZC', '代', '抽', '1500', '抽', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', '四', '黄', ':', '01', ':', '40', '/', '23:32', '咱们', '不能', '这么傻', '吧', '【', '散', '人', '&', '桃', '黑黑', '《', '盛世', '天下', '》', '我', '不能', '当', '-', '00', ':', '20/11', ':', '24', ')', '00:04', '/', '46:52', '个', '学校', '回', '破竹', '残羽', 'Jalen', '2025', '年', '11', '月', '9', '日', '20:10', '【', '散', '人', '&', '桃', '黑黑', '】', '盛世', '天下', '全程', '互', '选', '对方', '排除', '项', '回', '卡川', 'Jayeez', '2025', '年', '11', '月', '9', '日', '17:46', '【', '散', '人', '】', '爆笑', '多人', '互', '坑', '《', '...', '1.', '上手', '回', '逍遥散', '人', '2025', '年', '11', '月', '9', '日', '17:35', '桃', '黑黑', '的', '心酸', '打工', '史', '回', '_', '是', '小李', '啊', '_', '00', ':', '02/06', ':', '37', '5', '个', '年级', '2025', '年', '11', '月', '9', '日', '17:35', '老', '了', '你', '就', '知道', '了']
+找到: 9:40 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: 02:27 / 02:41 (共 1 处)
+找到: -FIRELIGHT- (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+未找到: 【Zc/航空】惊现石油佬要求 Zc代抽1500抽!整整五井...
+找到: 破竹残羽Jalen (共 1 处)
+找到: 2025年11月9日 20:10 (共 1 处)
+找到: 【散人&桃黑黑】盛世天下 全程互选对方排除项 (共 1 处)
+找到: 卡川Jayeez (共 1 处)
+找到: 2025年11月9日 17:46 (共 1 处)
+找到: 【散人】爆笑多人互坑《... (共 1 处)
+找到: 1.上手 (共 1 处)
+找到: 逍遥散人 (共 1 处)
+找到: 2025年11月9日 17:35 (共 1 处)
+找到: 桃黑黑的心酸打工史 (共 1 处)
+找到: _是小李啊_ (共 1 处)
+找到: 2025年11月9日 17:35 (共 1 处)
+找到: 老了你就知道了 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34832-136088e2_annotated.png
+OCR处理时间: 0.67秒
+
+第 30/31 张: screenshot_2025-11-10-34845-474c08f6.png
+VLM处理时间: 25.88秒
+OCR结果: ['9:40', '<', '历史', '记录', 'Q', '全部', '视频', '直播', '专栏', '商品', '展演', '1', '/', 'U', '/', '11', '\\', '/', '197ŪKIT', '!!!', '02:27', '/', '02:41', 'UP', '-', 'FIRELIGHT-', '2025', '年', '11', '月', '9', '日', '20:20', 'ZC', '代', '抽', '150', '【', 'Zc', '/', '航空', '】', '惊现', '石油', '佬', '要求', '四', '黄', ':', '01', ':', '40', '/', '23:32', ')', 'Zc', '代', '抽', '1500', '抽', '!', '整整', '五', '井', '...', '回', '破竹', '残羽', 'Jalen', '2025', '年', '11', '月', '9', '日', '20:10', '【', '散', '人', '&', '桃', '黑黑', '】', '盛世', '天下', '咱们', '不能', '这么傻', '吧', '「', '散', '人', '&', '桃', '黑黑', '點點', '點', '全程', '互', '选', '对方', '排除', '项', '分享', '*', '下载', '分享', '动态', '消息', '图片', '分享', '复制', '链接', '删除', '取消']
+找到: 9:40 (共 1 处)
+找到: 历史记录 (共 1 处)
+找到: 全部 (共 1 处)
+找到: 视频 (共 1 处)
+找到: 直播 (共 1 处)
+找到: 专栏 (共 1 处)
+找到: 商品 (共 1 处)
+找到: 展演 (共 1 处)
+找到: UP-FIRELIGHT- (共 1 处)
+找到: 02:27/02:41 (共 1 处)
+找到: 2025年11月9日 20:20 (共 1 处)
+找到: 【Zc/航空】㑬现石油佬要求 (共 1 处)
+找到: Zc代抽1500抽!整整五井... (共 1 处)
+找到: 01:40 / 23:32 (共 1 处)
+找到: 破竹残羽Jalen (共 1 处)
+找到: 2025年11月9日 20:10 (共 1 处)
+找到: 【散人&桃黑黑】盛世天下 (共 1 处)
+找到: 全程互选对方排除项 (共 1 处)
+找到: 分享 (共 1 处)
+找到: 下载分享 (共 1 处)
+找到: 动态 (共 1 处)
+找到: 消息 (共 1 处)
+找到: 图片分享 (共 1 处)
+找到: 复制链接 (共 1 处)
+找到: 删除 (共 1 处)
+找到: 取消 (共 1 处)
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/screenshot_2025-11-10-34845-474c08f6_annotated.png
+OCR处理时间: 0.54秒
+
+第 31/31 张: screenshot_2025-11-10-34858-237c2775.png
+无法读取 data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/step_31/manager.json: [Errno 2] No such file or directory: 'data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/step_31/manager.json'
+
+保存到: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊/level/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 30 张图片
+平均VLM处理时间: 28.86秒/张
+平均OCR处理时间: 3.01秒/张
+✓ 完成: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊 - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+开始时间: 2025-11-18 03:17:06
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊
+OCR: 启用 (Google Vision API)
+
+第 1/31 张: screenshot_2025-11-10-34471-5c9c22e3.png
+Traceback (most recent call last):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 982, in request
+    response = self._client.send(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/public/zhangzhiling/code/GUI_Pravicy/level.py", line 119, in <module>
+    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr, args.no_save_image, args.no_save_json, "level")
+  File "/public/zhangzhiling/code/GUI_Pravicy/level.py", line 111, in process
+    process_images(directory_path, parse_and_annotate, prompt_template, enable_ocr,
+  File "/public/zhangzhiling/code/GUI_Pravicy/googleocr_label.py", line 418, in process_images
+    ai_output, vlm_time = call_vlm_api(image_path, prompt_text, model_name, print_ai_output)
+  File "/public/zhangzhiling/code/GUI_Pravicy/googleocr_label.py", line 306, in call_vlm_api
+    completion = client.chat.completions.create(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1156, in create
+    return self._post(
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/openai/_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+✗ 失败: data/mobile/20251110_093430_bilibili：进入消息列表，选中第一条消息，给该对象的聊 - openai/gpt-5-pro
+
+==================================
+处理目录: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+开始时间: 2025-11-18 03:47:29
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+处理目录: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'
+OCR: 启用 (Google Vision API)
+
+第 1/6 张: screenshot_2025-10-31-50659-7007fa8b.png
+VLM处理时间: 23.70秒
+OCR结果: ['6:04', 'M', 'LTE', 'Fri', ',', 'Oct', '31', 'M', 'Play', 'Store', 'Gmail', 'Photos', 'YouTube', 'Phone', 'Messages', 'Chrome', 'G']
+找到: 6:04 (共 1 处)
+找到: M (共 1 处)
+找到: LTE (共 1 处)
+找到: Fri, Oct 31 (共 1 处)
+找到: Play Store (共 1 处)
+找到: Gmail (共 1 处)
+找到: Photos (共 1 处)
+找到: YouTube (共 1 处)
+找到: Phone (共 1 处)
+找到: Messages (共 1 处)
+找到: Chrome (共 1 处)
+找到: G (共 1 处)
+保存到: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'/level/google_gemini-2.5-pro/screenshot_2025-10-31-50659-7007fa8b_annotated.png
+OCR处理时间: 80.87秒
+
+第 2/6 张: screenshot_2025-10-31-50684-83b02f61.png
+VLM处理时间: 17.27秒
+OCR结果: ['6:04', 'MO', '=', 'reddit', '▾', '✓', 'LTE', 'Because', "you've", 'shown', 'interest', 'in', 'a', 'similar', 'community', 'H', '?', 'r', '/', 'AITH', '1d', '⚫', '73.3k', 'views', 'AITAH', 'Join', 'AITAH', 'for', 'telling', 'my', 'son', 'and', 'his', 'wife', 'that', 'I', "don't", 'want', 'to', 'celebrate', 'the', 'monthly', 'birthday', 'of', 'my', 'grandson', '?', 'My', "son's", 'MIL', 'said', 'we', 'have', 'too', '.', "I'm", 'talking', 'birthday', 'cake', ',', 'balloons', ',', 'and', 'a', 'l', '...', '↑', '346', '3', '☐', '162', 'MARKETS', 'CICU', '/', 'CMC', 'Markets_SG', 'Promoted', 'D', '☑32', 'Trade', 'Now', 'with', 'CMC', 'Markets', '.', 'Enjoy', 'a', 'welcome', 'bonus', 'up', 'to', '$$', '4,000', '*', 'Enjoy', 'spreads', 'from', 'as', 'low', 'as', '0.0', 'pips', 'on', '6', 'major', 'FX', 'pairs', '.', 'Trade', 'on', 'Next', 'Generation', 'or', 'MT4', 'now', '.', 'CIIIC', 'MARKETS', 'Satisfy', 'all', 'your', 'trading', 'needs', 'with', 'our', 'wide', 'selection', 'of', 'FX', 'pairs', 'and', 'spreads', 'from', 'as', 'low', 'as', '0.0', 'pips', '.', 'REPLAY', 'VIDEO', 'GBP', '/', 'USD', 'SELL', '1.22950', '0.0', '(', '22', ')', '自', 'SIGN', 'UP', 'Open', 'a', 'Next', 'Generation', 'or', 'MT4', 'FX', 'Active', 'account', 'today', 'and', 'trade', 'with', 'greater', 'precision', '.', 'Create', 'account-', '>', 'GIF', 'Losses', 'can', 'exceed', 'your', 'initial', 'deposit', '.', 'See', 'risk', 'warning', '/', 'disclosure', '&', 'other', 'important', 'information', 'on', 'our', 'we', 'www.cmcmarkets.com.sg', '.', 'This', 'advertisement', 'has', 'not', 'been', 'reviewed', 'by', 'the', 'Monetary', 'Authority', 'of', 'Singapore', '.', '[', '+', ']', 'Home', 'Answers', 'Create', 'Chat', 'Inbox']
+找到: 6:04 (共 1 处)
+找到: LTE (共 1 处)
+找到: reddit (共 1 处)
+找到: Because you've shown interest in a similar community (共 1 处)
+找到: r/AITH (共 1 处)
+找到: 1d (共 1 处)
+找到: 73.3k views (共 1 处)
+找到: Join (共 1 处)
+找到: AITAH (共 1 处)
+找到: AITAH for telling my son and his wife that I don't want to celebrate the monthly birthday of my grandson? My son's MIL said we have too. I'm talking birthday cake, balloons, and a l... (共 1 处)
+找到: 346 (共 1 处)
+找到: 162 (共 1 处)
+找到: 32 (共 1 处)
+未找到: u/CMC_Markets_SG
+找到: Promoted (共 1 处)
+未找到: Trade Now with CMC Markets. Enjoy a welcome bonus up to S$4,000*
+找到: Enjoy spreads from as low as 0.0 pips on 6 major FX pairs. (共 1 处)
+找到: Trade on Next Generation or MT4 now. (共 1 处)
+找到: Satisfy all your trading needs with our wide selection of FX pairs and spreads from as low as 0.0 pips. (共 1 处)
+找到: REPLAY VIDEO (共 1 处)
+找到: GBP/USD (共 1 处)
+找到: 1.22950 (共 1 处)
+找到: SIGN UP (共 1 处)
+找到: Open a Next Generation or MT4 FX Active account (共 1 处)
+找到: and trade with greater precision. (共 1 处)
+找到: Create account (共 1 处)
+找到: www.cmcmarkets.com.sg (共 1 处)
+找到: Losses can exceed your initial deposit. See risk warning/disclosure & other important information... (共 1 处)
+找到: GIF (共 1 处)
+找到: Home (共 1 处)
+找到: Answers (共 1 处)
+找到: Create (共 1 处)
+找到: Chat (共 1 处)
+找到: Inbox (共 1 处)
+保存到: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'/level/google_gemini-2.5-pro/screenshot_2025-10-31-50684-83b02f61_annotated.png
+OCR处理时间: 1.26秒
+
+第 3/6 张: screenshot_2025-10-31-50703-947c3eb8.png
+VLM处理时间: 11.88秒
+OCR结果: ['6:05', 'M', '←', 'Q', 'Search', 'Reddit', 'r', '/', 'technology', 'LTE', '1', '☑', 'Trending', 'Today', 'Prince', 'Andrew', 'to', 'lose', 'title', 'King', 'Charles', 'III', 'is', 'stripping', 'Prince', 'Andrew', 'of', 'titles', 'and', 'evicting', 'him', 'from', 'royal', 'residence', 'NY', 'declares', 'state', 'of', 'emergency', 'New', 'York', 'declares', 'state', 'of', 'emergency', 'to', 'help', 'food', 'government', 'shutdown', '☑', 'ilish', 'donates', '$', '11.5M', 'sh', 'Donates', '$', '11.5', 'Million', 'To', 'Charity', ',', 'es', 'Billionaires', 'To', 'Do', 'The', 'Same', 'Qerg', 'to', 'donate', 'kidney', 'senberg', 'reveals', 'on', 'the', 'Today', 'Show', 'that', 'he', 'ng', 'a', 'kidney', 'to', 'a', 'stranger', 'in', 'six', 'weeks', '.', 'ounce', "'", 'exit', 'program', "'", 'announces', "'", 'voluntary', 'exit', 'program', "'", 'for', 'US', 'SJ', '.', 'The', 'Live', 'Guard', 'WS', 'TUE', '20', 'WSJ', 'AST', 'OF', '"', 'NOW', 'YOU', 'SEE', 'ME', '"', 'LIVE', 'ON', 'TODAY', 'YouTube', 'Nikola', "Topic's", 'cancer', 'diagnosis', 'Thunder', 'guard', 'Nikola', 'Topic', 'diagnosed', 'with', 'testicular', 'cancer', 'and', 'undergoing', 'chemotherapy', 'THUNDER', '44', 'CHALDTE']
+找到: 6:05 (共 1 处)
+找到: LTE (共 1 处)
+找到: Search Reddit (共 1 处)
+找到: r/technology (共 1 处)
+找到: Trending Today (共 1 处)
+找到: Prince Andrew to lose title (共 1 处)
+找到: King Charles III is stripping Prince Andrew of titles and evicting him from royal residence (共 1 处)
+找到: NY declares state of emergency (共 1 处)
+找到: New York declares state of emergency to help food government shutdown (共 1 处)
+找到: ilish donates $11.5M (共 1 处)
+找到: sh Donates $11.5 Million To Charity, es Billionaires To Do The Same (共 1 处)
+未找到: erg to donate kidney
+未找到: enberg reveals on the Today Show that he ng a kidney to a stranger in six weeks.
+未找到: nounce 'exit program'
+找到: announces 'voluntary exit program' for US (共 1 处)
+未找到: Live Guara
+找到: AST OF "NOW YOU SEE ME" LIVE ON TODAY (共 1 处)
+找到: YouTube (共 1 处)
+找到: Nikola Topic's cancer diagnosis (共 1 处)
+找到: Thunder guard Nikola Topic diagnosed with testicular cancer and undergoing chemotherapy (共 1 处)
+找到: THUNDER 44 (共 1 处)
+未找到: CHARLOTE
+保存到: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'/level/google_gemini-2.5-pro/screenshot_2025-10-31-50703-947c3eb8_annotated.png
+OCR处理时间: 0.84秒
+
+第 4/6 张: screenshot_2025-10-31-50720-a8585ac0.png
+VLM处理时间: 10.77秒
+OCR结果: ['6:05', 'M', '←', 'Q', 'r', '/', 'TwoHotTakes', 'Q', 'r', '/', 'TwoHotTakes', 'Qr', 'twohottakes', 's', 'xcmedha0pj', 'Communities', 'TWO', 'TAKE', '☑', 'r', '/', 'TwoHotTakes', '1.2M', 'members', 'r', '/', 'TwoHotTakesSnark', '1.6K', 'members', 'TwoHotTakes', 'Community', '10', 'members', "'", 'BollywoodHotTakes', '5K', 'members', "'", 'twohottakesinclusive', 'members', 'LTE']
+找到: 6:05 (共 1 处)
+找到: LTE (共 1 处)
+找到: r/TwoHotTakes (共 1 处)
+找到: r/TwoHotTakes (共 1 处)
+未找到: r twohottakes s xcmedha0pj
+找到: Communities (共 1 处)
+找到: r/TwoHotTakes (共 1 处)
+找到: 1.2M members (共 1 处)
+找到: r/TwoHotTakesSnark (共 1 处)
+找到: 1.6K members (共 1 处)
+找到: TwoHotTakesCommunity (共 1 处)
+找到: 10 members (共 1 处)
+找到: BollywoodHotTakes (共 1 处)
+找到: 5K members (共 1 处)
+找到: twohottakesinclusive (共 1 处)
+找到: members (共 1 处)
+保存到: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'/level/google_gemini-2.5-pro/screenshot_2025-10-31-50720-a8585ac0_annotated.png
+OCR处理时间: 0.63秒
+
+第 5/6 张: screenshot_2025-10-31-50739-6add94e7.png
+VLM处理时间: 9.07秒
+OCR结果: ['6:05', 'M', 'III', 'TWOHOT', 'TAKES', 'LTE', 'Δ', 'TWO', 'HOT', 'TAKES', 'r', '/', 'TwoHotTakes', '>', '1.5m', 'visitors', 'and', '32.3k', 'contributions', 'per', 'week', 'Joined', 'D', 'Subreddit', 'for', 'listeners', 'of', 'the', 'Two', 'Hot', 'Takes', 'Podcast', '!', 'Here', 'you', 'can', 'post', 'your', 'own', 'write', 'ins', ',', 'thoughts', 'on', 'the', 'stories', 'shared', 'on', 'the', 'pod', ',', 'or', 'any', 'id', '...', 'Top', 'Members', 'Wiki', '#', '1', 'in', 'Podcasts', '2', '°', '✓', 'All', 'Listener', 'Write', '...', 'Advice', 'Needed', 'Update', 'C', 'Alternative', '-', 'Skin', '-', '493', '6h', '32.4k', 'views', 'AITA', 'for', 'refusing', 'to', 'sweep', 'the', 'truth', 'about', 'my', 'biological', 'father', '-', 'and', 'my', "mom's", 'decades', '-', 'long', 'lie-', 'under', 'the', 'rug', '?', 'Advice', 'Needed', 'Okay', ',', 'so', 'this', 'is', 'going', 'to', 'be', 'a', 'bit', 'of', 'a', 'ride', 'because', 'my', 'family', 'history', 'is', 'messy', '.', 'My', 'mom', '(', 'Terry', ')', 'was', 'married', 'to', 'Brad', 'when', 'she', 'got', 'pregnant', 'with', 'me', '.', 'Brad', 'was', 'best', 'friends', 'with', 'Chris', ',', '...', '182', '♡', '>', '76', 'D', '56', '•', 'skbreddi', '22d', '⚫', '2.0m', 'views', 'WIBTA', 'if', 'I', 'wear', 'a', 'shirt', 'with', 'a', 'skeleton', 'baby', 'on', 'it', 'to', 'work', 'Listener', 'Write', 'In', '+', 'Home', 'Answers', 'Create', 'Chat', 'Inbox']
+未发现隐私信息
+保存到: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'/level/google_gemini-2.5-pro/screenshot_2025-10-31-50739-6add94e7_annotated.png
+OCR处理时间: 0.93秒
+
+第 6/6 张: screenshot_2025-10-31-50755-28e9145b.png
+VLM处理时间: 19.49秒
+OCR结果: ['6', ':', '06M', 'Х', '96', 'LTE', 'A', 'TWO', 'TAKE', 'r', '/', 'TwoHotTakes', 'u', '/', 'Alternative', '-', 'Skin', '-', '493', '•', '6h', 'AITA', 'for', 'refusing', 'to', 'sweep', 'the', 'truth', 'about', 'my', 'biological', 'father', '-', 'and', 'my', "mom's", 'decades', '-', 'long', 'lie-', 'under', 'the', 'rug', '?', 'Advice', 'Needed', 'Okay', ',', 'so', 'this', 'is', 'going', 'to', 'be', 'a', 'bit', 'of', 'a', 'ride', 'because', 'my', 'family', 'history', 'is', 'messy', '.', 'My', 'mom', '(', 'Terry', ')', 'was', 'married', 'to', 'Brad', 'when', 'she', 'got', 'pregnant', 'with', 'me', '.', 'Brad', 'was', 'best', 'friends', 'with', 'Chris', ',', 'who', 'later', 'became', 'my', 'stepdad', '.', 'There', 'were', 'always', 'rumors', 'that', 'my', 'mom', 'had', 'cheated', 'on', 'Brad', 'with', 'Chris', ',', 'but', 'she', 'denied', 'it', 'every', 'single', 'time', '.', 'Chris', 'ended', 'up', 'being', 'the', 'one', 'who', 'actually', 'raised', 'me', ',', 'and', 'honestly', ',', 'he', 'was', 'the', 'most', 'stable', 'and', 'loving', 'person', 'in', 'my', 'life', '.', 'He', 'died', 'by', 'suicide', 'in', '2021', ',', 'which', 'completely', 'broke', 'me', '.', 'Around', 'that', 'time', ',', 'Brad', 'showed', 'up', 'to', 'a', 'separate', 'wake', 'that', "Chris's", 'sons', '(', 'who', 'hated', 'my', 'mom', ')', 'held', '.', 'Apparently', ',', 'while', 'he', 'was', 'there', ',', 'he', 'was', 'overheard', 'saying', 'that', 'my', 'mom', 'had', 'cheated', 'and', 'that', 'I', "wasn't", 'his', 'biological', 'child', '.', 'I', "didn't", 'hear', 'it', 'myself', 'and', "didn't", 'find', 'out', 'until', 'much', 'later', '.', 'Not', 'long', 'after', ',', 'my', 'mom', 'sat', 'me', 'down', 'and', 'told', 'me', 'this', 'big', 'story', 'about', 'how', 'Brad', "wasn't", 'my', 'biological', 'dad', 'and', 'that', 'I', 'was', 'conceived', 'through', 'IVF', 'with', 'a', 'sperm', 'donor', '.', 'She', 'said', 'Brad', 'always', 'knew', 'but', "didn't", 'want', 'me', 'told', 'because', 'it', 'made', 'him', 'feel', '"', 'less', 'of', 'a', 'man', '.', '"', 'I', 'was', 'deep', 'in', 'grief', 'over', 'losing', 'Chris', 'and', "didn't", 'question', 'it', '-', 'I', 'just', 'took', 'her', 'word', 'for', 'it', '.', 'Then', 'in', '2024', ',', 'I', 'took', 'an', 'Ancestry', 'DNA', 'test', 'for', 'my', 'mom', '(', "she's", 'adopted', ')', '.', 'When', 'I', 'got', 'my', 'results', 'back', ',', 'I', 'matched', 'with', 'a', 'man', 'named', 'Ron', 'and', 'two', 'half', '-', 'sisters', '.', 'It', 'was', 'obvious', 'from', 'the', 'DNA', 'that', 'Ron', 'was', 'my', 'biological', 'father', '.', 'I', 'reached', 'out', ',', 'and', 'eventually', 'we', 'met', '.', '-', 'Ron', 'told', 'me', "he's", 'never', 'donated', 'sperm', 'in', 'his', 'life', '.', 'Back', 'in', 'the', 'late', "'", '90s', ',', 'he', 'was', 'drinking', 'heavily', 'and', 'spent', 'a', 'lot', 'of', 'time', 'at', 'the', 'same', 'country', 'bars', 'my', 'mom', 'used', 'to', 'go', 'to', 'for', 'line', 'dancing', '.', 'He', "doesn't", 'remember', 'meeting', 'her', ',', 'but', 'he', 'knows', 'for', 'sure', 'he', 'never', 'Share', 'your', 'thoughts']
+未找到: 6:06
+找到: LTE (共 1 处)
+找到: r/TwoHotTakes (共 1 处)
+找到: u/Alternative-Skin-493 (共 1 处)
+找到: 6h (共 1 处)
+找到: AITA for refusing to sweep the truth about my biological father-and my mom's decades-long lie- under the rug? (共 1 处)
+找到: Advice Needed (共 1 处)
+找到: Okay, so this is going to be a bit of a ride because my family history is messy. (共 1 处)
+找到: My mom (Terry) was married to Brad when she got pregnant with me. Brad was best friends with Chris, who later became my stepdad. There were always rumors that my mom had cheated on Brad with Chris, but she denied it every single time. (共 1 处)
+未找到: Chris ended up being the one who actually raised me, and honestly, he was the most stable and loving person in my life. He died by suicide in 2021, which completely broke me. Around that time, Brad showed up to a separate wake that Chris's sons (who hated my mom) held. Apparently, while he was there, he was overheard saying that my mom had cheated and that I wasn't his biological child. I didn't hear it myself and didn't find out until much later.
+未找到: Not long after, my mom sat me down and told me this big story about how Brad wasn't my biological dad and that I was conceived through IVF with a sperm donor. She said Brad always knew but didn't want me told because it made him feel "less of a man." I was deep in grief over losing Chris and didn't question it I just took her word for it.
+未找到: Then in 2024, I took an Ancestry DNA test for my mom (she's adopted). When I got my results back, I matched with a man named Ron - and two half-sisters. It was obvious from the DNA that Ron was my biological father. I reached out, and eventually we met.
+未找到: Ron told me he's never donated sperm in his life. Back in the late '90s, he was drinking heavily and spent a lot of time at the same country bars my mom used to go to for line dancing. He doesn't remember meeting her, but he knows for sure he never
+找到: Share your thoughts (共 1 处)
+保存到: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'/level/google_gemini-2.5-pro/screenshot_2025-10-31-50755-28e9145b_annotated.png
+OCR处理时间: 1.04秒
+
+保存到: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes'/level/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 6 张图片
+平均VLM处理时间: 15.36秒/张
+平均OCR处理时间: 14.26秒/张
+✓ 完成: data/mobile/20251031_140418_Reddit_Search_'r_TwoHotTakes' - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+开始时间: 2025-11-18 03:50:30
+/public/zhangzhiling/miniconda3/envs/llm/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)

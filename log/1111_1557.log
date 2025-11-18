@@ -1,0 +1,580 @@
+nohup: ignoring input
+==================================
+处理目录: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen
+==================================
+
+----------------------------------
+使用模型: google/gemini-2.5-pro
+----------------------------------
+处理目录: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen
+找到 14 张图片
+OCR: 启用
+
+第 1/14 张: screenshot_2025-10-31-44214-2d072407.png
+AI结果: 
+4:16 | Timestamp | 3(Technical & Device Identifiers)
+04:54 | Timestamp | 3(Technical & Device Identifiers)
+Deep Work Session Complete | User activity notification | 4(Behavior & Context Traces)
+处理时间: 20.69秒
+找到: 4:16
+找到: 04:54
+找到: Deep Work Session Complete
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44214-2d072407_annotated.png
+
+第 2/14 张: screenshot_2025-10-31-44236-1d25c535.png
+AI结果: 
+Tim Bench | User's name | 1(Core Identity Identifiers)
+4:17 | Time | 3(Technical & Device Identifiers)
+122850 | Verification code | 2(Contact & Financial)
+处理时间: 9.18秒
+未找到: Tim Bench
+找到: 4:17
+找到: 122850
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44236-1d25c535_annotated.png
+
+第 3/14 张: screenshot_2025-10-31-44252-b1145cb5.png
+AI结果: 
+T | The user's profile initial | 1(Core Identity Identifiers)
+Will Lockett | Name of an email sender | 1(Core Identity Identifiers)
+Alex Mathers | Name of an email sender | 1(Core Identity Identifiers)
+I'm Tony, CEO at Medium. Fir | Email snippet containing a person's name and role | 1(Core Identity Identifiers)
+4:17 | Timestamp | 3(Technical & Device Identifiers)
+2:03 AM | Timestamp of a received email | 3(Technical & Device Identifiers)
+Oct 30 | Date of received emails | 3(Technical & Device Identifiers)
+Welcome to Claude — let's get started | Email subject indicating user's service signup | 4(Behavior & Context Traces)
+Trump Won't Last Until 2028, And No Kin... | Email subject that could indicate user's political interests | 5(Special Categories (Sensitive))
+You just published your first story on Me... | Email subject indicating a recent user activity | 4(Behavior & Context Traces)
+me, Mail 2 | Identifier for an email sent by the user | 4(Behavior & Context Traces)
+(no subject) Address not found Your message wasn't deli... | Snippet from a bounced email sent by the user | 4(Behavior & Context Traces)
+Welcome to Medium | Email subject indicating user's service signup | 4(Behavior & Context Traces)
+处理时间: 29.67秒
+找到: T
+找到: Will Lockett
+找到: Alex Mathers
+未找到: I'm Tony, CEO at Medium. Fir
+找到: 4:17
+找到: 2:03 AM
+找到: Oct 30
+未找到: Welcome to Claude — let's get started
+未找到: Trump Won't Last Until 2028, And No Kin...
+未找到: )
+You just published your first story on Me...
+  拼接匹配成功: 连续 2 个OCR结果
+找到: me, Mail 2
+未找到: (no subject) Address not found Your message wasn't deli...
+找到: Welcome to Medium
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44252-b1145cb5_annotated.png
+
+第 4/14 张: screenshot_2025-10-31-44265-c5ff2653.png
+AI结果: 
+T | User's profile initial | 1(Core Identity Identifiers)
+4:17 | The time screenshot was taken | 3(Technical & Device Identifiers)
+2:03 AM | Timestamp of a received email | 3(Technical & Device Identifiers)
+Oct 30 | Date of a received email | 3(Technical & Device Identifiers)
+处理时间: 24.45秒
+找到: T
+找到: 4:17
+找到: 2:03 AM
+找到: Oct 30
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44265-c5ff2653_annotated.png
+
+第 5/14 张: screenshot_2025-10-31-44279-93346495.png
+AI结果: 
+T | User's profile initial | 1(Core Identity Identifiers)
+info | Recipient email address or username | 2(Contact & Financial)
+partnership | Recipient email address or username | 2(Contact & Financial)
+intlmarket | Recipient email address or username | 2(Contact & Financial)
+press | Recipient email address or username | 2(Contact & Financial)
+4:18 | Time | 3(Technical & Device Identifiers)
+Oct 30 | Date of email | 3(Technical & Device Identifiers)
+Oct 28 | Date of email | 3(Technical & Device Identifiers)
+Address not found Your message wa... | Snippet of an email body | 4(Behavior & Context Traces)
+How do you do? | Snippet of an email body | 4(Behavior & Context Traces)
+How are you | Snippet of an email body | 4(Behavior & Context Traces)
+Hi | Snippet of an email body | 4(Behavior & Context Traces)
+处理时间: 14.52秒
+找到: T
+找到: info
+找到: partnership
+找到: intlmarket
+找到: press
+找到: 4:18
+找到: Oct 30
+找到: Oct 28
+未找到: Address not found Your message wa...
+找到: How do you do?
+找到: How are you
+找到: Hi
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44279-93346495_annotated.png
+
+第 6/14 张: screenshot_2025-10-31-44292-4a10b784.png
+AI结果: 
+4:18 | Time of action | 3(Technical & Device Identifiers)
+Tim Bench | Person's name | 1(Core Identity Identifiers)
+partnership@bytedance.com | Email address | 2(Contact & Financial)
+处理时间: 10.42秒
+找到: 4:18
+未找到: Tim Bench
+找到: partnership@bytedance.com
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44292-4a10b784_annotated.png
+
+第 7/14 张: screenshot_2025-10-31-44304-42d0c1ab.png
+AI结果: 
+4:18 | Timestamp | 3(Technical & Device Identifiers)
+03:16 | Timestamp | 3(Technical & Device Identifiers)
+Deep Work Session Complete | Information about user's activity | 4(Behavior & Context Traces)
+处理时间: 12.77秒
+找到: 4:18
+找到: 03:16
+找到: Deep Work Session Complete
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44304-42d0c1ab_annotated.png
+
+第 8/14 张: screenshot_2025-10-31-44325-02cf0521.png
+AI结果: 
+Tim Bench | Real name | 1(Core Identity Identifiers)
+4:18 | Timestamp | 3(Technical & Device Identifiers)
+3 days ago | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 12.09秒
+未找到: Tim Bench
+找到: 4:18
+找到: 3 days ago
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44325-02cf0521_annotated.png
+
+第 9/14 张: screenshot_2025-10-31-44340-b7cedb05.png
+AI结果: 
+T | User profile initial | 1(Core Identity Identifiers)
+4:19 | Timestamp | 3(Technical & Device Identifiers)
+info | Recipient of user's email | 4(Behavior & Context Traces)
+Oct 30 | Date of user's sent email | 3(Technical & Device Identifiers)
+partnership | Recipient of user's email | 4(Behavior & Context Traces)
+Oct 28 | Date of user's sent email | 3(Technical & Device Identifiers)
+intlmarket | Recipient of user's email | 4(Behavior & Context Traces)
+press | Recipient of user's email | 4(Behavior & Context Traces)
+处理时间: 23.16秒
+找到: T
+找到: 4:19
+找到: info
+找到: Oct 30
+找到: partnership
+找到: Oct 28
+找到: intlmarket
+找到: press
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44340-b7cedb05_annotated.png
+
+第 10/14 张: screenshot_2025-10-31-44353-feb699a0.png
+AI结果: 
+Tim Bench | Real name of an email sender | 1(Core Identity Identifiers)
+partnership@bytedance.com | Email address | 2(Contact & Financial)
+4:19 | Time on the user's device | 3(Technical & Device Identifiers)
+3 days ago | Relative timestamp of an email | 3(Technical & Device Identifiers)
+处理时间: 16.22秒
+未找到: Tim Bench
+找到: partnership@bytedance.com
+找到: 4:19
+未找到: 3 days ago
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44353-feb699a0_annotated.png
+
+第 11/14 张: screenshot_2025-10-31-44365-15a918a0.png
+AI结果: 
+4:19 | Timestamp | 3(Technical & Device Identifiers)
+Tim Bench | Person's name | 1(Core Identity Identifiers)
+3 days ago | Relative timestamp of an email | 3(Technical & Device Identifiers)
+partnership@bytedance.com | Email address | 2(Contact & Financial)
+处理时间: 11.18秒
+找到: 4:19
+未找到: Tim Bench
+未找到: 3 days ago
+找到: partnership@bytedance.com
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44365-15a918a0_annotated.png
+
+第 12/14 张: screenshot_2025-10-31-44381-cd87c8ec.png
+AI结果: 
+benchtest76@gmail.com | Email address | 2(Contact & Financial)
+4:19 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 7.50秒
+找到: benchtest76@gmail.com
+找到: 4:19
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44381-cd87c8ec_annotated.png
+
+第 13/14 张: screenshot_2025-10-31-44397-75586451.png
+AI结果: 
+4:20 | Timestamp | 3(Technical & Device Identifiers)
+benchtest76@gmail.com | Email address | 2(Contact & Financial)
+处理时间: 22.18秒
+找到: 4:20
+找到: benchtest76@gmail.com
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44397-75586451_annotated.png
+
+第 14/14 张: screenshot_2025-10-31-44410-c6870452.png
+AI结果: 
+4:20 | Timestamp | 3(Technical & Device Identifiers)
+Tim Bench | User's name | 1(Core Identity Identifiers)
+benchtest76@gmail.com | User's email address | 2(Contact & Financial)
+Tue, 28 Oct 2025 12:29:02 +0000 | Timestamp | 3(Technical & Device Identifiers)
+4:20 AM | Timestamp | 3(Technical & Device Identifiers)
+Tue, Oct 28, 2025, 12:29 PM | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 17.20秒
+找到: 4:20
+未找到: Tim Bench
+找到: benchtest76@gmail.com
+未找到: Tue, 28 Oct 2025 12:29:02 +0000
+未找到: 4:20 AM
+未找到: Tue, Oct 28, 2025, 12:29 PM
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/screenshot_2025-10-31-44410-c6870452_annotated.png
+
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/google_gemini-2.5-pro/privacy_results.json
+
+完成！处理了 14 张图片
+平均处理时间: 16.52秒/张
+✓ 完成: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen - google/gemini-2.5-pro
+
+
+----------------------------------
+使用模型: openai/chatgpt-4o-latest
+----------------------------------
+处理目录: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen
+找到 14 张图片
+OCR: 启用
+
+第 1/14 张: screenshot_2025-10-31-44214-2d072407.png
+AI结果: 
+04:54 | Timestamp of a user event | 3(Technical & Device Identifiers)  
+Deep Work Session Complete | User activity/behavior event | 4(Behavior & Context Traces)  
+4:16 | Device time | 3(Technical & Device Identifiers)
+处理时间: 9.39秒
+找到: 04:54
+找到: Deep Work Session Complete
+找到: 4:16
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44214-2d072407_annotated.png
+
+第 2/14 张: screenshot_2025-10-31-44236-1d25c535.png
+AI结果: 
+Tim Bench | Real name | 1(Core Identity Identifiers)  
+verify@x.com | Email address | 2(Contact & Financial)  
+122850 | Verification code | 2(Contact & Financial)
+处理时间: 4.17秒
+未找到: Tim Bench
+找到: verify@x.com
+找到: 122850
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44236-1d25c535_annotated.png
+
+第 3/14 张: screenshot_2025-10-31-44252-b1145cb5.png
+AI结果: 
+me, Mail | Email sender indicating user's identity | 1(Core Identity Identifiers)  
+2:03 AM | Timestamp of received email | 3(Technical & Device Identifiers)  
+Oct 30 | Timestamps of received emails | 3(Technical & Device Identifiers)
+处理时间: 4.47秒
+找到: me, Mail
+找到: 2:03 AM
+找到: Oct 30
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44252-b1145cb5_annotated.png
+
+第 4/14 张: screenshot_2025-10-31-44265-c5ff2653.png
+AI结果: 
+No privacy information found
+处理时间: 2.04秒
+未发现隐私信息
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44265-c5ff2653_annotated.png
+
+第 5/14 张: screenshot_2025-10-31-44279-93346495.png
+AI结果: 
+To: info | Email recipient username (partial identifier) | 2(Contact & Financial)  
+To: partnership | Email recipient username (partial identifier) | 2(Contact & Financial)  
+To: intlmarket | Email recipient username (partial identifier) | 2(Contact & Financial)  
+To: press | Email recipient username (partial identifier) | 2(Contact & Financial)
+处理时间: 2.80秒
+找到: To: info
+找到: To: partnership
+找到: To: intlmarket
+找到: To: press
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44279-93346495_annotated.png
+
+第 6/14 张: screenshot_2025-10-31-44292-4a10b784.png
+AI结果: 
+Tim Bench | Sender name, potential real identity | 1(Core Identity Identifiers)  
+partnership@bytedance.com | Email address | 2(Contact & Financial)  
+to me | Indicates the recipient is the user | 1(Core Identity Identifiers)
+处理时间: 2.64秒
+未找到: Tim Bench
+找到: partnership@bytedance.com
+找到: to me
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44292-4a10b784_annotated.png
+
+第 7/14 张: screenshot_2025-10-31-44304-42d0c1ab.png
+AI结果: 
+03:16 | Timestamp of device activity | 3(Technical & Device Identifiers)  
+4:18 | Device time | 3(Technical & Device Identifiers)
+处理时间: 7.18秒
+找到: 03:16
+找到: 4:18
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44304-42d0c1ab_annotated.png
+
+第 8/14 张: screenshot_2025-10-31-44325-02cf0521.png
+AI结果: 
+Tim Bench | Sender name (potentially identifiable) | 1(Core Identity Identifiers)  
+partnership@bytedance.com | Email address | 2(Contact & Financial)
+处理时间: 2.35秒
+未找到: Tim Bench
+找到: partnership@bytedance.com
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44325-02cf0521_annotated.png
+
+第 9/14 张: screenshot_2025-10-31-44340-b7cedb05.png
+AI结果: 
+To: info | Email recipient identifier | 2(Contact & Financial)  
+To: partnership | Email recipient identifier | 2(Contact & Financial)  
+To: intlmarket | Email recipient identifier | 2(Contact & Financial)  
+To: press | Email recipient identifier | 2(Contact & Financial)
+处理时间: 3.78秒
+找到: To: info
+找到: To: partnership
+找到: To: intlmarket
+找到: To: press
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44340-b7cedb05_annotated.png
+
+第 10/14 张: screenshot_2025-10-31-44353-feb699a0.png
+AI结果: 
+Tim Bench | Display name (potentially real name) | 1(Core Identity Identifiers)  
+partnership@bytedance.com | Email address | 2(Contact & Financial)
+处理时间: 5.10秒
+未找到: Tim Bench
+找到: partnership@bytedance.com
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44353-feb699a0_annotated.png
+
+第 11/14 张: screenshot_2025-10-31-44365-15a918a0.png
+AI结果: 
+Tim Bench | Sender's name, potentially identifying a real individual | 1(Core Identity Identifiers)  
+partnership@bytedance.com | Email address | 2(Contact & Financial)
+处理时间: 2.63秒
+未找到: Tim Bench
+找到: partnership@bytedance.com
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44365-15a918a0_annotated.png
+
+第 12/14 张: screenshot_2025-10-31-44381-cd87c8ec.png
+AI结果: 
+benchtest76@gmail.com | Email address | 2(Contact & Financial)
+处理时间: 2.94秒
+找到: benchtest76@gmail.com
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44381-cd87c8ec_annotated.png
+
+第 13/14 张: screenshot_2025-10-31-44397-75586451.png
+AI结果: 
+benchtest76@gmail.com | Email address | 2(Contact & Financial)  
+recipient@example.com | Email address | 2(Contact & Financial)
+处理时间: 2.23秒
+找到: benchtest76@gmail.com
+找到: recipient@example.com
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44397-75586451_annotated.png
+
+第 14/14 张: screenshot_2025-10-31-44410-c6870452.png
+AI结果: 
+benchtest76@gmail.com | Email address | 2(Contact & Financial)  
+Tim Bench | Full name | 1(Core Identity Identifiers)
+处理时间: 2.85秒
+找到: benchtest76@gmail.com
+未找到: Tim Bench
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/screenshot_2025-10-31-44410-c6870452_annotated.png
+
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_chatgpt-4o-latest/privacy_results.json
+
+完成！处理了 14 张图片
+平均处理时间: 3.90秒/张
+✓ 完成: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen - openai/chatgpt-4o-latest
+
+
+----------------------------------
+使用模型: openai/gpt-5-pro
+----------------------------------
+处理目录: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen
+找到 14 张图片
+OCR: 启用
+
+第 1/14 张: screenshot_2025-10-31-44214-2d072407.png
+AI结果: 
+4:16 | Timestamp (current time) | 3(Technical & Device Identifiers)
+04:54 | Time value displayed | 3(Technical & Device Identifiers)
+Deep Work Session Complete | Notification indicating user activity | 4(Behavior & Context Traces)
+处理时间: 277.90秒
+找到: 4:16
+找到: 04:54
+找到: Deep Work Session Complete
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44214-2d072407_annotated.png
+
+第 2/14 张: screenshot_2025-10-31-44236-1d25c535.png
+AI结果: 
+Tim Bench | Real name | 1(Core Identity Identifiers)
+122850 | Verification code (one-time code) | 2(Contact & Financial)
+4:17 | Device time (timestamp) | 3(Technical & Device Identifiers)
+2 days ago | Email timestamp | 3(Technical & Device Identifiers)
+处理时间: 266.51秒
+未找到: Tim Bench
+找到: 122850
+找到: 4:17
+找到: 2 days ago
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44236-1d25c535_annotated.png
+
+第 3/14 张: screenshot_2025-10-31-44252-b1145cb5.png
+AI结果: 
+4:17 | Device time (timestamp) | 3(Technical & Device Identifiers)
+2:03 AM | Email timestamp | 3(Technical & Device Identifiers)
+Oct 30 | Email timestamp | 3(Technical & Device Identifiers)
+Welcome to Claude — let’s get started | Email subject from user's inbox | 4(Behavior & Context Traces)
+Trump Won’t Last Until 2028, And No Kin... | Email subject from user's inbox | 4(Behavior & Context Traces)
+You just published your first story on Me... | Email subject from user's inbox | 4(Behavior & Context Traces)
+Those with audiences will be stronger. | Email subject from user's inbox | 4(Behavior & Context Traces)
+(no subject) | Email subject from user's inbox | 4(Behavior & Context Traces)
+Address not found Your message wasn't deli... | Email snippet from user's inbox | 4(Behavior & Context Traces)
+👋 Welcome to Medium | Email subject from user's inbox | 4(Behavior & Context Traces)
+处理时间: 406.61秒
+找到: 4:17
+找到: 2:03 AM
+找到: Oct 30
+未找到: Welcome to Claude — let’s get started
+未找到: Trump Won’t Last Until 2028, And No Kin...
+未找到: You just published your first story on Me...
+找到: Those with audiences will be stronger.
+找到: (no subject)
+未找到: Address not found Your message wasn't deli...
+  拼接匹配成功: 连续 1 个OCR结果
+找到: 👋 Welcome to Medium
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44252-b1145cb5_annotated.png
+
+第 4/14 张: screenshot_2025-10-31-44265-c5ff2653.png
+AI结果: 
+4:17 | Device time (timestamp) | 3(Technical & Device Identifiers)
+2:03 AM | Email timestamp | 3(Technical & Device Identifiers)
+Oct 30 | Email date (timestamp) | 3(Technical & Device Identifiers)
+处理时间: 229.57秒
+找到: 4:17
+找到: 2:03 AM
+找到: Oct 30
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44265-c5ff2653_annotated.png
+
+第 5/14 张: screenshot_2025-10-31-44279-93346495.png
+AI结果: 
+Oct 30 | Email timestamp/date in Sent folder | 3(Technical & Device Identifiers)
+Oct 28 | Email timestamp/date in Sent folder | 3(Technical & Device Identifiers)
+处理时间: 229.91秒
+找到: Oct 30
+找到: Oct 28
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44279-93346495_annotated.png
+
+第 6/14 张: screenshot_2025-10-31-44292-4a10b784.png
+AI结果: 
+Tim Bench | Real name | 1(Core Identity Identifiers)
+4:18 | Device time (timestamp) | 3(Technical & Device Identifiers)
+3 days ago | Message timestamp | 3(Technical & Device Identifiers)
+处理时间: 265.40秒
+未找到: Tim Bench
+找到: 4:18
+找到: 3 days ago
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44292-4a10b784_annotated.png
+
+第 7/14 张: screenshot_2025-10-31-44304-42d0c1ab.png
+AI结果: 
+4:18 | Current device time (timestamp) | 3(Technical & Device Identifiers)
+03:16 | Timer value (timestamp) | 3(Technical & Device Identifiers)
+Deep Work Session Complete | App usage/behavioral event | 4(Behavior & Context Traces)
+处理时间: 172.08秒
+找到: 4:18
+找到: 03:16
+找到: Deep Work Session Complete
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44304-42d0c1ab_annotated.png
+
+第 8/14 张: screenshot_2025-10-31-44325-02cf0521.png
+AI结果: 
+Tim Bench | Real name | 1(Core Identity Identifiers)
+3 days ago | Timestamp of user's activity | 3(Technical & Device Identifiers)
+处理时间: 193.12秒
+未找到: Tim Bench
+找到: 3 days ago
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44325-02cf0521_annotated.png
+
+第 9/14 张: screenshot_2025-10-31-44340-b7cedb05.png
+AI结果: 
+To: info  2 | Record of user’s sent email recipient | 4(Behavior & Context Traces)
+To: info | Record of user’s sent email recipient | 4(Behavior & Context Traces)
+To: partnership  2 | Record of user’s sent email recipient | 4(Behavior & Context Traces)
+To: intlmarket  2 | Record of user’s sent email recipient | 4(Behavior & Context Traces)
+To: press | Record of user’s sent email recipient | 4(Behavior & Context Traces)
+Address not found Your message wa... | Email content snippet of user’s communication | 4(Behavior & Context Traces)
+How do you do? | Email content snippet of user’s communication | 4(Behavior & Context Traces)
+How are you | Email content snippet of user’s communication | 4(Behavior & Context Traces)
+Hi | Email content snippet of user’s communication | 4(Behavior & Context Traces)
+Oct 30 | Email timestamp | 3(Technical & Device Identifiers)
+Oct 28 | Email timestamp | 3(Technical & Device Identifiers)
+处理时间: 229.57秒
+  拼接匹配成功: 连续 2 个OCR结果
+找到: To: info  2
+找到: To: info
+  拼接匹配成功: 连续 2 个OCR结果
+找到: To: partnership  2
+  拼接匹配成功: 连续 2 个OCR结果
+找到: To: intlmarket  2
+找到: To: press
+未找到: Address not found Your message wa...
+找到: How do you do?
+找到: How are you
+找到: Hi
+找到: Oct 30
+找到: Oct 28
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44340-b7cedb05_annotated.png
+
+第 10/14 张: screenshot_2025-10-31-44353-feb699a0.png
+AI结果: 
+Tim Bench | Full name | 1(Core Identity Identifiers)
+4:19 | Device time (timestamp) | 3(Technical & Device Identifiers)
+3 days ago | Email timestamp | 3(Technical & Device Identifiers)
+处理时间: 228.66秒
+未找到: Tim Bench
+找到: 4:19
+未找到: 3 days ago
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44353-feb699a0_annotated.png
+
+第 11/14 张: screenshot_2025-10-31-44365-15a918a0.png
+AI结果: 
+Tim Bench | Person’s real name | 1(Core Identity Identifiers)
+3 days ago | Email timestamp | 3(Technical & Device Identifiers)
+4:19 | Device time | 3(Technical & Device Identifiers)
+处理时间: 230.20秒
+未找到: Tim Bench
+未找到: 3 days ago
+找到: 4:19
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44365-15a918a0_annotated.png
+
+第 12/14 张: screenshot_2025-10-31-44381-cd87c8ec.png
+AI结果: 
+benchtest76@gmail.com | Email address | 2(Contact & Financial)
+4:19 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 153.89秒
+找到: benchtest76@gmail.com
+找到: 4:19
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44381-cd87c8ec_annotated.png
+
+第 13/14 张: screenshot_2025-10-31-44397-75586451.png
+AI结果: 
+benchtest76@gmail.com | Email address | 2(Contact & Financial)
+4:20 | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 229.86秒
+找到: benchtest76@gmail.com
+找到: 4:20
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44397-75586451_annotated.png
+
+第 14/14 张: screenshot_2025-10-31-44410-c6870452.png
+AI结果: 
+Tim Bench | Real name | 1(Core Identity Identifiers)
+benchtest76@gmail.com | Email address | 2(Contact & Financial)
+Tue, 28 Oct 2025 12:29:02 +0000 | Timestamp | 3(Technical & Device Identifiers)
+4:20 AM | Timestamp | 3(Technical & Device Identifiers)
+Tue, Oct 28, 2025, 12:29 PM | Timestamp | 3(Technical & Device Identifiers)
+处理时间: 299.57秒
+未找到: Tim Bench
+找到: benchtest76@gmail.com
+未找到: Tue, 28 Oct 2025 12:29:02 +0000
+未找到: 4:20 AM
+未找到: Tue, Oct 28, 2025, 12:29 PM
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/screenshot_2025-10-31-44410-c6870452_annotated.png
+
+保存到: data/mobile/20251031_121653_Gmail__View_third_email_in_Sen/annotated_results/openai_gpt-5-pro/privacy_results.json
+
+完成！处理了 14 张图片
+平均处理时间: 243.77秒/张
