@@ -6,11 +6,10 @@ import argparse
 from openai import OpenAI
 from PIL import Image, ImageDraw, ImageFont
 import re
-from textwrap import dedent
 from datetime import datetime
 import time
-from google.cloud import vision
 
+# OpenAI客户端
 client = OpenAI(
     base_url="https://api.dou.chat/v1",  
     api_key=os.getenv('OPENAI_API_KEY', ""),
@@ -47,35 +46,71 @@ def load_task_goal(directory_path):
         return ""
 
 def get_google_ocr_results(image_path):
-    """使用Google Vision API进行OCR，返回格式类似EasyOCR: [(bbox, text, confidence)]"""
-    global vision_client
-    if vision_client is None:
-        vision_client = vision.ImageAnnotatorClient()
+    """使用Google Vision API进行OCR，返回格式类似EasyOCR: [(bbox, text, confidence)]
     
-    with open(image_path, "rb") as image_file:
-        content = image_file.read()
+    如果设置了环境变量 USE_OCR_SERVICE=true，则通过HTTP服务调用OCR
+    否则直接使用本地vision_client
+    """
+    use_service = os.getenv('USE_OCR_SERVICE', 'false').lower() == 'true'
+    service_url = os.getenv('OCR_SERVICE_URL', 'http://localhost:8765')
     
-    image = vision.Image(content=content)
-    response = vision_client.document_text_detection(image=image)
-    document = response.full_text_annotation
+    if use_service:
+        # 通过HTTP服务调用OCR
+        try:
+            import requests
+            request_data = {'image_path': image_path}
+            response = requests.post(
+                f'{service_url}/ocr',
+                json=request_data,
+                timeout=60
+            )
+            response.raise_for_status()
+            result = response.json()
+            if result.get('success'):
+                return result.get('results', [])
+            else:
+                raise Exception(f"OCR服务返回错误: {result.get('error', 'Unknown error')}")
+        except Exception as e:
+            print(f"警告: OCR服务调用失败 ({e})，回退到本地模式")
+            # 回退到本地模式
+            use_service = False
     
-    ocr_results = []
-    
-    # 遍历所有页面、块、段落、单词
-    for page in document.pages:
-        for block in page.blocks:
-            for paragraph in block.paragraphs:
-                for word in paragraph.words:
-                    # 提取单词文本
-                    word_text = ''.join([symbol.text for symbol in word.symbols])
-                    
-                    # 提取边界框（4个顶点）
-                    vertices = word.bounding_box.vertices
-                    if len(vertices) >= 4:
-                        bbox = [[v.x, v.y] for v in vertices[:4]]
-                        ocr_results.append((bbox, word_text, 1.0))
-    
-    return ocr_results
+    if not use_service:
+        # 本地模式：直接使用vision_client
+        global vision_client
+        if vision_client is None:
+            from google.cloud import vision
+            print("初始化Google Vision API客户端...")
+            vision_client = vision.ImageAnnotatorClient()
+            print("✓ Google Vision API客户端初始化完成")
+        
+        with open(image_path, "rb") as image_file:
+            content = image_file.read()
+        
+        image = vision.Image(content=content)
+        response = vision_client.document_text_detection(image=image)
+        document = response.full_text_annotation
+        
+        ocr_results = []
+        
+        # 遍历所有页面、块、段落、单词
+        for page in document.pages:
+            for block in page.blocks:
+                for paragraph in block.paragraphs:
+                    for word in paragraph.words:
+                        # 提取单词文本
+                        word_text = ''.join([symbol.text for symbol in word.symbols])
+                        
+                        # 提取word的confidence
+                        confidence = word.confidence
+                        
+                        # 提取边界框（4个顶点）
+                        vertices = word.bounding_box.vertices
+                        if len(vertices) >= 4:
+                            bbox = [[v.x, v.y] for v in vertices[:4]]
+                            ocr_results.append((bbox, word_text, confidence))
+        
+        return ocr_results
 
 def merge_bboxes(bboxes):
     """合并多个bbox为一个包含所有bbox的大bbox"""
@@ -87,12 +122,12 @@ def merge_bboxes(bboxes):
     return [[min_x, min_y], [max_x, min_y], [max_x, max_y], [min_x, max_y]]
 
 def extract_alphanumeric(text):
-    """提取文本中的字母和数字，去掉空格和标点符号"""
+    """提取文本中的字母、数字和中文，去掉空格和标点符号"""
     import re
-    return re.sub(r'[^a-zA-Z0-9]', '', text)
+    return re.sub(r'[^a-zA-Z0-9\u4e00-\u9fa5]', '', text)
 
 def find_text_in_ocr_results(target_text, ocr_results, matched_indices=None):
-    """在OCR结果中查找目标文字，返回第一个匹配的bbox
+    """在OCR结果中查找目标文字，返回第一个匹配的bbox和最低confidence
     
     匹配时去掉空格和标点符号，只比较字母和数字
     支持匹配单个OCR结果或拼接多个连续的OCR结果
@@ -103,6 +138,9 @@ def find_text_in_ocr_results(target_text, ocr_results, matched_indices=None):
         target_text: 要查找的目标文本
         ocr_results: OCR结果列表
         matched_indices: 已匹配过的OCR结果索引集合，用于避免重复匹配
+    
+    Returns:
+        (bboxes, min_confidence): 匹配的bbox列表和最低confidence
     """
     if matched_indices is None:
         matched_indices = set()
@@ -119,12 +157,22 @@ def find_text_in_ocr_results(target_text, ocr_results, matched_indices=None):
         text_alphanumeric = extract_alphanumeric(text)
         if text_alphanumeric == target_alphanumeric:
             matched_indices.add(idx)
-            return [bbox]
+            return ([bbox], confidence)
     
     # 如果单个匹配失败，尝试拼接连续的多个OCR结果
     # 动态计算max_combine：target_text中所有标点符号数量 + 5
     punctuation_count = len(re.findall(r'[^\w]', target_text))  # 统计所有非字母数字字符（包括空格和标点）
-    max_combine = min(punctuation_count + 5, len(ocr_results))
+    
+    # 判断目标文本是否包含中文
+    has_chinese = bool(re.search(r'[\u4e00-\u9fa5]', target_text))
+    
+    if has_chinese:
+        # 中文场景下，每个字都可能被OCR单独识别，所以允许的拼接数应该跟目标文本长度相关
+        # 允许最大拼接数为 目标文本长度 + 冗余量，或者是默认的标点符号数量+5，取较大者
+        max_combine = min(max(len(target_alphanumeric) + 5, punctuation_count + 5), len(ocr_results))
+    else:
+        # 非中文场景，保持原有逻辑
+        max_combine = min(punctuation_count + 5, len(ocr_results))
     
     # 先找到能匹配目标文本开头的OCR结果
     for start_idx in range(len(ocr_results)):
@@ -149,9 +197,12 @@ def find_text_in_ocr_results(target_text, ocr_results, matched_indices=None):
                 # 如果匹配成功，返回第一个匹配
                 if combined_alphanumeric == target_alphanumeric:
                     bboxes = [ocr_results[i][0] for i in range(start_idx, end_idx)]
+                    # 计算匹配中最低的confidence
+                    confidences = [ocr_results[i][2] for i in range(start_idx, end_idx)]
+                    min_confidence = min(confidences) if confidences else 1.0
                     # 标记这些位置为已匹配
                     matched_indices.update(range(start_idx, end_idx))
-                    return [merge_bboxes(bboxes)]
+                    return ([merge_bboxes(bboxes)], min_confidence)
                 
                 # 如果已经超过目标文本长度，停止尝试
                 if len(combined_alphanumeric) > len(target_alphanumeric):
@@ -161,7 +212,7 @@ def find_text_in_ocr_results(target_text, ocr_results, matched_indices=None):
                 if not target_alphanumeric.startswith(combined_alphanumeric):
                     break
     
-    return []
+    return ([], 1.0)
 
 def convert_bbox_to_rect(bbox):
     """将四点坐标转换为矩形坐标"""
@@ -217,7 +268,7 @@ def process_privacy_matches(matches, ocr_results, image, draw, get_color_label_f
     
     for match in matches:
         privacy_text, description, category_or_level = match[0].strip(), match[1].strip(), match[2]
-        bboxes = find_text_in_ocr_results(privacy_text, ocr_results, matched_indices)
+        bboxes, min_confidence = find_text_in_ocr_results(privacy_text, ocr_results, matched_indices)
         
         # 获取颜色、标签和隐私项数据
         color, label, privacy_item = get_color_label_func(privacy_text, description, category_or_level)
@@ -225,7 +276,7 @@ def process_privacy_matches(matches, ocr_results, image, draw, get_color_label_f
         
         if bboxes:
             num_matches = len(bboxes)
-            print(f"找到: {privacy_text} (共 {num_matches} 处)")
+            print(f"找到: {privacy_text} (共 {num_matches} 处, confidence: {min_confidence:.4f})")
             
             coordinates_list = []
             for bbox in bboxes:
@@ -271,42 +322,15 @@ def prepare_image_and_ocr(image_path, print_ocr=False):
     
     return image, draw, ocr_results
 
-def parse_and_annotate(ai_output, image_path, output_dir, print_ocr=False, no_save_image=False):
-    """解析AI输出并标注隐私信息"""
-    
-    # 准备图片和OCR结果
-    image, draw, ocr_results = prepare_image_and_ocr(image_path, print_ocr)
-    
-    # 解析AI输出
-    pattern = r'([^|]+)\|\s*([^|]+)\|\s*(\d+)\s*\([^)]+\)'
-    matches = re.findall(pattern, ai_output)
-    
-    # 定义获取颜色和标签的函数
-    colors = ["#FF0000", "#FF8000", "#FFFF00", "#00FF00", "#FF00FF", "#0080FF"]
-    def get_color_label(privacy_text, description, category):
-        category_int = int(category)
-        color = colors[min(category_int-1, 5)]
-        label = str(category_int)
-        privacy_item = {
-            "text": privacy_text,
-            "description": description,
-            "category": category_int
-        }
-        return color, label, privacy_item
-    
-    # 处理匹配并绘制标注
-    privacy_items = process_privacy_matches(
-        matches, ocr_results, image, draw, get_color_label,
-        font_size=28, label_size=40, label_height=30, text_offset_x=13
-    )
-    
-    # 保存标注后的图片
-    save_annotated_image(image, image_path, output_dir, no_save_image)
-    
-    return privacy_items
-
-def call_vlm_api(image_path, prompt_text, model_name, print_ai_output=False):
+def call_vlm_api(image_path, prompt_text, model_name, print_ai_output=False, max_retries=1):
     """调用VLM API（通用函数）
+    
+    Args:
+        image_path: 图片路径
+        prompt_text: 提示词
+        model_name: 模型名称
+        print_ai_output: 是否打印输出
+        max_retries: 最大重试次数
     
     Returns:
         (ai_output, vlm_time): AI输出和处理时间
@@ -314,27 +338,50 @@ def call_vlm_api(image_path, prompt_text, model_name, print_ai_output=False):
     # 记录AI处理开始时间
     vlm_start_time = time.time()
     
-    # 调用AI API
     base64_image = encode_image(image_path)
-    completion = client.chat.completions.create(
-        model=model_name,
-        messages=[
-            {
-                "role": "user", 
-                "content": [
-                    {"type": "text", "text": prompt_text},
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/png;base64,{base64_image}"
-                        }
-                    },
-                ],
-            }
-        ],
-    )
+    ai_output = ""
     
-    ai_output = completion.choices[0].message.content
+    for attempt in range(max_retries):
+        try:
+            if attempt > 0:
+                print(f"尝试第 {attempt + 1}/{max_retries} 次请求...")
+            
+            # 调用AI API
+            completion = client.chat.completions.create(
+                model=model_name,
+                messages=[
+                    {
+                        "role": "user", 
+                        "content": [
+                            {"type": "text", "text": prompt_text},
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": f"data:image/png;base64,{base64_image}"
+                                }
+                            },
+                        ],
+                    }
+                ],
+            )
+            
+            ai_output = completion.choices[0].message.content
+            break  # 成功则退出循环
+            
+        except Exception as e:
+            print(f"请求失败 ({type(e).__name__}): {e}")
+            if attempt < max_retries - 1:
+                wait_time = 2 * (attempt + 1) # 简单的指数退避: 2s, 4s...
+                print(f"等待 {wait_time} 秒后重试...")
+                time.sleep(wait_time)
+            else:
+                print("已达到最大重试次数，放弃。")
+                # 如果是最后一次依然失败，可以选择抛出异常或者返回空字符串
+                # 这里为了保持流程继续，返回错误提示作为 output
+                ai_output = "" 
+    
+    if print_ai_output and ai_output:
+        print(f"AI输出:\n{ai_output}\n")
     
     # 记录AI处理结束时间
     vlm_end_time = time.time()
@@ -379,13 +426,14 @@ def print_processing_summary(all_privacy_data, vlm_times, ocr_times):
 
 def process_images(directory_path, parse_and_annotate_func, prompt_template, enable_ocr=True, 
                    start=1, end=None, model_name="openai/gpt-5-pro", print_ocr=False, 
-                   no_save_image=False, no_save_json=False, print_ai_output=False, output_name="googleocr_results"):
+                   no_save_image=False, no_save_json=False, print_ai_output=False, 
+                   output_name="googleocr_results", formatter=None):
     """批量处理图片和manager.json文件（通用函数）
     
     Args:
         directory_path: 目录路径
-        parse_and_annotate_func: 解析和标注函数
-        prompt_template: prompt模板字符串，使用 {response} {goal} 作为占位符
+        parse_and_annotate_func: 解析和标注函数，签名应为 (ai_output, image_path, output_dir, print_ocr, no_save_image)
+        prompt_template: prompt模板字符串，可以使用 {goal} {response} {img_width} {img_height} 作为占位符（img_width 和 img_height 是可选的）
         enable_ocr: 是否启用OCR
         start: 从第几张开始
         end: 到第几张结束
@@ -395,6 +443,7 @@ def process_images(directory_path, parse_and_annotate_func, prompt_template, ena
         no_save_json: 是否不保存JSON
         print_ai_output: 是否打印AI输出
         output_name: 输出目录路径，如果为None则使用默认路径
+        formatter: 可选的PrivacyJSONFormatter，用于输出新版图片隐私标注JSON
     """
     images_dir = os.path.join(directory_path, "images")
     image_files = sorted(glob.glob(os.path.join(images_dir, "*.png")))
@@ -424,14 +473,48 @@ def process_images(directory_path, parse_and_annotate_func, prompt_template, ena
         if not response:
             continue
         
-        # 构建prompt，使用 {goal} 和 {response} 占位符
+        # 构建prompt
         goal_text = load_task_goal(directory_path)
-        prompt_text = prompt_template.format(goal=goal_text, response=response)
         
-        # 调用VLM API
-        ai_output, vlm_time = call_vlm_api(image_path, prompt_text, model_name, print_ai_output)
-        vlm_times.append(vlm_time)
-        print(f"VLM处理时间: {vlm_time:.2f}秒")
+        # 检查prompt模板是否需要图像尺寸
+        if '{img_width}' in prompt_template or '{img_height}' in prompt_template:
+            # 获取图像尺寸
+            try:
+                image = Image.open(image_path)
+                img_width, img_height = image.size
+            except Exception as e:
+                print(f"无法打开图片以获取尺寸: {e}")
+                continue
+            
+            # 构建prompt，使用 {goal}、{response}、{img_width} 和 {img_height} 占位符
+            prompt_text = prompt_template.format(goal=goal_text, response=response, 
+                                                 img_width=img_width, img_height=img_height)
+        else:
+            # 只使用 {goal} 和 {response} 占位符
+            prompt_text = prompt_template.format(goal=goal_text, response=response)
+        
+        # 调用VLM API，如果输出为空则重试
+        max_retries = 1
+        retry_count = 0
+        ai_output = ""
+        total_vlm_time = 0
+        
+        while retry_count < max_retries:
+            ai_output, vlm_time = call_vlm_api(image_path, prompt_text, model_name, print_ai_output)
+            total_vlm_time += vlm_time
+            
+            if ai_output and ai_output.strip():
+                # 输出不为空，成功
+                print(f"VLM处理时间: {vlm_time:.2f}秒")
+                break
+            else:
+                retry_count += 1
+                if retry_count <= max_retries:
+                    print(f"AI输出为空，重试第 {retry_count}/{max_retries} 次...")
+                else:
+                    print(f"AI输出为空，已重试 {max_retries} 次，仍然失败。")
+        
+        vlm_times.append(total_vlm_time)
         
         if enable_ocr:
             # 记录OCR标注开始时间
@@ -455,66 +538,13 @@ def process_images(directory_path, parse_and_annotate_func, prompt_template, ena
     
     # 保存JSON文件
     if enable_ocr:
-        save_privacy_results(all_privacy_data, output_dir, image_files, vlm_times, ocr_times, model_name, no_save_json)
+        if formatter is not None:
+            formatter.save(directory_path, output_name, model_name, skip_save=no_save_json)
+        else:
+            save_privacy_results(all_privacy_data, output_dir, image_files, vlm_times, ocr_times, model_name, no_save_json)
     
     # 打印统计信息
     print_processing_summary(all_privacy_data, vlm_times, ocr_times)
-
-def process(directory_path, enable_ocr=True, start=1, end=None, model_name="openai/gpt-5-pro", print_ocr=False, no_save_image=False, no_save_json=False, output_name="googleocr_results"):
-    """批量处理图片和manager.json文件（category版本）"""
-    
-    prompt_template = dedent("""\
-        ### Agent's goal and response
-        goal: {goal}
-        response: {response}
-
-        ### Role
-        You are a privacy classifier.
-
-        ### Task
-        Given an app screenshot taken while the Agent is working toward its goal, and the Agent's goal and response above.
-        Decide whether the screenshot contains **privacy information related to the user/operator**. If yes, extract each item's **exact visible text** and label its category.
-
-        ### Scope / Exclusions
-        - Ignore agent-generated content (prompts, search suggestions, etc.).
-        - Ignore User search queries and tool outputs.
-        - Info that is instructional/public/insubstantial or unrelated to the user/operator is not privacy data.
-
-        ### Categories
-        1. **Core Identity Identifiers** — uniquely identify a person on their own. 
-        - Examples: real name, national ID/passport/student/employee numbers, account/ID that uniquely maps to a person.
-        
-        2. **Contact & Financial** — directly contacts a person or links to funds. 
-        - Examples: email, phone, home address, bank card, payment account.
-        
-        3. **Technical & Device Identifiers** — enable cross-session/device tracking. 
-        - Examples: location related to the user, location on the map, timestamps, device ID, IMEI, MAC, ad ID, cookie ID, browser fingerprint, IP (context-dependent).
-        
-        4. **Behavior & Context Traces** — records stitching actions. 
-        - Examples: searches history of the user.
-        
-        5. **Sensitive Special Categories** — highest priority. 
-        - Examples: health/medical, religion, political views, union membership, sexual orientation/sex life, biometric/genetic data used for identification.
-        
-        6. **Inferences & Profiling** — labels/scores/preferences derived from raw data. 
-        - Examples: interests/preferences, credit/risk scores, audience segments, similarity scores.
-
-        ### Output
-        - One item per line, format:
-        `[exact_text_from_image] | [description] | [category_number]([Category Name])`
-        - If none: output `No privacy information found`
-
-        ### Examples
-        john.smith@gmail.com | Email address | 2(Contact & Financial)
-        Password123! | User password | 2(Contact & Financial)
-
-        ### Notes
-        - Use the **exact text** from the screenshot (verbatim). Do not include coordinates or boxes.
-        - If a text matches multiple categories, apply priority: **5 > 1 > 2 > 3 > 4 > 6**.
-    """)
-    
-    process_images(directory_path, parse_and_annotate, prompt_template, enable_ocr, 
-                   start, end, model_name, print_ocr, no_save_image, no_save_json, print_ai_output=False, output_name=output_name)
 
 def create_argument_parser(description='隐私信息分析工具 (使用Google Vision API)'):
     """创建命令行参数解析器（通用函数）"""
@@ -539,11 +569,4 @@ def validate_and_print_args(args):
         exit(1)
     
     print(f"处理目录: {args.directory}")
-
-# 主程序
-if __name__ == "__main__":
-    parser = create_argument_parser()
-    args = parser.parse_args()
-    validate_and_print_args(args)
-    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr, args.no_save_image, args.no_save_json, args.output_name)
 

@@ -1,27 +1,14 @@
-import os
-import json
-import glob
-from openai import OpenAI
-from PIL import Image, ImageDraw, ImageFont
 import re
 from textwrap import dedent
-from datetime import datetime
-import time
 
-client = OpenAI(
-    base_url="https://api.dou.chat/v1",  
-    api_key=os.getenv('OPENAI_API_KEY', ""),
-)
-
-# 从googleocr_label导入所有重复的函数
-from googleocr_label import (
+# 从util导入所有通用函数
+from util import (
     process_privacy_matches,
     save_annotated_image,
     prepare_image_and_ocr,
     process_images,
     create_argument_parser,
-    validate_and_print_args,
-    load_task_goal
+    validate_and_print_args
 )
 
 def parse_and_annotate(ai_output, image_path, output_dir, print_ocr=False, no_save_image=False):
@@ -86,7 +73,7 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         Use exactly these four labels: high, medium, low, none.
 
         - high: Information that can directly identify or contact the user/operator.
-        Includes: real name, exact address or location, email address, phone number, ID/passport number, IP address, device ID, account ID, user ID, bank card number, password, authentication tokens.
+        Includes: name/id of the user/operator, exact address or location, email address, phone number, ID/passport number, IP address, device ID, account ID, user ID, bank card number, password, authentication tokens.
 
         - medium: Information that can reasonably infer the user/operator's behavior, preferences, or identity, but does not directly identify them.
         Includes: Installed applications, browsing history, search history, call history, chat content, follow/subscribe lists, calendar/schedule, to-do list, shopping cart items, order history, nearby places in location, distance from "home" or "current location", company name, school name, job title, internal project names.
@@ -95,16 +82,16 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         Includes: time, device parameters, recommended content, generic search queries without clear target, non-specific system messages, references to previously detected private info.
 
         - none: Public or generic content that anyone can find on the internet and that does not target the user/operator.
-        Includes: other people's posts, news headlines, public ads, general app UI text, fixed icons, slogans, public creator profiles and posts, comments/bullets that are clearly public, generic help texts.
+        Includes: other people's names/ids, public posts, news headlines, public ads, general app UI text, fixed icons, slogans, public creator profiles and posts, comments/bullets that are clearly public, generic help texts.
 
         ### Output format
-        For each extracted text segment, output ONE line in this format:
+        Output ONLY the lines in the exact format, one item per line, do not add any prefix or suffix text before or after the list:
 
         <original text> | <information type> | <risk level>
 
         - <information type>: a short description in English, e.g. "Email address", "Phone number", "Search query", "Company name", "App UI text".
         - <risk level>: one of "high", "medium", "low", "none".
-
+        
         ### Rules
         - Please identify all the text.
         - If the same text appears multiple times in the screenshot, please identify all of them and do not ignore them.

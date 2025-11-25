@@ -1,3 +1,4 @@
-data/
+dataset/
+test_data/
 api.sh
 ocr/google-cloud-sdk/
