@@ -19,9 +19,50 @@ client = OpenAI(
 vision_client = None
 
 def encode_image(image_path):
-    """将图片编码为base64"""
-    with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode("utf-8")
+    """将图片编码为base64，并裁剪到1920x1080"""
+    import io
+    
+    # 使用统一的图片打开和裁剪函数
+    image, img_width, img_height = open_and_process_image(image_path)
+    
+    if image is None:
+        # 如果打开失败，尝试使用原图
+        try:
+            with open(image_path, "rb") as image_file:
+                return base64.b64encode(image_file.read()).decode("utf-8")
+        except Exception as e:
+            print(f"编码原图时出错: {e}")
+            return ""
+    
+    try:
+        # 将裁剪后的图片转换为base64
+        buffer = io.BytesIO()
+        image.save(buffer, format='PNG')
+        buffer.seek(0)
+        return base64.b64encode(buffer.read()).decode("utf-8")
+    except Exception as e:
+        print(f"编码图片时出错: {e}")
+        return ""
+
+def open_and_process_image(image_path):
+    """
+    统一的图片打开和处理函数
+    
+    Args:
+        image_path: 图片路径
+    
+    Returns:
+        tuple: (image对象, width, height) 或 (None, None, None) 如果出错
+    """
+    try:
+        image = Image.open(image_path)
+        # image = image.crop((0, 0, 1080, 2400)) # 1920, 1080
+        # image = image.resize((1920, 1080), Image.LANCZOS)
+        img_width, img_height = image.size
+        return image, img_width, img_height
+    except Exception as e:
+        print(f"无法打开图片: {e}")
+        return None, None, None
 
 def load_manager_response(step_path):
     """从manager.json文件中加载response字段"""
@@ -303,8 +344,6 @@ def save_annotated_image(image, image_path, output_dir, no_save_image=False):
         output_path = os.path.join(output_dir, f"{base_name}_annotated.png")
         image.save(output_path)
         print(f"保存到: {output_path}")
-    else:
-        print("跳过保存图片（--no-save-image）")
 
 def prepare_image_and_ocr(image_path, print_ocr=False):
     """准备图片和OCR结果（通用函数）
@@ -322,7 +361,7 @@ def prepare_image_and_ocr(image_path, print_ocr=False):
     
     return image, draw, ocr_results
 
-def call_vlm_api(image_path, prompt_text, model_name, print_ai_output=False, max_retries=1):
+def call_vlm_api(image_path, prompt_text, model_name, print_ai_output=False, max_retries=2):
     """调用VLM API（通用函数）
     
     Args:
@@ -330,7 +369,7 @@ def call_vlm_api(image_path, prompt_text, model_name, print_ai_output=False, max
         prompt_text: 提示词
         model_name: 模型名称
         print_ai_output: 是否打印输出
-        max_retries: 最大重试次数
+        max_retries: API调用重试次数的最大重试次数（总共尝试次数）
     
     Returns:
         (ai_output, vlm_time): AI输出和处理时间
@@ -381,6 +420,7 @@ def call_vlm_api(image_path, prompt_text, model_name, print_ai_output=False, max
                 ai_output = "" 
     
     if print_ai_output and ai_output:
+        # print(f"AI输入: {prompt_text}")
         print(f"AI输出:\n{ai_output}\n")
     
     # 记录AI处理结束时间
@@ -424,11 +464,227 @@ def print_processing_summary(all_privacy_data, vlm_times, ocr_times):
     if ocr_times:
         print(f"平均OCR处理时间: {sum(ocr_times)/len(ocr_times):.2f}秒/张")
 
+def load_pc_test_data_goal(directory_path):
+    """从PC测试数据格式的instruction.txt加载goal"""
+    instruction_file = os.path.join(directory_path, "instruction.txt")
+    if not os.path.exists(instruction_file):
+        print(f"警告: 未找到instruction.txt文件")
+        return "No goal specified"
+    
+    with open(instruction_file, 'r', encoding='utf-8') as f:
+        goal = f.read().strip()
+    print(f"加载goal: {goal}")
+    return goal
+
+
+def load_pc_test_data_responses(directory_path):
+    """从PC测试数据格式的traj.jsonl加载所有plan作为responses"""
+    traj_file = os.path.join(directory_path, "traj.jsonl")
+    if not os.path.exists(traj_file):
+        print(f"错误: 未找到traj.jsonl文件")
+        return []
+    
+    responses = []
+    with open(traj_file, 'r', encoding='utf-8') as f:
+        for line_num, line in enumerate(f, 1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                data = json.loads(line)
+                plan = data.get("plan", "")
+                responses.append(plan)
+            except json.JSONDecodeError as e:
+                print(f"警告: 第{line_num}行JSON解析失败: {e}")
+                responses.append("")
+
+    return responses
+
+
+def get_pc_test_data_images(directory_path, skip_last=True):
+    """获取PC测试数据格式的图片列表（step_*.png，可选跳过最后一张）"""
+    pattern = os.path.join(directory_path, "step_*.png")
+    image_files = glob.glob(pattern)
+    
+    # 按step编号排序
+    def extract_step_num(filepath):
+        basename = os.path.basename(filepath)
+        match = re.match(r'step_(\d+)', basename)
+        if match:
+            return int(match.group(1))
+        return 0
+    
+    image_files.sort(key=extract_step_num)
+    
+    # 可选：跳过最后一张图
+    if skip_last and len(image_files) > 0:
+        image_files = image_files[:-1]
+    
+    return image_files
+
+
+def process_images_generic(directory_path, parse_and_annotate_func, prompt_template, 
+                           get_images_func, get_goal_func, get_responses_func,
+                           enable_ocr=True, start=1, end=None, model_name="openai/gpt-5-pro", 
+                           print_ocr=False, no_save_image=False, no_save_json=False, 
+                           print_ai_output=False, output_name="results", formatter=None):
+    """通用的批量图片处理函数，支持不同的数据结构
+    
+    这个函数通过接受自定义的数据加载函数，支持不同的目录结构和数据格式。
+    
+    Args:
+        directory_path: 目录路径
+        parse_and_annotate_func: 解析和标注函数，签名应为 (ai_output, image_path, output_dir, print_ocr, no_save_image)
+        prompt_template: prompt模板字符串，可以使用 {goal} {response} {img_width} {img_height} 作为占位符
+        get_images_func: 获取图片列表的函数，签名为 (directory_path) -> [image_paths]
+        get_goal_func: 获取goal的函数，签名为 (directory_path) -> goal_string
+        get_responses_func: 获取responses列表的函数，签名为 (directory_path) -> [response_strings]
+        enable_ocr: 是否启用OCR
+        start: 从第几张开始
+        end: 到第几张结束
+        model_name: 模型名称
+        print_ocr: 是否打印OCR结果
+        no_save_image: 是否不保存图片
+        no_save_json: 是否不保存JSON
+        print_ai_output: 是否打印AI输出
+        output_name: 输出目录路径
+        formatter: 可选的PrivacyJSONFormatter，用于输出新版图片隐私标注JSON
+    
+    Example usage for PC test data:
+        process_images_generic(
+            directory_path,
+            parse_and_annotate_func,
+            prompt_template,
+            get_pc_test_data_images,
+            load_pc_test_data_goal,
+            load_pc_test_data_responses,
+            ...
+        )
+    """
+    # 获取图片列表
+    image_files = get_images_func(directory_path)
+    
+    if len(image_files) == 0:
+        print("错误: 没有找到要处理的图片文件")
+        return
+    
+    # 获取goal和responses
+    goal_text = get_goal_func(directory_path)
+    responses = get_responses_func(directory_path)
+    
+    # 检查图片数量和response数量的对应关系
+    if len(responses) < len(image_files):
+        print(f"警告: response数量({len(responses)})少于图片数量({len(image_files)})")
+    
+    print(f"OCR: {'启用 (Google Vision API)' if enable_ocr else '禁用'}")
+    
+    if start > 1:
+        print(f"从第 {start} 张开始处理")
+    
+    # 输出目录
+    output_dir = os.path.join(directory_path, output_name, model_name.replace('/', '_'))
+    os.makedirs(output_dir, exist_ok=True)
+    
+    all_privacy_data = []
+    vlm_times = []  # AI处理时间
+    ocr_times = []  # OCR标注时间
+
+    for idx, image_path in enumerate(image_files):
+        if (idx + 1) < start:
+            continue
+
+        if end and (idx + 1) > end:
+            break
+        
+        print(f"\n[{idx+1}/{len(image_files)}] {os.path.basename(image_path)}")
+        
+        # 获取对应的response
+        response = responses[idx] if idx < len(responses) else ""
+        if not response:
+            print(f"警告: 第{idx+1}张图片没有对应的response")
+        
+        # 检查prompt模板是否需要图像尺寸
+        if '{img_width}' in prompt_template or '{img_height}' in prompt_template:
+            # 获取图像尺寸
+            _, img_width, img_height = open_and_process_image(image_path)
+            if img_width is None:
+                print(f"无法打开图片以获取尺寸")
+                continue
+            print(f"图片尺寸: {img_width}x{img_height}")
+            
+            # 构建prompt，使用所有占位符
+            prompt_text = prompt_template.format(goal=goal_text, response=response, 
+                                                 img_width=img_width, img_height=img_height)
+        else:
+            # 只使用 {goal} 和 {response} 占位符
+            prompt_text = prompt_template.format(goal=goal_text, response=response)
+        
+        # 调用VLM API，如果输出为空则重试
+        max_retries = 2
+        retry_count = 0
+        ai_output = ""
+        total_vlm_time = 0
+        
+        while retry_count < max_retries:
+            print(f"调用VLM API: {model_name}")
+            # 注意：这里传递 False，避免在 call_vlm_api 内部打印，统一在下面打印
+            ai_output, vlm_time = call_vlm_api(image_path, prompt_text, model_name, print_ai_output=print_ai_output)
+            total_vlm_time += vlm_time
+            
+            if ai_output and ai_output.strip():
+                # 输出不为空，成功
+                print(f"VLM处理时间: {vlm_time:.2f}秒")
+                break
+            else:
+                retry_count += 1
+                if retry_count < max_retries:
+                    print(f"AI输出为空，重试第 {retry_count}/{max_retries} 次...")
+                else:
+                    print(f"AI输出为空，已重试 {max_retries} 次，仍然失败。")
+        
+        vlm_times.append(total_vlm_time)
+        
+        
+        if enable_ocr:
+            # 记录OCR标注开始时间
+            ocr_start_time = time.time()
+            privacy_items = parse_and_annotate_func(ai_output, image_path, output_dir, print_ocr, no_save_image)
+            # 记录OCR标注结束时间
+            ocr_end_time = time.time()
+            ocr_time = ocr_end_time - ocr_start_time
+            ocr_times.append(ocr_time)
+            print(f"✓ 检测到 {len(privacy_items)} 个隐私项")
+            
+            # 无论是否有隐私信息，都记录该图片
+            all_privacy_data.append({
+                "step": idx + 1,
+                "image_file": os.path.basename(image_path),
+                "ai_response": ai_output,
+                "privacy_items": privacy_items,
+                "vlm_time": round(total_vlm_time, 2),
+                "ocr_time": round(ocr_time, 2)
+            })
+    
+    # 保存JSON文件
+    if enable_ocr:
+        if formatter is not None:
+            formatter.save(directory_path, output_name, model_name, skip_save=no_save_json)
+        else:
+            save_privacy_results(all_privacy_data, output_dir, image_files, vlm_times, ocr_times, model_name, no_save_json)
+    
+    # 打印统计信息
+    print_processing_summary(all_privacy_data, vlm_times, ocr_times)
+    
+    print(f"\n{'='*80}")
+    print(f"处理完成!")
+    print(f"{'='*80}\n")
+
+
 def process_images(directory_path, parse_and_annotate_func, prompt_template, enable_ocr=True, 
                    start=1, end=None, model_name="openai/gpt-5-pro", print_ocr=False, 
                    no_save_image=False, no_save_json=False, print_ai_output=False, 
                    output_name="googleocr_results", formatter=None):
-    """批量处理图片和manager.json文件（通用函数）
+    """批量处理图片和manager.json文件（标准格式：task_result.json + step_N/manager.json + images/*.png）
     
     Args:
         directory_path: 目录路径
@@ -494,7 +750,7 @@ def process_images(directory_path, parse_and_annotate_func, prompt_template, ena
             prompt_text = prompt_template.format(goal=goal_text, response=response)
         
         # 调用VLM API，如果输出为空则重试
-        max_retries = 1
+        max_retries = 2
         retry_count = 0
         ai_output = ""
         total_vlm_time = 0
@@ -568,5 +824,4 @@ def validate_and_print_args(args):
         print("错误: --start 必须大于等于1")
         exit(1)
     
-    print(f"处理目录: {args.directory}")
 

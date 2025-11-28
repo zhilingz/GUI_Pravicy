@@ -10,7 +10,8 @@ from util import (
     save_annotated_image,
     process_images,
     create_argument_parser,
-    validate_and_print_args
+    validate_and_print_args,
+    open_and_process_image
 )
 
 RISK_LABEL_MAP = {
@@ -169,12 +170,15 @@ def build_parser(formatter):
                 coords = json.loads(coords_str)
                 x1, y1, x2, y2 = coords['x1'], coords['y1'], coords['x2'], coords['y2']
 
-                x1_px = x1 * img_width / 1000
-                y1_px = y1 * img_height / 1000
-                x2_px = x2 * img_width / 1000
-                y2_px = y2 * img_height / 1000
+                #705x1567 -> 1080x2400
+                scale_x = img_width/705 # 1 img_width/1000  705 
+                scale_y = img_height/1567 # 1 img_height/1000 1567
+                x1_px = x1 * scale_x
+                y1_px = y1 * scale_y
+                x2_px = x2 * scale_x
+                y2_px = y2 * scale_y 
 
-                # print(f"绘制归一化后坐标: [({x1_px:.1f}, {y1_px:.1f}), ({x2_px:.1f}, {y2_px:.1f})]")
+                # print(f"绘制像素坐标: [({x1_px:.1f}, {y1_px:.1f}), ({x2_px:.1f}, {y2_px:.1f})]")
 
                 color = colors.get(risk, "green")
                 
@@ -239,14 +243,16 @@ def build_parser(formatter):
 
     return parse_and_annotate
 
-def process(directory_path, enable_ocr=True, start=1, end=None, model_name="openai/gpt-5-pro", print_ocr=False, no_save_image=False, no_save_json=False, output_name="privacy2json"):
-    """批量处理图片和manager.json文件（直接坐标定位版）
+def process(directory_path, enable_ocr=True, start=1, end=None, model_name="openai/gpt-5-pro", print_ocr=False, no_save_image=False, no_save_json=False, output_name="privacy2json_hw"):
+    """批量处理图片和manager.json文件（直接像素坐标版）
     
-    统一使用 0-1000 归一化坐标系统
+    告诉大模型图片的尺寸，让大模型直接输出精确的像素坐标，不需要归一化处理
     """
     
-    # 统一使用 0-1000 归一化坐标
     prompt_template = dedent("""\
+        ### Image dimensions
+        Image dimensions: {img_width}x{img_height}
+
         ### Agent's goal and response
         goal: {goal}
         response: {response}
@@ -261,7 +267,8 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         3. For items with privacy risk (high, medium, or low), assign one of the six categories below. 
         4. For each item, output its original content/description, risk level, privacy category (if applicable), and its precise coordinates in the screenshot.
         5. For each item, decide whether this information is **strictly necessary** for the Agent to achieve its goal. 
-           "Strictly necessary" means that if this item were fully masked or removed, the Agent would not be able to correctly complete the task.
+        "Strictly necessary" means that if this item were fully masked or removed, the Agent would not be able to correctly complete the task.
+        Mark each such item as either "necessary" or "not_necessary".
 
         ### Risk levels
 
@@ -311,7 +318,7 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         - First field: for textual items, the exact visible text from the screenshot (verbatim); for non-text items, a concise description of the visible content (e.g. "face of a person", "bank card image").
         - Second field: one of "high", "medium", "low", "none".
         - Third field: category number and name (1-6 above) for items with privacy risk (high/medium/low); use "-" for items with risk level "none".
-        - Fourth field: precise coordinates in normalized coordinates (0-1000 scale), as a JSON object like {{"x1":80, "y1":250, "x2":740, "y2":350}} where x1,y1 is the top-left corner and x2,y2 is the bottom-right corner. Use a 0-1000 coordinate system where (0,0) is top-left and (1000,1000) is bottom-right.
+        - Fourth field: precise pixel coordinates based on the actual image dimensions ({img_width}x{img_height}), as a JSON object like {{"x1":80, "y1":250, "x2":740, "y2":350}} where x1,y1 is the top-left corner and x2,y2 is the bottom-right corner. Use pixel coordinates where (0,0) is top-left and ({img_width},{img_height}) is bottom-right.
         - Fifth field: "necessary" if the item is strictly required for the Agent to correctly complete its goal; otherwise "not_necessary".
 
         ### Examples
@@ -322,7 +329,7 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         ### Notes
         - For textual items, use the **exact text** from the screenshot (verbatim).
         - For non-text items, use a concise, clear description of the visible content.
-        - Please identify all items in the screenshot.
+        - Please identify all privacy-relevant items in the screenshot.
         - If the same item appears multiple times in the screenshot, please identify all of them and do not ignore them.
     """)
 
@@ -334,8 +341,9 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
                    start, end, model_name, print_ocr, no_save_image, no_save_json, 
                    print_ai_output=True, output_name=output_name, formatter=formatter)
 
+
 if __name__ == "__main__":
-    parser = create_argument_parser(description='隐私信息分析工具 (直接坐标定位版)')
+    parser = create_argument_parser(description='隐私信息分析工具 (直接像素坐标版)')
     args = parser.parse_args()
     validate_and_print_args(args)
-    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr, args.no_save_image, args.no_save_json, "privacy2json")
+    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr, args.no_save_image, args.no_save_json, "privacy2json_hw")

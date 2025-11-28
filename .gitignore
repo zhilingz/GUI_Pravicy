@@ -3,4 +3,4 @@ test_data/
 api.sh
 ocr/google-cloud-sdk/
 log/
-privacy2json.sh
+privacy2json*.sh

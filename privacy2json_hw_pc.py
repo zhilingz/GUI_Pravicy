@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import glob
 import hashlib
 from textwrap import dedent
 from PIL import Image, ImageDraw, ImageFont
@@ -8,9 +9,12 @@ from PIL import Image, ImageDraw, ImageFont
 # 从util导入所有通用函数
 from util import (
     save_annotated_image,
-    process_images,
     create_argument_parser,
-    validate_and_print_args
+    validate_and_print_args,
+    process_images_generic,
+    get_pc_test_data_images,
+    load_pc_test_data_goal,
+    load_pc_test_data_responses
 )
 
 RISK_LABEL_MAP = {
@@ -100,153 +104,164 @@ class PrivacyJSONFormatter:
         print(f"保存图片隐私标注: {output_path}")
 
 
+def parse_and_annotate(ai_output, image_path, output_dir, formatter, no_save_image=False):
+    """解析LLM输出、绘制标注并收集JSON结果"""
+    privacy_items = []
+    label_payloads = []
+
+    try:
+        image = Image.open(image_path)
+        img_width, img_height = image.size
+    except Exception as e:
+        print(f"无法打开图片: {e}")
+        return privacy_items
+
+    draw = ImageDraw.Draw(image)
+
+    try:
+        font = ImageFont.truetype("DejaVuSans.ttf", 16)
+    except Exception:
+        try:
+            font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 16)
+        except Exception:
+            font = ImageFont.load_default()
+
+    colors = {
+        "high": "red",
+        "medium": "orange",
+        "low": "yellow",
+        "none": "green"
+    }
+
+    if not ai_output or not ai_output.strip():
+        print("AI输出为空，跳过解析")
+        lines = []
+    else:
+        lines = ai_output.strip().split('\n')
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+
+        parts = line.rsplit('|', 4)
+        if len(parts) != 5:
+            print(f"字段数量不对({len(parts)}): {line[:100]}")
+            continue
+
+        text = parts[0].strip()
+        risk = parts[1].strip().lower()
+        category = parts[2].strip()
+        coords_str = parts[3].strip()
+        necessity = parts[4].strip().lower()
+        
+        if risk == "none":
+            necessity = "not_necessary"
+
+        try:
+            coords = json.loads(coords_str)
+            x1, y1, x2, y2 = coords['x1'], coords['y1'], coords['x2'], coords['y2']
+            # 1500 800 -> 3416x1842
+            scale_x = img_width/1505
+            scale_y = img_height/812
+            x1_px = x1 * scale_x
+            y1_px = y1 * scale_y
+            x2_px = x2 * scale_x
+            y2_px = y2 * scale_y
+
+            print(f"绘制归一化后坐标: [({x1_px:.1f}, {y1_px:.1f}), ({x2_px:.1f}, {y2_px:.1f})]")
+            
+            color = colors.get(risk, "green")
+            
+            # 对于 necessary 的框绘制双层边框
+            if necessity == "necessary":
+                draw.rectangle([x1_px, y1_px, x2_px, y2_px], outline=color, width=5)
+                offset = 5
+                draw.rectangle([x1_px + offset, y1_px + offset, x2_px - offset, y2_px - offset], 
+                             outline=color, width=3)
+            else:
+                draw.rectangle([x1_px, y1_px, x2_px, y2_px], outline=color, width=3)
+
+            # 提取分类数字
+            category_match = re.search(r'(\d+)', category)
+            category_code = category_match.group(1) if category_match else ""
+            
+            # 只显示风险等级首字母和分类数字
+            risk_letter = risk.upper()[0]
+            if category_code:
+                label_text = f"{risk_letter}: {category_code}"
+            else:
+                label_text = f"{risk_letter}"
+            bbox = font.getbbox(label_text)
+            text_width = bbox[2] - bbox[0]
+            text_height = bbox[3] - bbox[1]
+
+            draw.rectangle([x1_px, y1_px - text_height - 4, x1_px + text_width + 4, y1_px], fill=color)
+
+            text_color = "black" if risk in ["low", "none"] else "white"
+            draw.text((x1_px + 2, y1_px - text_height - 4), label_text, fill=text_color, font=font)
+
+            privacy_items.append({
+                "text": text,
+                "level": risk,
+                "category": category,
+                "coordinates": coords,
+                "necessity": necessity,
+                "found_in_image": True,
+                "color": color
+            })
+
+            label_payloads.append({
+                "text": text,
+                "risk": risk,
+                "category_code": category_code if risk != "none" and category_code else "",
+                "necessity": necessity,
+                "points": [x1_px, y1_px, x2_px, y2_px]
+            })
+
+        except json.JSONDecodeError:
+            print(f"坐标解析失败: {coords_str}")
+        except Exception as e:
+            print(f"处理行出错: {line} -> {e}")
+
+    save_annotated_image(image, image_path, output_dir, no_save_image)
+    formatter.add_image_result(image_path, img_width, img_height, label_payloads)
+
+    return privacy_items
+
+
 def build_parser(formatter):
     """
     返回带状态的解析函数，负责解析LLM输出、绘制标注并收集JSON结果
+    为了兼容 process_images_generic，签名需要为 (ai_output, image_path, output_dir, print_ocr, no_save_image)
     """
+    def parse_func(ai_output, image_path, output_dir, print_ocr=False, no_save_image=False):
+        return parse_and_annotate(ai_output, image_path, output_dir, formatter, no_save_image)
+    return parse_func
 
-    def parse_and_annotate(ai_output, image_path, output_dir, print_ocr=False, no_save_image=False):
-        privacy_items = []
-        label_payloads = []
 
-        try:
-            image = Image.open(image_path)
-            img_width, img_height = image.size
-            print(f"图片尺寸: {img_width}x{img_height}")
-        except Exception as e:
-            print(f"无法打开图片: {e}")
-            return privacy_items
-
-        draw = ImageDraw.Draw(image)
-
-        try:
-            font = ImageFont.truetype("DejaVuSans.ttf", 16)
-        except Exception:
-            try:
-                font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 16)
-            except Exception:
-                print("未找到指定字体，使用默认字体")
-                font = ImageFont.load_default()
-
-        colors = {
-            "high": "red",
-            "medium": "orange",
-            "low": "yellow",
-            "none": "green"
-        }
-
-        if not ai_output or not ai_output.strip():
-            print("AI输出为空，跳过文本解析，仅记录图片尺寸。")
-            lines = []
-        else:
-            lines = ai_output.strip().split('\n')
-            print(f"检测到 {len(lines)} 行数据，开始绘制...")
-
-        for line in lines:
-            line = line.strip()
-            if not line:
-                continue
-
-            parts = line.rsplit('|', 4)
-            if len(parts) != 5:
-                print(f"字段数量不对({len(parts)}): {line[:100]}")
-                continue
-
-            text = parts[0].strip()
-            risk = parts[1].strip().lower()
-            category = parts[2].strip()
-            coords_str = parts[3].strip()
-            necessity = parts[4].strip().lower()
-            
-            # 调试信息
-            if not coords_str.startswith('{'):
-                print(f"坐标字段格式错误:\n  原始行: {line[:100]}\n  coords_str: {coords_str}")
-
-            if risk == "none":
-                necessity = "not_necessary"
-
-            try:
-                coords = json.loads(coords_str)
-                x1, y1, x2, y2 = coords['x1'], coords['y1'], coords['x2'], coords['y2']
-
-                x1_px = x1 * img_width / 1000
-                y1_px = y1 * img_height / 1000
-                x2_px = x2 * img_width / 1000
-                y2_px = y2 * img_height / 1000
-
-                # print(f"绘制归一化后坐标: [({x1_px:.1f}, {y1_px:.1f}), ({x2_px:.1f}, {y2_px:.1f})]")
-
-                color = colors.get(risk, "green")
-                
-                # 对于 necessary 的框绘制双层边框，更加明显
-                if necessity == "necessary":
-                    # 绘制外层边框（加粗效果）
-                    draw.rectangle([x1_px, y1_px, x2_px, y2_px], outline=color, width=5)
-                    # 绘制内层边框（双层效果）
-                    offset = 5
-                    draw.rectangle([x1_px + offset, y1_px + offset, x2_px - offset, y2_px - offset], 
-                                 outline=color, width=3)
-                else:
-                    # 普通单层边框
-                    draw.rectangle([x1_px, y1_px, x2_px, y2_px], outline=color, width=3)
-
-                # 提取分类数字（只提取一次，避免重复）
-                category_match = re.search(r'(\d+)', category)
-                category_code = category_match.group(1) if category_match else ""
-                
-                # 只显示风险等级首字母和分类数字
-                risk_letter = risk.upper()[0]  # 只取第一个字母：H/M/L/N
-                if category_code:
-                    label_text = f"{risk_letter}: {category_code}"
-                else:
-                    label_text = f"{risk_letter}"
-                bbox = font.getbbox(label_text)
-                text_width = bbox[2] - bbox[0]
-                text_height = bbox[3] - bbox[1]
-
-                draw.rectangle([x1_px, y1_px - text_height - 4, x1_px + text_width + 4, y1_px], fill=color)
-
-                text_color = "black" if risk in ["low", "none"] else "white"
-                draw.text((x1_px + 2, y1_px - text_height - 4), label_text, fill=text_color, font=font)
-
-                privacy_items.append({
-                    "text": text,
-                    "level": risk,
-                    "category": category,
-                    "coordinates": coords,
-                    "necessity": necessity,
-                    "found_in_image": True,
-                    "color": color
-                })
-
-                label_payloads.append({
-                    "text": text,
-                    "risk": risk,
-                    "category_code": category_code if risk != "none" and category_code else "",
-                    "necessity": necessity,
-                    "points": [x1_px, y1_px, x2_px, y2_px]
-                })
-
-            except json.JSONDecodeError:
-                print(f"坐标解析失败: {coords_str}")
-            except Exception as e:
-                print(f"处理行出错: {line} -> {e}")
-
-        save_annotated_image(image, image_path, output_dir, no_save_image)
-        formatter.add_image_result(image_path, img_width, img_height, label_payloads)
-
-        return privacy_items
-
-    return parse_and_annotate
-
-def process(directory_path, enable_ocr=True, start=1, end=None, model_name="openai/gpt-5-pro", print_ocr=False, no_save_image=False, no_save_json=False, output_name="privacy2json"):
-    """批量处理图片和manager.json文件（直接坐标定位版）
+def process_test_data(directory_path, model_name="openai/gpt-5-pro", start=1, end=None, 
+                      no_save_image=False, no_save_json=False, output_name="privacy2json_hw_pc"):
+    """
+    处理测试数据目录（使用归一化坐标）
+    1. 加载goal: 从 `instruction.txt` 文件读取任务目标
+    2. 加载response 从 `traj.jsonl` 文件读取每个步骤的plan
+    3. 处理图片 
+       - 处理所有 `step_*.png` 图片（跳过最后一张）
+       - `step_0.png` 对应第一个plan
+       - 倒数第二张图对应最后一个plan
+       - 最后一张图不做分析
     
-    统一使用 0-1000 归一化坐标系统
+    Args:
+        start: 从第N张图片开始处理（默认：1）
+        end: 到第N张图片结束（默认：None，处理所有）
     """
     
-    # 统一使用 0-1000 归一化坐标
+    # 准备prompt模板（告诉大模型图片尺寸）
     prompt_template = dedent("""\
+        ### Image dimensions
+        Image dimensions: {img_width}x{img_height}
+
         ### Agent's goal and response
         goal: {goal}
         response: {response}
@@ -261,7 +276,7 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         3. For items with privacy risk (high, medium, or low), assign one of the six categories below. 
         4. For each item, output its original content/description, risk level, privacy category (if applicable), and its precise coordinates in the screenshot.
         5. For each item, decide whether this information is **strictly necessary** for the Agent to achieve its goal. 
-           "Strictly necessary" means that if this item were fully masked or removed, the Agent would not be able to correctly complete the task.
+        "Strictly necessary" means that if this item were fully masked or removed, the Agent would not be able to correctly complete the task.
 
         ### Risk levels
 
@@ -311,7 +326,7 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         - First field: for textual items, the exact visible text from the screenshot (verbatim); for non-text items, a concise description of the visible content (e.g. "face of a person", "bank card image").
         - Second field: one of "high", "medium", "low", "none".
         - Third field: category number and name (1-6 above) for items with privacy risk (high/medium/low); use "-" for items with risk level "none".
-        - Fourth field: precise coordinates in normalized coordinates (0-1000 scale), as a JSON object like {{"x1":80, "y1":250, "x2":740, "y2":350}} where x1,y1 is the top-left corner and x2,y2 is the bottom-right corner. Use a 0-1000 coordinate system where (0,0) is top-left and (1000,1000) is bottom-right.
+        - Fourth field: precise pixel coordinates based on the actual image dimensions ({img_width}x{img_height}), as a JSON object like {{"x1":80, "y1":250, "x2":740, "y2":350}} where x1,y1 is the top-left corner and x2,y2 is the bottom-right corner. Use pixel coordinates where (0,0) is top-left and ({img_width},{img_height}) is bottom-right.
         - Fifth field: "necessary" if the item is strictly required for the Agent to correctly complete its goal; otherwise "not_necessary".
 
         ### Examples
@@ -325,17 +340,44 @@ def process(directory_path, enable_ocr=True, start=1, end=None, model_name="open
         - Please identify all items in the screenshot.
         - If the same item appears multiple times in the screenshot, please identify all of them and do not ignore them.
     """)
-
-
-    formatter = PrivacyJSONFormatter(directory_path)
-    parser = build_parser(formatter)
     
-    process_images(directory_path, parser, prompt_template, enable_ocr, 
-                   start, end, model_name, print_ocr, no_save_image, no_save_json, 
-                   print_ai_output=True, output_name=output_name, formatter=formatter)
+    # 初始化formatter
+    formatter = PrivacyJSONFormatter(directory_path)
+    parser_func = build_parser(formatter)
+    
+    # 使用通用函数处理
+    process_images_generic(
+        directory_path,
+        parser_func,
+        prompt_template,
+        get_pc_test_data_images,
+        load_pc_test_data_goal,
+        load_pc_test_data_responses,
+        enable_ocr=True,
+        start=start,
+        end=end,
+        model_name=model_name,
+        no_save_image=no_save_image,
+        no_save_json=no_save_json,
+        print_ai_output=True,
+        output_name=output_name,
+        formatter=formatter
+    )
+
 
 if __name__ == "__main__":
-    parser = create_argument_parser(description='隐私信息分析工具 (直接坐标定位版)')
+    parser = create_argument_parser(description='测试数据隐私分析工具 (PC test_data格式，使用归一化坐标)')
+    
     args = parser.parse_args()
     validate_and_print_args(args)
-    process(args.directory, not args.no_ocr, args.start, args.end, args.model, args.print_ocr, args.no_save_image, args.no_save_json, "privacy2json")
+    
+    process_test_data(
+        args.directory,
+        model_name=args.model,
+        start=args.start,
+        end=args.end,
+        no_save_image=args.no_save_image,
+        no_save_json=args.no_save_json,
+        output_name="privacy2json_hw_pc"
+    )
+
